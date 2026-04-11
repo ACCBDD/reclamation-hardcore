@@ -901,16 +901,16 @@ ServerEvents.recipes(event => {
                     "item": "croptopia:"+h
                 },
                 {
-                    "item": "mysticalagriculture:nature_essence"
+                    "item": "ars_nouveau:earth_essence"
                 },
                 {
-                    "item": "mysticalagriculture:nature_essence"
+                    "item": "ars_nouveau:earth_essence"
                 },
                 {
-                    "item": "mysticalagriculture:nature_essence"
+                    "item": "botania:rune_earth"
                 },
                 {
-                    "item": "mysticalagriculture:nature_essence"
+                    "item": "botania:rune_earth"
                 }
             ],
             "sapling": {

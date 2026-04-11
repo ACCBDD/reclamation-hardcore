@@ -39,26 +39,26 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest1.task_644874208300996266.title}"
+				title: "Creeper Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest1.title}"
+			title: "Creeper"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["389C82D9424B4099"]
 			description: [
-				"{ftbquests.chapter.mob_safari.quest2.description1}"
+				"In this new post-apocalyptic world, you've realized that it might be a good idea to document what lifeforms exist - just in case it happens again. "
 				""
-				"{ftbquests.chapter.mob_safari.quest2.description2}"
+				"To do so, you're going to need &6a camera, &rsome &6film&r to print onto, and some way to turn that &6film into photos.&r"
 			]
 			hide_until_deps_complete: true
 			icon: "exposure:camera"
 			id: "5FEE65C669654E40"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.mob_safari.quest2.subtitle}"
+			subtitle: "Snap decisions"
 			tasks: [
 				{
 					id: "19AEDBE8BCA2D0DE"
@@ -76,7 +76,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mob_safari.quest2.title}"
+			title: "Camera"
 			x: 6.0d
 			y: -2.5d
 		}
@@ -109,10 +109,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest3.task_6868688706200460210.title}"
+				title: "Zombie Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest3.title}"
+			title: "Zombie"
 			x: 1.0d
 			y: 1.0d
 		}
@@ -145,10 +145,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest4.task_5493751185522811223.title}"
+				title: "Husk Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest4.title}"
+			title: "Husk"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -181,10 +181,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest5.task_2405723904258009579.title}"
+				title: "Drowned Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest5.title}"
+			title: "Drowned"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -217,10 +217,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest6.task_874911539473621191.title}"
+				title: "Spider Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest6.title}"
+			title: "Spider"
 			x: 0.0d
 			y: 1.0d
 		}
@@ -253,10 +253,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest7.task_7828452674496297861.title}"
+				title: "Cave Spider Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest7.title}"
+			title: "Cave Spider"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -289,10 +289,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest8.task_4943959340946543881.title}"
+				title: "Enderman Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest8.title}"
+			title: "Enderman"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -325,10 +325,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest9.task_4733333668196733711.title}"
+				title: "Endermite Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest9.title}"
+			title: "Endermite"
 			x: 3.0d
 			y: 1.0d
 		}
@@ -361,10 +361,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest10.task_7387499092437519744.title}"
+				title: "Silverfish Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest10.title}"
+			title: "Silverfish"
 			x: 2.5d
 			y: 2.0d
 		}
@@ -396,10 +396,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest11.task_560111651210659078.title}"
+				title: "Evoker Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest11.title}"
+			title: "Evoker"
 			x: -6.0d
 			y: 0.0d
 		}
@@ -432,10 +432,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest12.task_6050813032829826018.title}"
+				title: "Ghast Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest12.title}"
+			title: "Ghast"
 			x: -2.5d
 			y: 3.0d
 		}
@@ -468,10 +468,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest13.task_8655936747757493244.title}"
+				title: "Guardian Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest13.title}"
+			title: "Guardian"
 			x: 15.0d
 			y: 2.0d
 		}
@@ -504,10 +504,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest14.task_9108849848609122501.title}"
+				title: "Hoglin Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest14.title}"
+			title: "Hoglin"
 			x: -3.5d
 			y: 1.0d
 		}
@@ -540,10 +540,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest15.task_7435272240185968407.title}"
+				title: "Phantom Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest15.title}"
+			title: "Phantom"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -576,16 +576,16 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest16.task_2497415746301840277.title}"
+				title: "Piglin Brute Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest16.title}"
+			title: "Piglin Brute"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			description: ["{ftbquests.chapter.mob_safari.quest17.description1}"]
+			description: ["&7Tip: there is a ritual that can grant you the bad omen effect!"]
 			icon: "heads:pillager_head"
 			id: "7B689257A882A7B2"
 			rewards: [
@@ -618,10 +618,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest17.task_876018828234332303.title}"
+				title: "Pillager Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest17.title}"
+			title: "Pillager"
 			x: -7.0d
 			y: 0.0d
 		}
@@ -654,10 +654,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest18.task_9217927796095116198.title}"
+				title: "Ravager Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest18.title}"
+			title: "Ravager"
 			x: -6.5d
 			y: 1.0d
 		}
@@ -690,10 +690,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest19.task_6294764614244969421.title}"
+				title: "Shulker Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest19.title}"
+			title: "Shulker"
 			x: 2.5d
 			y: 5.5d
 		}
@@ -726,10 +726,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest20.task_5958619487539868658.title}"
+				title: "Skeleton Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest20.title}"
+			title: "Skeleton"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -762,10 +762,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest21.task_2908237894518590949.title}"
+				title: "Slime Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest21.title}"
+			title: "Slime"
 			x: 4.0d
 			y: 1.0d
 		}
@@ -798,10 +798,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest22.task_1986307033554203052.title}"
+				title: "Stray Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest22.title}"
+			title: "Stray"
 			x: 2.0d
 			y: 1.0d
 		}
@@ -834,10 +834,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest23.task_8127229503220688871.title}"
+				title: "Vex Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest23.title}"
+			title: "Vex"
 			x: -7.5d
 			y: 1.0d
 		}
@@ -885,16 +885,16 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest24.task_2719667561416590077.title}"
+				title: "Vindicator Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest24.title}"
+			title: "Vindicator"
 			x: -8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			description: ["{ftbquests.chapter.mob_safari.quest25.description1}"]
+			description: ["&7Tip: the sculk catalyst is craftable, and you can use a sculk awakener on a sculk shrieker to convert it into one that can spawn Wardens."]
 			icon: "minecraft:warden_spawn_egg"
 			id: "0694D62C45F6C430"
 			rewards: [
@@ -922,10 +922,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest25.task_3299757844051508646.title}"
+				title: "Warden Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest25.title}"
+			title: "Warden"
 			x: 2.5d
 			y: 3.0d
 		}
@@ -958,16 +958,16 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest26.task_1834001635925258364.title}"
+				title: "Witch Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest26.title}"
+			title: "Witch"
 			x: 5.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			description: ["{ftbquests.chapter.mob_safari.quest27.description1}"]
+			description: ["&7Tip: if you want to summon a living wither skeleton, you'll need to use the Soulium Spawner."]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "3E3DE65526844EB7"
 			rewards: [
@@ -994,10 +994,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest27.task_431510156767848390.title}"
+				title: "Wither Skeleton Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest27.title}"
+			title: "Wither Skeleton"
 			x: -3.5d
 			y: 2.0d
 		}
@@ -1029,10 +1029,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest28.task_3976176875920550036.title}"
+				title: "Zoglin Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest28.title}"
+			title: "Zoglin"
 			x: -2.5d
 			y: 1.0d
 		}
@@ -1065,10 +1065,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest29.task_2001349734991872109.title}"
+				title: "Blaze Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest29.title}"
+			title: "Blaze"
 			x: -2.5d
 			y: 2.0d
 		}
@@ -1100,10 +1100,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest30.task_4394254762005595057.title}"
+				title: "Wither Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest30.title}"
+			title: "Wither"
 			x: -3.0d
 			y: 4.0d
 		}
@@ -1136,10 +1136,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest31.task_6606548217913389459.title}"
+				title: "Ender Dragon Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest31.title}"
+			title: "Ender Dragon"
 			x: 2.5d
 			y: 6.5d
 		}
@@ -1171,10 +1171,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest32.task_8348843003612976311.title}"
+				title: "Piglin Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest32.title}"
+			title: "Piglin"
 			x: -3.0d
 			y: 0.0d
 		}
@@ -1207,10 +1207,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest33.task_9152125344552747368.title}"
+				title: "Allay Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest33.title}"
+			title: "Allay"
 			x: -6.5d
 			y: 4.0d
 		}
@@ -1242,10 +1242,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest34.task_935450104482788869.title}"
+				title: "Axolotl Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest34.title}"
+			title: "Axolotl"
 			x: 14.0d
 			y: 1.0d
 		}
@@ -1278,10 +1278,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest35.task_3732209353791428122.title}"
+				title: "Bat Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest35.title}"
+			title: "Bat"
 			x: 3.5d
 			y: 2.0d
 		}
@@ -1313,10 +1313,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest36.task_4451728281716577204.title}"
+				title: "Camel Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest36.title}"
+			title: "Camel"
 			x: 9.5d
 			y: 4.0d
 		}
@@ -1349,10 +1349,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest37.task_3478349021656071469.title}"
+				title: "Cat Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest37.title}"
+			title: "Cat"
 			x: -7.5d
 			y: 4.0d
 		}
@@ -1385,10 +1385,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest38.task_421501030317629993.title}"
+				title: "Chicken Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest38.title}"
+			title: "Chicken"
 			x: 9.5d
 			y: 0.0d
 		}
@@ -1421,10 +1421,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest39.task_3283513909476271368.title}"
+				title: "Cod Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest39.title}"
+			title: "Cod"
 			x: 15.5d
 			y: 0.0d
 		}
@@ -1457,10 +1457,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest40.task_3552336333939252573.title}"
+				title: "Cow Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest40.title}"
+			title: "Cow"
 			x: 10.5d
 			y: 0.0d
 		}
@@ -1493,10 +1493,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest41.task_8921315837912733830.title}"
+				title: "Donkey Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest41.title}"
+			title: "Donkey"
 			x: 8.5d
 			y: 2.0d
 		}
@@ -1521,10 +1521,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest42.task_8892925176174289117.title}"
+				title: "Frog Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest42.title}"
+			title: "Frog"
 			x: 10.5d
 			y: 4.0d
 		}
@@ -1557,10 +1557,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest43.task_7912667151609898398.title}"
+				title: "Glow Squid Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest43.title}"
+			title: "Glow Squid"
 			x: 16.0d
 			y: 2.0d
 		}
@@ -1592,10 +1592,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest44.task_4389105525914117514.title}"
+				title: "Horse Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest44.title}"
+			title: "Horse"
 			x: 9.5d
 			y: 2.0d
 		}
@@ -1628,10 +1628,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest45.task_4359593363899885941.title}"
+				title: "Mooshroom Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest45.title}"
+			title: "Mooshroom"
 			x: 9.0d
 			y: 5.0d
 		}
@@ -1663,10 +1663,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest46.task_924922940433498504.title}"
+				title: "Mule Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest46.title}"
+			title: "Mule"
 			x: 10.5d
 			y: 2.0d
 		}
@@ -1699,10 +1699,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest47.task_4787445126890462554.title}"
+				title: "Ocelot Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest47.title}"
+			title: "Ocelot"
 			x: 10.0d
 			y: 5.0d
 		}
@@ -1735,10 +1735,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest48.task_595439666779967783.title}"
+				title: "Parrot Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest48.title}"
+			title: "Parrot"
 			x: 8.5d
 			y: 4.0d
 		}
@@ -1771,10 +1771,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest49.task_6791445533424275382.title}"
+				title: "Pig Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest49.title}"
+			title: "Pig"
 			x: 11.5d
 			y: 0.0d
 		}
@@ -1807,10 +1807,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest50.task_5186559523328413187.title}"
+				title: "Pufferfish Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest50.title}"
+			title: "Pufferfish"
 			x: 16.5d
 			y: 0.0d
 		}
@@ -1843,10 +1843,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest51.task_1802630615776817042.title}"
+				title: "Rabbit Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest51.title}"
+			title: "Rabbit"
 			x: 8.0d
 			y: 1.0d
 		}
@@ -1879,10 +1879,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest52.task_9075318374820615216.title}"
+				title: "Salmon Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest52.title}"
+			title: "Salmon"
 			x: 14.5d
 			y: 0.0d
 		}
@@ -1915,16 +1915,16 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest53.task_1279126845524092057.title}"
+				title: "Sheep Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest53.title}"
+			title: "Sheep"
 			x: 8.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			description: ["{ftbquests.chapter.mob_safari.quest54.description1}"]
+			description: ["&7Tip: the sniffer egg is craftable!"]
 			icon: "minecraft:sniffer_egg"
 			id: "17DE6D948744F44F"
 			rewards: [
@@ -1951,10 +1951,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest54.task_4496075018482353874.title}"
+				title: "Sniffer Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest54.title}"
+			title: "Sniffer"
 			x: 8.0d
 			y: 5.0d
 		}
@@ -1987,10 +1987,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest55.task_7621061223329854925.title}"
+				title: "Snow Golem Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest55.title}"
+			title: "Snow Golem"
 			x: -6.0d
 			y: 3.0d
 		}
@@ -2023,10 +2023,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest56.task_3811954916556661348.title}"
+				title: "Squid Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest56.title}"
+			title: "Squid"
 			x: 14.0d
 			y: 2.0d
 		}
@@ -2059,10 +2059,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest57.task_8980744210598611125.title}"
+				title: "Strider Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest57.title}"
+			title: "Strider"
 			x: -3.5d
 			y: 3.0d
 		}
@@ -2095,10 +2095,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest58.task_3384099064913889422.title}"
+				title: "Tropical Fish Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest58.title}"
+			title: "Tropical Fish"
 			x: 13.5d
 			y: 0.0d
 		}
@@ -2131,10 +2131,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest59.task_8173784837555787990.title}"
+				title: "Turtle Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest59.title}"
+			title: "Turtle"
 			x: 15.0d
 			y: 1.0d
 		}
@@ -2167,16 +2167,16 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest60.task_3689972004573703426.title}"
+				title: "Villager Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest60.title}"
+			title: "Villager"
 			x: -8.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			description: ["{ftbquests.chapter.mob_safari.quest61.description1}"]
+			description: ["&7Tip: an oak or birch tree grown near flowers has a small chance to spawn a beehive!"]
 			icon: "heads:bee_head"
 			id: "747E5509C0DC0ABB"
 			rewards: [
@@ -2204,10 +2204,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest61.task_5922903859006989903.title}"
+				title: "Bee Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest61.title}"
+			title: "Bee"
 			x: 10.0d
 			y: 1.0d
 		}
@@ -2239,10 +2239,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest62.task_6003122656664405150.title}"
+				title: "Dolphin Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest62.title}"
+			title: "Dolphin"
 			x: 16.0d
 			y: 1.0d
 		}
@@ -2275,10 +2275,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest63.task_8533728607102685433.title}"
+				title: "Fox Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest63.title}"
+			title: "Fox"
 			x: 11.0d
 			y: 1.0d
 		}
@@ -2311,10 +2311,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest64.task_2426644530607004924.title}"
+				title: "Goat Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest64.title}"
+			title: "Goat"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -2347,10 +2347,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest65.task_7632281372321087328.title}"
+				title: "Iron Golem Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest65.title}"
+			title: "Iron Golem"
 			x: -7.0d
 			y: 3.0d
 		}
@@ -2373,7 +2373,7 @@
 							Potion: "minecraft:water"
 						}
 					}
-					title: "{ftbquests.chapter.mob_safari.quest66.reward_5070411217558644494.title}"
+					title: "Wash the spit off your face!"
 					type: "item"
 				}
 			]
@@ -2389,10 +2389,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest66.task_6151594406741525419.title}"
+				title: "Llama Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest66.title}"
+			title: "Llama"
 			x: 11.0d
 			y: 5.0d
 		}
@@ -2425,10 +2425,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest67.task_8391996334368644499.title}"
+				title: "Panda Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest67.title}"
+			title: "Panda"
 			x: 11.5d
 			y: 4.0d
 		}
@@ -2461,10 +2461,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest68.task_6356092814838542587.title}"
+				title: "Polar Bear Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest68.title}"
+			title: "Polar Bear"
 			x: 7.5d
 			y: 4.0d
 		}
@@ -2497,10 +2497,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest69.task_5155069369552929707.title}"
+				title: "Wolf Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest69.title}"
+			title: "Wolf"
 			x: 9.0d
 			y: 1.0d
 		}
@@ -2533,16 +2533,16 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest70.task_6586877749199133229.title}"
+				title: "Zombified Piglin Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest70.title}"
+			title: "Zombified Piglin"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			description: ["{ftbquests.chapter.mob_safari.quest71.description1}"]
+			description: ["&7Tip: there is a ritual that spawns the Elder Guardian!"]
 			icon: "minecraft:elder_guardian_spawn_egg"
 			id: "176F9C7ED259CD39"
 			rewards: [
@@ -2570,10 +2570,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest71.task_1136723065807110792.title}"
+				title: "Elder Guardian Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest71.title}"
+			title: "Elder Guardian"
 			x: 15.0d
 			y: 3.0d
 		}
@@ -2606,10 +2606,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest72.task_1119603583110664878.title}"
+				title: "Starbuncle Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest72.title}"
+			title: "Starbuncle"
 			x: 13.5d
 			y: 5.0d
 		}
@@ -2642,10 +2642,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest73.task_1237879032257403086.title}"
+				title: "Wilden Guardian Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest73.title}"
+			title: "Wilden Defender"
 			x: 14.0d
 			y: 6.0d
 		}
@@ -2678,10 +2678,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest74.task_5793666635438854570.title}"
+				title: "Wilden Pack Hunter Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest74.title}"
+			title: "Wilden Pack Hunter"
 			x: 15.0d
 			y: 6.0d
 		}
@@ -2714,10 +2714,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest75.task_8789953344793101489.title}"
+				title: "Wilden Stalker Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest75.title}"
+			title: "Wilden Stalker"
 			x: 16.0d
 			y: 6.0d
 		}
@@ -2750,10 +2750,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest76.task_4116691053894850008.title}"
+				title: "Drygmy Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest76.title}"
+			title: "Drygmy"
 			x: 14.5d
 			y: 5.0d
 		}
@@ -2786,10 +2786,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest77.task_1018473204252943458.title}"
+				title: "Wilden Chimera Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest77.title}"
+			title: "Wilden Chimera"
 			x: 15.0d
 			y: 7.0d
 		}
@@ -2822,16 +2822,16 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest78.task_6004116955135160925.title}"
+				title: "Drygmy Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest78.title}"
+			title: "Whirlisprig"
 			x: 15.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			description: ["{ftbquests.chapter.mob_safari.quest79.description1}"]
+			description: ["&7Tip: a spawned siren, not a tamed familiar!"]
 			icon: "ars_elemental:siren_shards"
 			id: "5EE98525E9A06AAC"
 			rewards: [
@@ -2859,10 +2859,10 @@
 						}
 					}
 				}
-				title: "{ftbquests.chapter.mob_safari.quest79.task_1471670924078031545.title}"
+				title: "Siren Photo"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest79.title}"
+			title: "Siren"
 			x: 16.5d
 			y: 5.0d
 		}
@@ -2947,7 +2947,7 @@
 				"0694D62C45F6C430"
 				"71EFE5EE55ED2892"
 			]
-			description: ["{ftbquests.chapter.mob_safari.quest80.description1}"]
+			description: ["I mean. You did a LOT of grinding probably to get here. Also by definition you've finished the pack, or good as."]
 			hide_until_deps_complete: true
 			id: "4A37BD407A1A7395"
 			rewards: [
@@ -2971,15 +2971,15 @@
 			]
 			shape: "heart"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.mob_safari.quest80.subtitle}"
+			subtitle: "because why not?"
 			tasks: [{
 				id: "29488939B0A5B28F"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.mob_safari.quest80.title}"
+			title: "Safari LEGEND"
 			x: 6.0d
 			y: 9.5d
 		}
 	]
-	title: "{ftbquests.chapter.mob_safari.title}"
+	title: "Mob Safari"
 }

@@ -32,10 +32,12 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest1.description1}"
+				"You wake up in a vast, dead and dried out wasteland. You don't remember how you got here, but you do remember what the world &oshould&r look like - and this isn't it."
+				""
+				"&6&lOnce you're ready, click the checkmark to complete this quest and begin your journey."
 				""
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest1.description2}"
+				"&7Welcome to the &4hardcore&7 version of &6Reclamation!&7 This is a slower-paced pack focused around bringing life and nature back to a dead world. Press &6F3+H&7 to disable advanced tooltips, if they're on!"
 			]
 			id: "73F3DDAFC46A9CD5"
 			rewards: [{
@@ -46,7 +48,7 @@
 			}]
 			tasks: [{
 				id: "5837682A2F4F2D20"
-				title: "{ftbquests.chapter.how_the_world_came_to_be.quest1.task_6356663929448377632.title}"
+				title: "What happened here?"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -54,7 +56,7 @@
 		}
 		{
 			dependencies: ["3BF5FDE3C81BEF26"]
-			description: ["{ftbquests.chapter.how_the_world_came_to_be.quest2.description1}"]
+			description: ["Wood is plentiful, if not exactly the quality you remember."]
 			id: "655DCA5A5B6632E1"
 			rewards: [
 				{
@@ -81,16 +83,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest2.title}"
+			title: "Dead Trees"
 			x: -1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3BF5FDE3C81BEF26"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest3.description1}"
+				"There are ruins around with &6small bits of copper,&r completely oxidized from whatever happened. "
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest3.description2}"
+				"You might be able to craft something to help you out with that copper, but first you'll have to &6get it into a useable state...&r"
 			]
 			id: "353FED2BF4FBD8EC"
 			rewards: [
@@ -109,7 +111,7 @@
 			tasks: [{
 				id: "6870844EA8AA42B5"
 				item: "minecraft:oxidized_cut_copper"
-				title: "{ftbquests.chapter.how_the_world_came_to_be.quest3.task_7525660450708144821.title}"
+				title: "Oxidized Copper"
 				type: "item"
 			}]
 			x: 1.0d
@@ -118,9 +120,9 @@
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest4.description1}"
+				"Many many recipes have been changed in this pack. Make sure you check your recipe browser for crafting recipes! By default, the keybinds when hovering over an item are &6R to look up recipes&r for the item, and &6U to look up uses&r for the item."
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest4.description2}"
+				"These binds can be changed by clicking the EMI button in the bottom left of your inventory screen."
 			]
 			icon: "minecraft:crafting_table"
 			id: "7051A7B9EF38B5D8"
@@ -131,16 +133,16 @@
 			}]
 			tasks: [{
 				id: "7659D788975AE236"
-				title: "{ftbquests.chapter.how_the_world_came_to_be.quest4.task_8528084351057584694.title}"
+				title: "What's changed?"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest4.title}"
+			title: "How do I craft things?"
 			x: -1.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
-			description: ["{ftbquests.chapter.how_the_world_came_to_be.quest5.description1}"]
+			description: ["&l&o&cNO ORE GENERATES IN THE WORLD. RECIPES HAVE CHANGED.&r Those who came before you have completely mined out the entire planet - after centuries of strip mining, quarrying, and general exploitation, there is not so much as a measly scrap of coal in the world, so there's no point trying to find any type of ore by mining."]
 			icon: "minecraft:iron_ore"
 			id: "3BF5FDE3C81BEF26"
 			rewards: [{
@@ -150,10 +152,10 @@
 			}]
 			tasks: [{
 				id: "0A321F50741A2841"
-				title: "{ftbquests.chapter.how_the_world_came_to_be.quest5.task_734684119620528193.title}"
+				title: "Deprived..."
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest5.title}"
+			title: "Where's the ore!?"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -163,11 +165,11 @@
 				"353FED2BF4FBD8EC"
 			]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest6.description1}"
+				"After you &6scrape off the rust with an axe,&r you think you can use a &6cutting board&r to get useable copper out of the oxidized copper you find in ruins."
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest6.description2}"
+				"This useable copper will be crucial for &6Spagyrics&r, the process of decomposing and recombining matter - which should let you &6rejuvenate the Dried Earth&r into &6Dirt.&r"
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest6.description3}"
+				"&7Tip: you can also use the cutting board to get more charcoal and scrap wood out of dead logs!"
 			]
 			hide_details_until_startable: true
 			icon: "minecraft:copper_ingot"
@@ -202,18 +204,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest6.title}"
+			title: "Useable Copper"
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["6B5B443D2F7DD3D4"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest7.description1}"
+				"In the contaminated water you have found trace amounts of &6Sal Ammoniac,&r a crucial ingredient in the practice of &6Theurgy.&r By setting up a simple accumulator and tank, you think you'll be able to distill it. "
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest7.description2}"
+				"Place the accumulator on top of the tank, fill it with water, and it will slowly produce &6Sal Ammoniac&r for you."
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest7.description3}"
+				"&7Tip: you can make buckets out of copper!&r"
 			]
 			icon: "theurgy:sal_ammoniac_accumulator"
 			id: "01AB2D65C171F1F9"
@@ -248,13 +250,13 @@
 		{
 			dependencies: ["6B5B443D2F7DD3D4"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest8.description1}"
+				"&6Alchemical Mercury&r is one of the three building blocks of alchemy - it provides the Energy of an item, and is largely interchangeable between things."
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest8.description2}"
+				"To distill it, you'll have to make a &6Mercury Distiller&r and place it on top of a &6Pyromantic Brazier.&r Place the items you want to distill into the Distiller, give the Brazier some fuel, and it'll slowly convert materials into &6Alchemical Mercury.&r"
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest8.description3}"
+				"Rarer materials give more mercury, but to start you'll probably want to distill &6cobblestone, dried earth, or cooked fish.&r "
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest8.description4}"
+				"&7Tip: slicing fish makes it a more efficient way of getting mercury!"
 			]
 			icon: "theurgy:distiller"
 			id: "238F26409930D47F"
@@ -288,18 +290,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest8.title}"
+			title: "Alchemical Mercury"
 			x: 1.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["6B5B443D2F7DD3D4"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest9.description1}"
+				"&6Alchemical Salt&r is one of the three building blocks of alchemy - it provides the Body of an item, and represents the 'type' of an item."
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest9.description2}"
+				"To obtain it, you'll have to make a &6Calcination Oven&r and place it on top of a &6Pyromantic Brazier.&r Place the items you want to extract into the Oven, give the Brazier some fuel, and it'll slowly convert materials into &6Alchemical Salt.&r"
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest9.description3}"
+				"There are many different kinds of salt, but to start, you should &6focus on getting Strata salt.&r"
 			]
 			icon: "theurgy:calcination_oven"
 			id: "21DA86D51EB7D88E"
@@ -333,18 +335,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest9.title}"
+			title: "Alchemical Salt"
 			x: -1.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["01AB2D65C171F1F9"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest10.description1}"
+				"&6Alchemical Sulfur&r is one of the three building blocks of alchemy - it provides the Soul of an item, and represents what specific item it is."
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest10.description2}"
+				"To obtain it, you'll have to make a &6Liquefaction Cauldron&r and place it on top of a &6Pyromantic Brazier.&r Place the item you want to extract sulfur from into the Cauldron, fill it with &6Sal Ammoniac,&r give the Brazier some fuel, and it'll slowly convert materials into their respective &6Alchemical Sulfur.&r"
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest10.description3}"
+				"The dried earth you find yourself surrounded by used to be dirt, and it remembers that - &6use the Cauldron to turn dried earth into dirt sulfur.&r"
 			]
 			icon: "theurgy:liquefaction_cauldron"
 			id: "3B57039627535552"
@@ -384,7 +386,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest10.title}"
+			title: "Alchemical Sulfur"
 			x: 0.0d
 			y: -7.0d
 		}
@@ -395,9 +397,9 @@
 				"21DA86D51EB7D88E"
 			]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest11.description1}"
+				"Now that you have all three alchemical components of an item - &6Mercury, Salt, and Sulfur&r - you can make an &6Incubator&r to combine them all back into an item; in this case, back into &6dirt.&r"
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest11.description2}"
+				"Place the Incubator above a Brazier and attach all three vessels to the sides of it. Fill each vessel with the appropriate item, give the Brazier some fuel, and in a bit you'll have fresh dirt!"
 			]
 			icon: "theurgy:incubator"
 			id: "1F466C810237B69A"
@@ -433,16 +435,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest11.title}"
+			title: "Incubator"
 			x: 0.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["1F466C810237B69A"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest12.description1}"
+				"You've done it! You've made dirt!"
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest12.description2}"
+				"...now you just need something to grow on it."
 			]
 			id: "448ABF53EEACBFA7"
 			rewards: [{
@@ -452,7 +454,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.how_the_world_came_to_be.quest12.subtitle}"
+			subtitle: "Slightly browner"
 			tasks: [{
 				id: "1DB0C65400E5119F"
 				item: "minecraft:dirt"
@@ -463,7 +465,7 @@
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
-			description: ["{ftbquests.chapter.how_the_world_came_to_be.quest13.description1}"]
+			description: ["Despite the seeming apocalypse, there are still fish to find (and eat) for those with the skill and desire."]
 			icon: {
 				Count: 1
 				id: "minecraft:fishing_rod"
@@ -494,16 +496,16 @@
 				id: "3420C22AABFAEA34"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest13.title}"
+			title: "Fishy Friends"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest14.description1}"
+				"Spider string can be crafted into wool, which can be crafted into beds! "
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest14.description2}"
+				"You can also craft a sleeping bag, for staying cozy on the go... but where would you be going?"
 			]
 			icon: "minecraft:white_bed"
 			id: "49182F60BE2634DE"
@@ -522,7 +524,7 @@
 							value: "minecraft:beds"
 						}
 					}
-					title: "{ftbquests.chapter.how_the_world_came_to_be.quest14.task_1655930139945784994.title}"
+					title: "Any Bed"
 					type: "item"
 				}
 				{
@@ -535,20 +537,20 @@
 						}
 					}
 					optional_task: true
-					title: "{ftbquests.chapter.how_the_world_came_to_be.quest14.task_2233575124644508705.title}"
+					title: "Any Sleeping Bag"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest14.title}"
+			title: "Small Comforts"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest15.description1}"
+				"Worldgen has been completely overhauled - &4no ore generates,&r and the only biomes that exist are dead, wasteland biomes with no real vegetation. Additionally, the only trees that spawn are dead trees, with very little useability."
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest15.description2}"
+				"Stone variants still generate, and you can find &6sand and clay underwater.&r It will also still rain!"
 			]
 			icon: "supplementaries:globe"
 			id: "40200E30710D409D"
@@ -559,18 +561,18 @@
 			}]
 			tasks: [{
 				id: "7CE871AB4BA6259E"
-				title: "{ftbquests.chapter.how_the_world_came_to_be.quest15.task_9000568835822462366.title}"
+				title: "Changed worldgen?"
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest16.description1}"
+				"The naturally spawning mobs have changed in this new landscape! Specifically, &czombie villagers and witches won't spawn,&r and &6spiders have mutated&r into their venomous cave versions. "
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest16.description2}"
+				"This means that there's &cno way to get any kind of resources from witches or zombie villagers&r (even if you could cure them!); the only things that you can really hope to get are iron or copper ingots from &6rare drops&r - but there are other ways to generate resources..."
 			]
 			icon: {
 				Count: 1
@@ -587,20 +589,20 @@
 			}]
 			tasks: [{
 				id: "726093097AD50EDB"
-				title: "{ftbquests.chapter.how_the_world_came_to_be.quest16.task_8241748987012779739.title}"
+				title: "Rare Drops?"
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest17.description1}"
+				"There are quite a few books in the pack! Thankfully, the &6Akashic Tome&r is here to help. Crafting any book with this will combine it, letting you keep every guidebook in a single item. Simply craft it with another guidebook!"
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest17.description2}"
+				"To untransform the tome, punch the air with it."
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest17.description3}"
+				"To remove a stored book, transform the tome into the book, then sneak and press your 'drop' key."
 			]
 			icon: "akashictome:tome"
 			id: "524541472CB8168A"
@@ -611,25 +613,25 @@
 			}]
 			tasks: [{
 				id: "30591A81E9C85ED9"
-				title: "{ftbquests.chapter.how_the_world_came_to_be.quest17.task_3483844932023115481.title}"
+				title: "Too Many Books!?"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest17.title}"
+			title: "Too Many Books!?"
 			x: 1.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest18.description1}"
+				"A lot of the pack consists of passive processes you'll probably want to keep running while you do other things. You can claim chunks to &6force-load &rthem using your map; ensuring they'll stay loaded even while you're not nearby. "
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest18.description2}"
+				"Just open your map (default M) and &6right-click drag&r over the area you'd like to claim. Right-click drag again to force claim!"
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest18.description3}"
+				"If you're playing with friends, &6make sure you're on the same team&r so that you can all access things inside your claim and share quest progress."
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest18.description4}"
+				"For more information on the claims system, check out the &6Open Parties and Claims&r wiki or keybinds."
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest18.description5}"
+				"&7Tip: you might want to turn claimed chunk protection off! It tends to break fake players."
 			]
 			icon: "naturesaura:pet_reviver"
 			id: "52B10FEB2951E939"
@@ -640,19 +642,19 @@
 			}]
 			tasks: [{
 				id: "2E3AF11BD22C15B4"
-				title: "{ftbquests.chapter.how_the_world_came_to_be.quest18.task_3331239976186418612.title}"
+				title: "Playing with Friends?"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest18.title}"
+			title: "Chunkloading and Friends?"
 			x: 0.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6B5B443D2F7DD3D4"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest19.description1}"
+				"You can make a quick and dirty door using the scrap wood and some copper you've found - but it seems pretty shoddy, &4breaking every so often&r and needing to be re-placed."
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest19.description2}"
+				"At least it keeps the spookies out..."
 			]
 			id: "387F725179133950"
 			rewards: [{
@@ -671,11 +673,11 @@
 		{
 			dependencies: ["655DCA5A5B6632E1"]
 			description: [
-				"{ftbquests.chapter.how_the_world_came_to_be.quest20.description1}"
+				"Despite the harsh conditions, bees still persist, dotted amongst the dry hills. "
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest20.description2}"
+				"Cultivating them could be a great way to &6generate resources&r such as more dead logs!"
 				""
-				"{ftbquests.chapter.how_the_world_came_to_be.quest20.description3}"
+				"&7Tip: this unlocks a new questline on the left!"
 			]
 			icon: "complicated_bees:apiary"
 			id: "29CB5767DE978673"
@@ -689,11 +691,11 @@
 				id: "5B5E6B48E860F6E6"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.how_the_world_came_to_be.quest20.title}"
+			title: "Bees?!"
 			x: 0.0d
 			y: -3.0d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.how_the_world_came_to_be.subtitle0}"]
-	title: "{ftbquests.chapter.how_the_world_came_to_be.title}"
+	subtitle: ["A vast wasteland"]
+	title: "Prologue"
 }

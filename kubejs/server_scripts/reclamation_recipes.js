@@ -133,7 +133,7 @@ ServerEvents.recipes(event => {
               'AAA'
           ], {
               A: 'complicated_bees:waxed_stick',
-              E: 'mysticalagriculture:water_essence'
+              E: 'enchanted:water_artichoke'
           })
 
     //spice rack collision
@@ -516,10 +516,6 @@ ServerEvents.recipes(event => {
             {
                 "item": "complicated_bees:honey_droplet",
                 "chance": 0.4
-            },
-            {
-                "item": "mysticalagriculture:inferium_essence",
-                "chance": 0.1
             }
         ]
     })
@@ -742,38 +738,6 @@ ServerEvents.recipes(event => {
         G: 'minecraft:glass'
     })
 
-    //prosperity shard
-    event.custom({
-        "type": "farmersdelight:cutting",
-        "ingredients": [
-            {
-                "tag": "forge:nuggets/copper"
-            }
-        ],
-        "result": [
-            {
-                "item": "mysticalagriculture:prosperity_shard",
-                "chance": 0.15,
-                "count": 1
-            }
-        ],
-        "tool": {
-            "type": "farmersdelight:tool_action",
-            "action": "pickaxe_dig"
-        }
-    })
-    event.custom({
-        "type": "mekanism:enriching",
-        "input": {
-            "ingredient": {
-                "tag": "forge:nuggets/copper"
-            }
-        },
-        "output": {
-            "item": "mysticalagriculture:prosperity_shard",
-        }
-    })
-
     //attuned biome bottle
     event.shaped('reclamation_util:attuned_biome_bottle', [
         ' A ',
@@ -795,7 +759,7 @@ ServerEvents.recipes(event => {
         E: 'minecraft:ender_eye',
         V: 'minecraft:sculk_vein',
         B: 'minecraft:bone',
-        T: 'mysticalagriculture:tertium_essence'
+        T: 'botania:rune_envy'
     })
 
     //sculk catalyst
@@ -809,43 +773,6 @@ ServerEvents.recipes(event => {
         D: 'bloodmagic:defaultcrystal',
         S: 'minecraft:nether_star',
         G: 'minecraft:glowstone'
-    })
-
-    //sniffer egg
-    event.custom({
-        "type": "mysticalagriculture:infusion",
-        "ingredients": [
-            {
-                "item": "minecraft:torchflower"
-            },
-            {
-                "item": "ars_nouveau:wixie_shards"
-            },
-            {
-                "item": "minecraft:torchflower"
-            },
-            {
-                "item": "ars_nouveau:drygmy_shard"
-            },
-            {
-                "item": "minecraft:torchflower"
-            },
-            {
-                "item": "ars_nouveau:starbuncle_shards"
-            },
-            {
-                "item": "minecraft:torchflower"
-            },
-            {
-                "item": "ars_nouveau:whirlisprig_shards"
-            }
-        ],
-        "input": {
-            "item": "minecraft:egg"
-        },
-        "result": {
-            "item": "minecraft:sniffer_egg"
-        }
     })
 
     //frame remover
@@ -1237,69 +1164,6 @@ ServerEvents.recipes(event => {
         G: 'create:creative_motor'
     })
 
-    //Alder log
-    event.shaped('12x enchanted:alder_log', [
-        '   ',
-        'WFW',
-        '   '
-    ], {
-        W: 'mysticalagriculture:wood_essence',
-        F: 'mysticalagriculture:fertilized_essence'
-    })
-
-    //Hawthorn log
-    event.shaped('12x enchanted:hawthorn_log', [
-        ' W ',
-        ' F ',
-        ' W '
-    ], {
-        W: 'mysticalagriculture:wood_essence',
-        F: 'mysticalagriculture:fertilized_essence'
-    })
-
-    //Rowan log
-    event.shaped('12x enchanted:rowan_log', [
-        '  W',
-        ' F ',
-        'W  '
-    ], {
-        W: 'mysticalagriculture:wood_essence',
-        F: 'mysticalagriculture:fertilized_essence'
-    })
-
-    //Alder sapling
-    event.shaped('4x enchanted:alder_sapling', [
-        ' F ',
-        'WNW',
-        ' F '
-    ], {
-        W: 'mysticalagriculture:wood_essence',
-        F: 'mysticalagriculture:fertilized_essence',
-        N: 'mysticalagriculture:nature_essence'
-    })
-
-    //Hawthorn sapling
-    event.shaped('4x enchanted:hawthorn_sapling', [
-        ' W ',
-        'FNF',
-        ' W '
-    ], {
-        W: 'mysticalagriculture:wood_essence',
-        F: 'mysticalagriculture:fertilized_essence',
-        N: 'mysticalagriculture:nature_essence'
-    })
-
-    //Rowan sapling
-    event.shaped('4x enchanted:rowan_sapling', [
-        '  W',
-        'FNF',
-        'W  '
-    ], {
-        W: 'mysticalagriculture:wood_essence',
-        F: 'mysticalagriculture:fertilized_essence',
-        N: 'mysticalagriculture:nature_essence'
-    })
-
     event.shaped('minecraft:lantern', [
         'CCC',
         'CTC',
@@ -1595,7 +1459,7 @@ ServerEvents.recipes(event => {
                 "item": "mekanism:qio_drive_supermassive"
             },
             "S": {
-                "item": "mysticalagriculture:awakened_supremium_gemstone_block"
+                "item": "minecraft:dragon_egg"
             },
             "R": {
                 "item": "complicated_bees:royal_jelly"
@@ -1604,7 +1468,7 @@ ServerEvents.recipes(event => {
                 "item": "complicated_bees:pollen"
             },
             "W": {
-                "item": "mysticalagriculture:wither_skeleton_essence"
+                "item": "sophisticatedstorage:basic_to_netherite_tier_upgrade"
             },
             "P": {
                 "item": "mekanism:pellet_antimatter"
@@ -1796,7 +1660,7 @@ ServerEvents.recipes(event => {
                 },
                 {
                     "item": {
-                        "item": "mysticalagriculture:nature_essence"
+                        "item": "ars_nouveau:earth_essence"
                     }
                 }
             ],
@@ -1808,7 +1672,7 @@ ServerEvents.recipes(event => {
     globe_recipe("desert", "arid", "minecraft:sandstone")
     globe_recipe("forest", "filled", "minecraft:oak_sapling")
     globe_recipe("ocean", "watery", "minecraft:kelp")
-    globe_recipe("warm_ocean", "watery", "mysticalagriculture:coral_agglomeratio")
+    globe_recipe("warm_ocean", "watery", "minecraft:horn_coral_block")
     globe_recipe("taiga", "filled", "minecraft:podzol")
     globe_recipe("crimson", "hellish", "minecraft:crimson_fungus")
     globe_recipe("warped", "hellish", "minecraft:warped_fungus")
