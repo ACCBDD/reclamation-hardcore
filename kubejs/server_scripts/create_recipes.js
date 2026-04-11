@@ -36,6 +36,10 @@ ServerEvents.recipes(event => {
     event.remove({id: 'create:pressing/copper_ingot'})
     event.remove({id: 'create:pressing/gold_ingot'})
 
+    //disable copper door recipe
+    event.remove({id: 'createdeco:copper_door'})
+    event.shapeless('createdeco:copper_door', 'create:copper_door')
+
     //remove blaze burner recipe
     event.remove({id: 'create:crafting/kinetics/empty_blaze_burner'})
 

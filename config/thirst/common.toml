@@ -29,7 +29,7 @@
 	#Whether dehydration from regenerating health (if enabled above) should take into account temperature and humidity
 	healthRegenDehydrationIsBiomeDependent = true
 	#Whether players can drink by shift-right-clicking water with an empty hand. Attention: it needs to be enable on both server and client sides
-	canDrinkByHand = false
+	canDrinkByHand = true
 	#How much the player is hydrated when drinking by hand
 	handDrinkingHydration = 3
 	#How much the player thirst is quenched when drinking by hand
@@ -53,7 +53,7 @@
 	#% of getting poisoned after drinking dirty water
 	dirtyPoisonPercentage = 30
 	#% of getting sick (hunger and nausea) after drinking dirty water
-	dirtyNauseaPercentage = 100
+	dirtyNauseaPercentage = 80
 	#% of getting poisoned after drinking slightly dirty water
 	slightlyDirtyPoisonPercentage = 10
 	#% of getting sick (hunger and nausea) after drinking slightly dirty water
