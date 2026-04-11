@@ -1181,7 +1181,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        G: 'minecraft:gold_ingot',
+        G: 'minecraft:gold_ingot'
     })
 
     event.shaped('mcwlights:copper_low_candle_holder', [
@@ -1191,7 +1191,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        C: 'minecraft:copper_ingot',
+        C: 'minecraft:copper_ingot'
     })
 
     event.shaped('mcwlights:iron_low_candle_holder', [
@@ -1201,7 +1201,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        I: 'minecraft:iron_ingot',
+        I: 'minecraft:iron_ingot'
     })
 
     event.shaped('2x mcwlights:golden_candle_holder', [
@@ -1211,7 +1211,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        G: 'minecraft:gold_ingot',
+        G: 'minecraft:gold_ingot'
     })
 
     event.shaped('2x mcwlights:copper_candle_holder', [
@@ -1221,7 +1221,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        C: 'minecraft:copper_ingot',
+        C: 'minecraft:copper_ingot'
     })
 
     event.shaped('2x mcwlights:iron_candle_holder', [
@@ -1231,7 +1231,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        I: 'minecraft:iron_ingot',
+        I: 'minecraft:iron_ingot'
     })
 
     event.shaped('mcwlights:golden_wall_candle_holder', [
@@ -1241,7 +1241,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        G: 'minecraft:gold_ingot',
+        G: 'minecraft:gold_ingot'
     })
 
     event.shaped('mcwlights:copper_wall_candle_holder', [
@@ -1251,7 +1251,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        C: 'minecraft:copper_ingot',
+        C: 'minecraft:copper_ingot'
     })
 
     event.shaped('mcwlights:iron_wall_candle_holder', [
@@ -1261,7 +1261,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        I: 'minecraft:iron_ingot',
+        I: 'minecraft:iron_ingot'
     })
 
     event.shaped('mcwlights:golden_double_candle_holder', [
@@ -1271,7 +1271,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        G: 'minecraft:gold_ingot',
+        G: 'minecraft:gold_ingot'
     })
 
     event.shaped('mcwlights:copper_double_candle_holder', [
@@ -1281,7 +1281,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        C: 'minecraft:copper_ingot',
+        C: 'minecraft:copper_ingot'
     })
 
     event.shaped('mcwlights:iron_double_candle_holder', [
@@ -1291,7 +1291,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        I: 'minecraft:iron_ingot',
+        I: 'minecraft:iron_ingot'
     })
 
     event.shaped('mcwlights:golden_triple_candle_holder', [
@@ -1301,7 +1301,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        G: 'minecraft:gold_ingot',
+        G: 'minecraft:gold_ingot'
     })
 
     event.shaped('mcwlights:copper_triple_candle_holder', [
@@ -1311,7 +1311,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        C: 'minecraft:copper_ingot',
+        C: 'minecraft:copper_ingot'
     })
 
     event.shaped('mcwlights:iron_triple_candle_holder', [
@@ -1321,7 +1321,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        I: 'minecraft:iron_ingot',
+        I: 'minecraft:iron_ingot'
     })
 
     event.shaped('mcwlights:golden_small_chandelier', [
@@ -1331,7 +1331,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        G: 'minecraft:gold_ingot',
+        G: 'minecraft:gold_ingot'
     })
 
     event.shaped('minecraft:enchanting_table', [
@@ -1341,7 +1341,7 @@ ServerEvents.recipes(event => {
     ], {
         B: 'minecraft:book',
         P: 'botania:mana_pearl',
-        O: 'minecraft:obsidian',
+        O: 'minecraft:obsidian'
     })
 
     event.shaped('mcwlights:copper_small_chandelier', [
@@ -1351,7 +1351,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        C: 'minecraft:copper_ingot',
+        C: 'minecraft:copper_ingot'
     })
 
     event.shaped('mcwlights:iron_small_chandelier', [
@@ -1361,7 +1361,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        I: 'minecraft:iron_ingot',
+        I: 'minecraft:iron_ingot'
     })
 
     event.shaped('mcwlights:golden_chandelier', [
@@ -1371,7 +1371,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        G: 'minecraft:gold_ingot',
+        G: 'minecraft:gold_ingot'
     })
 
     event.shaped('mcwlights:copper_chandelier', [
@@ -1381,7 +1381,7 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        C: 'minecraft:copper_ingot',
+        C: 'minecraft:copper_ingot'
     })
 
     event.shaped('mcwlights:iron_chandelier', [
@@ -1391,7 +1391,18 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         W: 'complicated_bees:beeswax',
-        I: 'minecraft:iron_ingot',
+        I: 'minecraft:iron_ingot'
+    })
+
+    //watering can
+    event.shaped('reclamation_util:watering_can', [
+        'IB ',
+        'IWI',
+        ' I '
+    ], {
+        B: 'minecraft:bone_meal',
+        W: 'minecraft:bowl',
+        I: 'minecraft:iron_ingot'
     })
 
     event.custom({
