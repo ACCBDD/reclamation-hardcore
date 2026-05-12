@@ -1,0 +1,21 @@
+filename = 'wm_binaries-3.0.0-rc.1.jar'
+name = 'WATERMeDIA: Binaries'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21.1', '1.21.11' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'WM-Binaries/3.0.0-rc.1'
+
+[download]
+hash = '47864af0b432999cc057e8a459c1decf4b0ba053'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7436617
+project-id = 1029438
+
+[[x-prismlauncher-dependencies]]
+addonId = '869524'
+type = 'REQUIRED'
