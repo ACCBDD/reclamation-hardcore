@@ -141,7 +141,7 @@
 				""
 				"Simply place the petal apothecary down, fill it with water, then toss in the petals and finally a seed!"
 				""
-				"&7Tip: check the usages of the Pure Daisy to see what else it can transform."
+				"&7Tip: the pure daisy can slowly freeze water into blue ice! Standing near ice will cool you down, but it'd be really nice if you figured out a way to harvest it eventually..."
 			]
 			icon: "botania:pure_daisy"
 			id: "2737F0AE3D1835D4"
@@ -2345,7 +2345,17 @@
 		}
 		{
 			dependencies: ["2E0F026AB59D83B5"]
+			description: [
+				"The &6Sand Filter&r is an easy way to automate the purification of water. Simply pipe dirty water into the top of it, and you'll get filtered water out of the bottom!"
+				""
+				"&7Tip: you'll need multiple to fully purify water!"
+			]
 			id: "421E627FF66C3F21"
+			rewards: [{
+				id: "504E653CAB3D468C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "221DEC843B0BF214"
 				item: "thirst:sand_filter"

@@ -776,11 +776,7 @@
 		}
 		{
 			dependencies: ["2746DDF7130D3BB4"]
-			description: [
-				"Before you can do anything related to machinery, you'll need a source of power. Thankfully, &bbotanic mana&r is easily convertible to &credstone flux.&r Simply point a mana spreader at a &6Mana Fluxfield&r and it'll output &cRF&r to any adjacent blocks."
-				""
-				"&7You can also use a heat generator, but it's VERY inefficient and (probably) not even worth making!&r"
-			]
+			description: ["Before you can do anything related to machinery, you'll need a source of power. Thankfully, &bbotanic mana&r is easily convertible to &credstone flux.&r Simply point a mana spreader at a &6Mana Fluxfield&r and it'll output &cRF&r to any adjacent blocks."]
 			id: "0E7EBE370DB920D8"
 			rewards: [{
 				id: "35B5368759D5201D"

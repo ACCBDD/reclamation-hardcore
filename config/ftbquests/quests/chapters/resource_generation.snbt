@@ -279,7 +279,11 @@
 		}
 		{
 			dependencies: ["6C972BEC949FEF25"]
-			description: ["If you want to process your combs more efficiently, you'll want to make a &6Centrifuge.&r Powered by a generator, it automatically turns combs into comb products - no more manual chopping!"]
+			description: [
+				"If you want to process your combs more efficiently, you'll want to make a &6Centrifuge.&r Powered through RF, it automatically turns combs into comb products - no more manual chopping!"
+				""
+				"&7Tip: your earliest source of RF will be the Mana Fluxfield!"
+			]
 			icon: "complicated_bees:centrifuge"
 			id: "7F77AE83C391B38A"
 			rewards: [
@@ -295,18 +299,11 @@
 					xp: 500
 				}
 			]
-			tasks: [
-				{
-					id: "0596758025E351E7"
-					item: "complicated_bees:centrifuge"
-					type: "item"
-				}
-				{
-					id: "22292F457571703B"
-					item: "complicated_bees:furnace_generator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0596758025E351E7"
+				item: "complicated_bees:centrifuge"
+				type: "item"
+			}]
 			title: "Comb Processing "
 			x: 3.0d
 			y: 0.0d

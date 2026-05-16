@@ -1881,4 +1881,8 @@ ServerEvents.recipes(event => {
             "item": "cold_sweat:soul_sprout"
         }
     })
+
+    event.replaceInput({id: 'complicated_bees:furnace_generator'},
+            'minecraft:iron_ingot',
+            'mekanism:ingot_steel')
 })
