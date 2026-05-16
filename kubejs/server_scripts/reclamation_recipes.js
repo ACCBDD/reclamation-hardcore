@@ -407,7 +407,7 @@ ServerEvents.recipes(event => {
                 "tag": "botania:mana_dusts"
             },
             {
-                "item": "embers:dawnstone_ingot"
+                "item": "minecraft:blackstone"
             },
             {
                 "item": "embers:ember_crystal"
@@ -416,7 +416,7 @@ ServerEvents.recipes(event => {
                 "item": "enchanted:whiff_of_magic"
             },
             {
-                "item": "enchanted:gypsum"
+                "item": "embers:archaic_brick"
             }
         ],
         "mana": 4000,
@@ -1787,4 +1787,17 @@ ServerEvents.recipes(event => {
             "result": "quark:waxed_"+vert_copper_slabs[i]
         })
     }
+
+    event.remove({id: "cold_sweat:thermometer"})
+    event.shaped('cold_sweat:thermometer',
+        [
+            'CGC',
+            ' G ',
+            ' G '
+        ],
+        {
+            'C': "minecraft:copper_ingot",
+            'G': "minecraft:gunpowder"
+        }
+    )
 })

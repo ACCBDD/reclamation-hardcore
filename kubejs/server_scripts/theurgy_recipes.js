@@ -181,7 +181,7 @@ ServerEvents.recipes(event => {
         'AIA',
         'BBB'
     ], {
-        B: 'minecraft:blackstone',
+        B: 'embers:lead_ingot',
         S: '#theurgy:alchemical_sulfurs',
         A: 'create:andesite_alloy',
         I: 'minecraft:iron_ingot'
@@ -191,18 +191,18 @@ ServerEvents.recipes(event => {
         'DSD',
         'BBB'
     ], {
-        B: 'minecraft:blackstone',
+        B: 'embers:lead_ingot',
         S: '#theurgy:alchemical_sulfurs',
-        D: 'embers:dawnstone_ingot'
+        D: 'minecraft:gold_ingot'
     })
     event.shaped('theurgy:reformation_target_pedestal', [
         'CSC',
         'CDC',
         'BBB'
     ], {
-        B: 'minecraft:blackstone',
+        B: 'embers:lead_ingot',
         S: '#theurgy:alchemical_sulfurs',
-        D: 'embers:dawnstone_ingot',
+        D: 'minecraft:gold_ingot',
         C: 'minecraft:copper_ingot'
     })
     event.shaped('theurgy:sulfuric_flux_emitter', [
@@ -210,9 +210,9 @@ ServerEvents.recipes(event => {
         'DSD',
         'BBB'
     ], {
-        B: 'minecraft:blackstone',
+        B: 'embers:lead_ingot',
         S: '#theurgy:alchemical_sulfurs',
-        D: 'embers:dawnstone_ingot',
+        D: 'minecraft:gold_ingot',
         M: 'theurgy:sal_ammoniac_crystal'
     })
     event.shaped('theurgy:mercury_catalyst', [
@@ -222,7 +222,7 @@ ServerEvents.recipes(event => {
     ], {
         A: 'create:andesite_alloy',
         M: '#theurgy:alchemical_mercuries',
-        D: 'embers:dawnstone_ingot',
+        D: 'minecraft:gold_ingot',
         G: 'create:fluid_tank'
     })
 
@@ -235,7 +235,7 @@ ServerEvents.recipes(event => {
     ], {
         B: 'embers:archaic_brick',
         S: '#theurgy:alchemical_sulfurs',
-        D: 'embers:dawnstone_ingot',
+        D: 'create:golden_sheet',
         A: 'minecraft:barrel',
         C: 'minecraft:copper_ingot'
     })

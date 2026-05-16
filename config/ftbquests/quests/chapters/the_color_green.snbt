@@ -14,8 +14,8 @@
 			image: "reclamation:textures/quests/theurgy_3.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 9.178571428571445d
-			y: -5.625d
+			x: 0.0d
+			y: -7.0d
 		}
 		{
 			dependency: "4DE7466CAC029EF6"
@@ -23,8 +23,8 @@
 			image: "reclamation:textures/quests/botania_1.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -8.5d
-			y: -5.0d
+			x: -13.5d
+			y: -6.0d
 		}
 	]
 	order_index: 2
@@ -98,7 +98,7 @@
 				type: "item"
 			}]
 			title: "Altar"
-			x: -1.5d
+			x: -2.5d
 			y: -4.5d
 		}
 		{
@@ -163,8 +163,8 @@
 				}
 			]
 			title: "Pure Daisy"
-			x: -1.0d
-			y: -2.0d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -215,7 +215,7 @@
 				""
 				"&7Tip: the Mechanical Core acts as an extension for most Embers multiblocks! You can transfer items, fluid, and ember in and out of the core as if it was a part of the block it is attached to."
 				""
-				"&7Tip 2: USE YOUR MECHANICAL LENS! It's EXTREMELY helpful for figuring out how Ember's machines work."
+				"&7Tip 2: USE YOUR TINKER'S LENS! It's EXTREMELY helpful for figuring out how Ember's machines work."
 			]
 			icon: "embers:ember_bore"
 			id: "6DC359D0F8736415"
@@ -244,7 +244,7 @@
 				}
 			]
 			title: "Drilling for Ember"
-			x: 1.5d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -303,8 +303,8 @@
 				}
 			]
 			title: "Living Materials"
-			x: -2.0d
-			y: -2.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -435,7 +435,7 @@
 				type: "item"
 			}]
 			title: "Infused Iron"
-			x: 2.0d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
@@ -456,7 +456,7 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
@@ -465,6 +465,8 @@
 				"The Natural Altar requires aura in the surrounding area to function. It won't ever take the aura to a negative level, but it will &4stop working completely if the aura is low enough,&r which means you'll need a way of replenishing it."
 				""
 				"&6Ancient Saplings&r are the most basic way to do this; once grown, if the area's aura is low enough, the tree's leaves will &4slowly wither away,&r &6producing aura in the process.&r"
+				""
+				"&7Tip: these saplings only bring aura up to its base level - you'll want to transition to an actual aura producer as soon as possible!"
 			]
 			id: "58C55BE2ECDC9FD5"
 			rewards: [{
@@ -478,7 +480,7 @@
 				type: "item"
 			}]
 			title: "Creating Aura"
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -566,7 +568,7 @@
 				}
 			]
 			title: "Generating Mana"
-			x: -3.0d
+			x: -3.5d
 			y: -3.0d
 		}
 		{
@@ -584,7 +586,7 @@
 				item: "naturesaura:crushing_catalyst"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -639,7 +641,7 @@
 				}
 			]
 			title: "Altar Upgrades"
-			x: -0.5d
+			x: -3.5d
 			y: -4.5d
 		}
 		{
@@ -660,7 +662,7 @@
 				item: "enchanted:attuned_stone"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: -6.0d
 		}
 		{
@@ -703,7 +705,7 @@
 				}
 			]
 			title: "Tools of the Trade"
-			x: -1.5d
+			x: -3.5d
 			y: -7.5d
 		}
 		{
@@ -732,8 +734,8 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.0d
+			x: -7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6DC359D0F8736415"]
@@ -772,7 +774,7 @@
 				}
 			]
 			title: "Dwarven Logistics"
-			x: 0.5d
+			x: 4.0d
 			y: -4.5d
 		}
 		{
@@ -817,7 +819,7 @@
 				}
 			]
 			title: "Activating Ember"
-			x: 1.5d
+			x: 3.5d
 			y: -6.0d
 		}
 		{
@@ -916,8 +918,8 @@
 				}
 			]
 			title: "Circle Magic"
-			x: -1.5d
-			y: -8.5d
+			x: -2.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["700009D450C569A2"]
@@ -975,7 +977,7 @@
 				}
 			]
 			title: "Storing Ember"
-			x: 2.5d
+			x: 4.5d
 			y: -6.0d
 		}
 		{
@@ -1012,7 +1014,7 @@
 				}
 			]
 			title: "Melting and Stamping"
-			x: 1.5d
+			x: 3.5d
 			y: -7.5d
 		}
 		{
@@ -1042,8 +1044,8 @@
 				}
 			]
 			title: "Dawnstone"
-			x: 1.5d
-			y: -8.5d
+			x: 0.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["153CB8257AEDA4ED"]
@@ -1067,8 +1069,8 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["221E431A74C6E8A5"]
@@ -1103,8 +1105,8 @@
 				}
 			]
 			title: "Energetic Alchemy"
-			x: 3.0d
-			y: -9.5d
+			x: 2.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
@@ -1129,8 +1131,8 @@
 				type: "item"
 			}]
 			title: "Knockoff Blazes"
-			x: -4.5d
-			y: -6.0d
+			x: -7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -1161,8 +1163,8 @@
 				}
 			]
 			title: "Mechanical Crafting"
-			x: 5.0d
-			y: -2.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1172,7 +1174,7 @@
 			description: [
 				"By blowing air through certain things, you can blast, smoke, wash, or &6haunt&r items. This means you have access to essentially free bulk smelting!"
 				""
-				"More importantly, though - now that you can haunt items, you can make &6blackstone&r by &6haunting&r cobblestone, a crucial component of the &6Reformation Array.&r"
+				"More importantly, though - now that you can haunt items, you can make &6blackstone&r by &6haunting&r cobblestone, a crucial item in the manual constitution of &6silver sulfur.&r"
 			]
 			icon: "create:encased_fan"
 			id: "05820674B5CC639D"
@@ -1200,20 +1202,22 @@
 				}
 			]
 			title: "Moving Air"
-			x: 7.5d
-			y: -3.0d
+			x: 8.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
-				"221E431A74C6E8A5"
-				"05820674B5CC639D"
+				"7010ED9A666FF89E"
+				"61329AF67AD28062"
 			]
 			description: [
 				"Alchemical reformation is the process of &6turning one alchemical sulfur into another&r - initially, you'll only be able to convert sulfurs of the &6same tier and type&r to each other &6(like iron sulfur into lead sulfur!) &r"
 				""
 				"To set up the reformation array, place down the target, source, and result pedestals somewhat near each other. Hold the sulfuric flux emitter and &6right click each pedestal,&r then place it on the mercury catalyst. "
 				""
-				"Put mercury in the mercury catalyst, the target sulfur in the target pedestal, and the sulfur to convert in the source pedestal. Give it a moment, and you'll start converting the source sulfur into the target sulfur!"
+				"Put mercury in the mercury catalyst, the target sulfur in the target pedestal, and the sulfur to convert in the source pedestal. Give it a moment, and you'll start converting source sulfur into the target sulfur!"
+				""
+				"&7Tip: you might want to set up multiple arrays!"
 			]
 			icon: "theurgy:reformation_result_pedestal"
 			id: "2F210E03731A0E21"
@@ -1259,8 +1263,8 @@
 				}
 			]
 			title: "Alchemical Reformation"
-			x: 5.0d
-			y: -6.5d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -1277,8 +1281,8 @@
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -1303,8 +1307,8 @@
 				type: "item"
 			}]
 			title: "(almost) Free Dirt"
-			x: -4.0d
-			y: -0.5d
+			x: -8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
@@ -1321,8 +1325,8 @@
 				type: "item"
 			}]
 			title: "Portable Mana"
-			x: -4.5d
-			y: -1.5d
+			x: -8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -1338,8 +1342,8 @@
 				item: "botania:mana_ring"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -9.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -1355,8 +1359,8 @@
 				item: "botania:aura_ring"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.5d
+			x: -7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1AF1077B69E1551E"]
@@ -1388,8 +1392,8 @@
 				}
 			]
 			title: "Useful Dusts"
-			x: -5.5d
-			y: -6.0d
+			x: -8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2E0F026AB59D83B5"]
@@ -1406,8 +1410,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.0d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["621BEE0A09882094"]
@@ -1429,8 +1433,8 @@
 				item: "botania:alchemy_catalyst"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -10.0d
+			x: -4.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["6628083C19C5F8CB"]
@@ -1452,7 +1456,7 @@
 				item: "naturesaura:conversion_catalyst"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
@@ -1471,7 +1475,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["54DFF798149BE746"]
@@ -1488,7 +1492,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -8.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["287C747ED1189725"]
@@ -1504,11 +1508,11 @@
 				item: "embers:archaic_brick"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -9.5d
+			x: 3.5d
+			y: -11.0d
 		}
 		{
-			dependencies: ["54DFF798149BE746"]
+			dependencies: ["0C55FF014D7B15EE"]
 			description: ["The &6Mnemonic Inscriber&r, when attached to an Exchange Tablet and given paper, will automatically write down the correct combination of aspectii for a given transmutation when you successfully complete one."]
 			id: "2C3ABE081A7E1086"
 			rewards: [{
@@ -1521,39 +1525,36 @@
 				item: "embers:mnemonic_inscriber"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -8.0d
+			x: 7.5d
+			y: -10.5d
 		}
 		{
-			dependencies: [
-				"2F210E03731A0E21"
-				"54DFF798149BE746"
-			]
+			dependencies: ["74FB5A117EF51949"]
 			description: [
-				"You can convert between sulfurs of the same type and rarity using the reformation array, but if you want to convert between different types (and the same rarity), you'll want to make &6Alchemical Niter&r in a &6Fermentation Vat.&r"
+				"You can convert similar sulfurs using the reformation array, but what if you want to convert between sulfur types? Say, for example, copper into charcoal? Enter the &6Fermentation Vat.&r"
 				""
-				"Place &6water, sugar, and the sulfur&r you want to ferment into the vat, then &6shift-right-click it to close it&r and start the fermentation process. Once the barrel opens again, your fermentation is done, and you can take out your shiny new Niter!"
+				"Place &6water, sugar, and the sulfur&r you want to ferment into the vat, then &6shift-right-click it to close it&r and start the fermentation. After some time, the vat will open again and you can take out your shiny new Niter!"
 				""
-				"Alchemical Niter can be converted in the &6Reformation Array&r similar to how you convert sulfur - note, however, that depending on what type you're converting to, you will produce or require &6more than one niter!&r"
+				"Alchemical Niter can be converted in the &6Reformation Array&r - note, however, that depending on what type you're converting to, you will produce or require &6more than one niter!&r"
 			]
 			id: "50D60856E308EC6D"
-			min_width: 400
 			rewards: [{
 				id: "46AD85B696B8299A"
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "48F63F3E09BD04C1"
 				item: "theurgy:fermentation_vat"
 				type: "item"
 			}]
 			title: "Alchemical Conversion"
-			x: 6.0d
-			y: -7.5d
+			x: 3.5d
+			y: -9.0d
 		}
 		{
-			dependencies: ["50D60856E308EC6D"]
+			dependencies: ["020B8F06D2C86CE3"]
 			description: [
 				"The &6digestion vat&r lets you &6convert sulfurs between rarities!&r Place some niter and sal ammoniac (and if you're converting up, some alchemically pure gold) into it, and shift-right-click the vat to start the process! &6Four of the previous tier converts into one of the next tier, and vice versa.&r"
 				""
@@ -1583,8 +1584,8 @@
 				type: "item"
 			}]
 			title: "Alchemical Exaltation"
-			x: 7.0d
-			y: -8.5d
+			x: 1.5d
+			y: -13.0d
 		}
 		{
 			dependencies: [
@@ -1620,7 +1621,7 @@
 				}
 			]
 			x: 0.0d
-			y: -11.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1AF1077B69E1551E"]
@@ -1637,8 +1638,8 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["020B8F06D2C86CE3"]
@@ -1682,7 +1683,7 @@
 			]
 			title: "Sentient Life"
 			x: 0.0d
-			y: -13.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
@@ -1720,17 +1721,26 @@
 				}
 			]
 			title: "Alternative Mana Sources"
-			x: -5.5d
-			y: -3.0d
+			x: -8.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["2F210E03731A0E21"]
+			dependencies: [
+				"05820674B5CC639D"
+				"54DFF798149BE746"
+			]
 			description: [
-				"Now that you can turn sulfurs into other sulfurs, you can manually reconstitute &6silver sulfur&r and use the &6Reformation Array&r to turn gold sulfur into silver sulfur without having to re-make the sulfur over and over again!"
+				"You can manually reconstitute &6silver sulfur&r and use the &6Reformation Array&r to turn gold sulfur into silver sulfur without having to re-make the sulfur over and over again!"
 				""
 				"&7Tip: sulfur sulfur sulfur sulfur&r"
 			]
-			icon: "embers:silver_ingot"
+			icon: {
+				Count: 1
+				id: "theurgy:alchemical_sulfur_silver"
+				tag: {
+					"theurgy:sulfur.source.id": "#forge:ingots/silver"
+				}
+			}
 			id: "462683FE563F6689"
 			rewards: [
 				{
@@ -1764,11 +1774,11 @@
 				}
 			]
 			title: "Moon Metal"
-			x: 6.5d
-			y: -6.0d
+			x: 7.0d
+			y: -8.5d
 		}
 		{
-			dependencies: ["287C747ED1189725"]
+			dependencies: ["0C55FF014D7B15EE"]
 			description: ["The &6Wildfire Core&r is a key piece of some advanced dwarven machinery."]
 			id: "4BF72A5E2897EBD4"
 			rewards: [{
@@ -1781,8 +1791,8 @@
 				item: "embers:wildfire_core"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -11.0d
+			x: 9.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["4BF72A5E2897EBD4"]
@@ -1803,8 +1813,8 @@
 				item: "embers:wildfire_stirling"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -12.5d
+			x: 8.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4BF72A5E2897EBD4"]
@@ -1839,8 +1849,8 @@
 				}
 			]
 			title: "Ignem Reactor"
-			x: 5.5d
-			y: -10.5d
+			x: 9.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4BF72A5E2897EBD4"]
@@ -1897,8 +1907,8 @@
 				}
 			]
 			title: "Metal Crystal Seeds"
-			x: 5.5d
-			y: -12.5d
+			x: 9.75d
+			y: -11.25d
 		}
 		{
 			dependencies: ["221E431A74C6E8A5"]
@@ -1923,8 +1933,8 @@
 				}
 			]
 			title: "High Volume Ember Transfer"
-			x: 0.5d
-			y: -9.5d
+			x: -1.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["22735AE4F84EF82B"]
@@ -1956,8 +1966,8 @@
 				}
 			]
 			title: "Advanced Contraptions"
-			x: 7.5d
-			y: -12.0d
+			x: 9.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -1992,8 +2002,8 @@
 				}
 			]
 			title: "Mechanical Logistics"
-			x: 4.0d
-			y: -2.0d
+			x: 6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["20EF463DB77E09EE"]
@@ -2019,8 +2029,8 @@
 				}
 			]
 			title: "Autocrafting"
-			x: 9.0d
-			y: -11.0d
+			x: 8.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["020B8F06D2C86CE3"]
@@ -2041,7 +2051,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -11.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
@@ -2117,8 +2127,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.5d
+			x: -9.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2FD66F543443B8A8"]
@@ -2138,8 +2148,8 @@
 				item: "botania:lens_normal"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["700009D450C569A2"]
@@ -2159,7 +2169,7 @@
 				item: "embers:hearth_coil"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.5d
 			y: -6.0d
 		}
 		{
@@ -2212,8 +2222,8 @@
 				}
 			]
 			title: "Advanced Ember Logistics"
-			x: -0.5d
-			y: -9.5d
+			x: -2.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["221E431A74C6E8A5"]
@@ -2244,8 +2254,8 @@
 				}
 			]
 			title: "Mercurial Power"
-			x: 0.5d
-			y: -7.5d
+			x: 0.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6628083C19C5F8CB"]
@@ -2277,7 +2287,7 @@
 			}]
 			title: "Regrowth?"
 			x: 4.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["74FB5A117EF51949"]
@@ -2298,8 +2308,8 @@
 				item: "embers:bin"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -7.0d
+			x: 4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -2333,8 +2343,52 @@
 				type: "item"
 			}]
 			title: "Real Blazes"
-			x: -4.0d
-			y: -8.0d
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2E0F026AB59D83B5"]
+			id: "421E627FF66C3F21"
+			tasks: [{
+				id: "221DEC843B0BF214"
+				item: "thirst:sand_filter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00448B9AC0FC3F5D"]
+			description: ["Leather is one of the most versatile materials around. "]
+			id: "1B2B9B1C975DA427"
+			tasks: [{
+				id: "183CF8DDF85DEE92"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["462683FE563F6689"]
+			description: [
+				"With the creation of silver, you can start to really push the boundaries of &6Embers Alchemy.&r"
+				""
+				"Step one is to turn some silver into an aspectus."
+			]
+			id: "0C55FF014D7B15EE"
+			rewards: [{
+				id: "547A955189D23623"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "47BE48216CC46B37"
+				item: "embers:silver_aspectus"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.5d
 		}
 	]
 	title: "Touching Grass"

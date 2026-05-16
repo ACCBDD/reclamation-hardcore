@@ -30,6 +30,7 @@
 	Icebox = [
 	    ["minecraft:snowball", 10],
 	    ["minecraft:clay_ball", 37],
+	    ["enchanted:icy_needle", 40],
 	    ["minecraft:snow_block", 40],
 	    ["minecraft:ice", 250],
 	    ["minecraft:clay", 333],
@@ -48,6 +49,7 @@
 	    ["minecraft:lava_bucket", 1000],
 	    ["minecraft:snowball", -10],
 	    ["minecraft:clay_ball", -37],
+	    ["enchanted:icy_needle", -40],
 	    ["minecraft:snow_block", -40],
 	    ["minecraft:ice", -250],
 	    ["minecraft:clay", -333],
@@ -81,7 +83,8 @@
 	# • amount: The amount of fuel the item provides. Higher values mean the item burns longer
 	# ⌄ 
 	"Fuel Items" = [
-	    ["cold_sweat:soul_sprout", 4]
+	    ["cold_sweat:soul_sprout", 4],
+	    ["enchanted:icy_needle", 4]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the dimensions that the Soulspring Lamp can be used in
@@ -112,7 +115,12 @@
 	    ["cold_sweat:hoglin_hide", 0, 2],
 	    ["cold_sweat:goat_fur", 2, 0],
 	    ["#minecraft:wool", 1.5, 0],
-	    ["minecraft:rabbit_hide", 0, 1.5]
+	    ["minecraft:rabbit_hide", 0, 1.5],
+	    ["botania:rune_water", 0, 3],
+	    ["botania:rune_air", 1, 1],
+	    ["botania:rune_fire", 3, 0],
+	    ["botania:rune_summer", 5, 0],
+	    ["botania:rune_winter", 0, 5]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the items that provide insulation when worn
@@ -142,7 +150,10 @@
 	# Defines the items that provide insulation when worn in a curio slot
 	# See Insulation Ingredients for formatting. This setting does not have a "fillSlots" option
 	# ⌄ 
-	"Insulating Curios" = []
+	"Insulating Curios" = [
+	    ["botania:cloud_pendant", 0, 5],
+	    ["botania:ice_pendant", 0, 20]
+	]
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines how many insulation slots armor pieces have
 	# There are 4 modes for this setting:

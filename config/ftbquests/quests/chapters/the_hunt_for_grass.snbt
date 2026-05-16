@@ -855,16 +855,8 @@
 				}
 			]
 			tasks: [{
-				id: "51B8EE71AA705541"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "via_romana:warp_sign"
-					}
-				}
-				title: "Any Warpable Sign"
-				type: "item"
+				id: "00934C35AE808939"
+				type: "checkmark"
 			}]
 			title: "Signpost Travel"
 			x: -1.5d

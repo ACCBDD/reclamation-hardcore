@@ -102,6 +102,7 @@
 	    ["minecraft:lava", 20, 7, "f", 200, "", "", 1000, true],
 	    ["#minecraft:fire", 15, 7, "f", 45, "", "", 400],
 	    ["#minecraft:campfires", 15, 7, "f", 45, "lit=true", " ", 400],
+	    ["theurgy:pyromantic_brazier", 15, 7, "f", 45, "lit=true", " ", 400],
 	    ["minecraft:magma_block", 12, 3, "f", 48],
 	    ["minecraft:lava_cauldron", 20, 7, "f", 200, "", "", 1000, true],
 	    ["minecraft:ice", -6, 4, "f", 24, "", "", 33],

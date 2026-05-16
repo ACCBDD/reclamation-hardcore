@@ -719,7 +719,17 @@
 		}
 		{
 			dependencies: ["6B5B443D2F7DD3D4"]
+			description: [
+				"It's pretty hard to tell how hot an area is based solely on feel - you can kludge together a basic thermometer using some extra copper and some gunpowder."
+				""
+				"&7Tip: this works both on your hotbar as well as in a curio slot!"
+			]
 			id: "4F09434AC732A9FE"
+			rewards: [{
+				id: "12E9F6526353233B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2094E58321318A48"
 				item: "cold_sweat:thermometer"
