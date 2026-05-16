@@ -46,6 +46,8 @@
 				"Some of these seem &6especially magical&r - you wonder if you could use them in any way..."
 				""
 				"&7Tip: you'll probably only want to harvest mandrake at night until you get its strength up!"
+				""
+				"&7Tip 2: snowballs and icy needles are great sources of fuel for the icebox!"
 			]
 			icon: "minecraft:wheat_seeds"
 			id: "26833208E1F2EB4B"
@@ -1157,6 +1159,8 @@
 				"A waterskin is a convenient way to store &65 sips&r of water - but it can also &6store temperature:&r putting a full skin in something that generates temperature (like an icebox!) will slowly &6cool or heat it.&r "
 				""
 				"While the waterskin is &6on your hotbar,&r it'll slowly release its stored temperature! Alternatively, you can &6right-click air&r with it to completely empty it over your head, instantly changing your body temperature."
+				""
+				"&7Tip: to drink out of the waterskin, you'll need to crouch!"
 			]
 			id: "6865E127D624F894"
 			rewards: [{

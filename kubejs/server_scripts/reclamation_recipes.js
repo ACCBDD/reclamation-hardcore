@@ -1830,4 +1830,55 @@ ServerEvents.recipes(event => {
             "item": "minecraft:leather"
         }
     })
+
+    event.remove({id: "cold_sweat:soulspring_lamp"})
+    event.shaped('cold_sweat:soulspring_lamp',
+        [
+            ' G ',
+            'ISI',
+            ' C '
+        ],
+        {
+            'C': "minecraft:chain",
+            'G': "minecraft:gold_nugget",
+            'I': "minecraft:iron_ingot",
+            'S': "cold_sweat:soul_sprout"
+        }
+    )
+
+    event.custom({
+        "type": "enchanted:witch_cauldron",
+        "cookingColor": [
+            26,
+            71,
+            35
+        ],
+        "finalColor": [
+            62,
+            128,
+            78
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:apple"
+            },
+            {
+                "item": "enchanted:icy_needle"
+            },
+            {
+                "item": "enchanted:odour_of_purity"
+            },
+            {
+                "item": "enchanted:whiff_of_magic"
+            },
+            {
+                "item": "embers:lead_ingot"
+            }
+        ],
+        "power": 0,
+        "result": {
+            "count": 1,
+            "item": "cold_sweat:soul_sprout"
+        }
+    })
 })

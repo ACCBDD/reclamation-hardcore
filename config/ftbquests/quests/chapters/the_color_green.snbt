@@ -317,6 +317,8 @@
 				"Similar to the overworld, the nether is bare of ores and even more devoid of life - &4there are zero spawns there, and only one biome."
 				""
 				"&7Tip: you can also make obsidian on the natural altar - but be warned, it's pretty costly aura-wise!"
+				""
+				"&7Tip 2: the Nether is HOT, so the portal generates a LOT of heat!"
 			]
 			icon: "minecraft:netherrack"
 			id: "27C68B6622F186D7"
@@ -1168,11 +1170,11 @@
 		}
 		{
 			dependencies: [
-				"00448B9AC0FC3F5D"
 				"17089FF12C1591B8"
+				"4F1F4B24C1029D78"
 			]
 			description: [
-				"By blowing air through certain things, you can blast, smoke, wash, or &6haunt&r items. This means you have access to essentially free bulk smelting!"
+				"By blowing air through certain things (like lava, water, or campfires), you can blast, smoke, wash, or &6haunt&r items. This means you have access to essentially free bulk smelting!"
 				""
 				"More importantly, though - now that you can haunt items, you can make &6blackstone&r by &6haunting&r cobblestone, a crucial item in the manual constitution of &6silver sulfur.&r"
 			]
@@ -1187,11 +1189,6 @@
 				{
 					id: "4A9D9FBBBDE57536"
 					item: "create:encased_fan"
-					type: "item"
-				}
-				{
-					id: "55F8484DFCFD7029"
-					item: "minecraft:soul_sand"
 					type: "item"
 				}
 				{
@@ -2148,8 +2145,8 @@
 				item: "botania:lens_normal"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -5.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["700009D450C569A2"]
@@ -2379,15 +2376,105 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["27C68B6622F186D7"]
+			dependencies: [
+				"27C68B6622F186D7"
+				"7010ED9A666FF89E"
+				"61329AF67AD28062"
+			]
+			description: [
+				"You might have noticed the Nether is almost &4unbearably hot.&r &6Soul Sprouts&r are a miracle of magical engineering that you vaguely remember; consuming them reduces your body temperature by 20."
+				""
+				"They can also be turned into the &6Soulspring Lamp&r - holding one &6normalizes your body temperature rapidly,&r at the cost of a small amount of &4fuel&r in the form of more soul sprouts."
+				""
+				"&7Tip: to refuel the lamp, right click a fuel item onto the lamp in your inventory - like filling a bundle!"
+				""
+				"&7Tip 2: you can grow soul sprouts on soul sand... but you probably don't have access to that yet."
+			]
+			icon: {
+				Count: 1
+				id: "cold_sweat:soulspring_lamp"
+				tag: {
+					Fuel: 64.0d
+				}
+			}
 			id: "2B6B7BE2987643F0"
-			tasks: [{
-				id: "27664BBE47D87E87"
-				item: "cold_sweat:soul_sprout"
-				type: "item"
+			rewards: [{
+				id: "5BBF6DCA6E838B0C"
+				type: "xp"
+				xp: 100
 			}]
+			tasks: [
+				{
+					id: "27664BBE47D87E87"
+					item: "cold_sweat:soul_sprout"
+					type: "item"
+				}
+				{
+					id: "3D3CCEBF3CB186F5"
+					item: {
+						Count: 1
+						id: "cold_sweat:soulspring_lamp"
+						tag: {
+							Fuel: 64.0d
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Nethemperature"
 			x: 0.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["4F1F4B24C1029D78"]
+			description: [
+				"The &6Hearth&r is an upgraded version of an icebox - by providing it fuel (even water!) and a redstone signal, it can &6rapidly cool an area.&r"
+				""
+				"You can even move the cooling effect to another space by using &6smokestacks or Create's pipes!&r"
+				""
+				"&7Tip: make sure you're giving it a redstone signal on the right or bottom side!"
+				""
+				"&7Tip 2: technically, the area a hearth cools doesn't need to be enclosed. It just needs to be roofed!"
+			]
+			icon: "cold_sweat:hearth"
+			id: "25B8E20E14A92D50"
+			rewards: [{
+				id: "4AC3FF9DB2A673B0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7A87B26F11CEE8B9"
+					item: "cold_sweat:hearth"
+					type: "item"
+				}
+				{
+					id: "7EB442255FC843DB"
+					item: "cold_sweat:smokestack"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00448B9AC0FC3F5D"]
+			description: ["Soul sand is very useful for a few things - &6haunting&r by blowing air through a soul fire is one of them, but &6you can also grow soul sprouts on it.&r"]
+			id: "4F1F4B24C1029D78"
+			rewards: [{
+				id: "13AD47ED3125C146"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01B23C37EEE9566E"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
 		}
 	]
 	title: "Touching Grass"

@@ -83,8 +83,7 @@
 	# • amount: The amount of fuel the item provides. Higher values mean the item burns longer
 	# ⌄ 
 	"Fuel Items" = [
-	    ["cold_sweat:soul_sprout", 4],
-	    ["enchanted:icy_needle", 4]
+	    ["cold_sweat:soul_sprout", 4]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the dimensions that the Soulspring Lamp can be used in
