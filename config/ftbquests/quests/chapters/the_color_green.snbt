@@ -353,7 +353,7 @@
 			]
 			title: "The Nether"
 			x: 0.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["46CC05A2F2D89079"]
@@ -1531,7 +1531,7 @@
 		{
 			dependencies: ["74FB5A117EF51949"]
 			description: [
-				"You can convert similar sulfurs using the reformation array, but what if you want to convert between sulfur types? Say, for example, copper into charcoal? Enter the &6Fermentation Vat.&r"
+				"You can convert similar sulfurs using the reformation array, but what if you want to convert between sulfur types? Say, for example, &6arrows into iron?&r Enter the &6Fermentation Vat.&r"
 				""
 				"Place &6water, sugar, and the sulfur&r you want to ferment into the vat, then &6shift-right-click it to close it&r and start the fermentation. After some time, the vat will open again and you can take out your shiny new Niter!"
 				""
@@ -2358,18 +2358,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["00448B9AC0FC3F5D"]
-			description: ["Leather is one of the most versatile materials around. "]
-			id: "1B2B9B1C975DA427"
-			tasks: [{
-				id: "183CF8DDF85DEE92"
-				item: "minecraft:leather"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["462683FE563F6689"]
 			description: [
 				"With the creation of silver, you can start to really push the boundaries of &6Embers Alchemy.&r"
@@ -2389,6 +2377,17 @@
 			}]
 			x: 8.0d
 			y: -9.5d
+		}
+		{
+			dependencies: ["27C68B6622F186D7"]
+			id: "2B6B7BE2987643F0"
+			tasks: [{
+				id: "27664BBE47D87E87"
+				item: "cold_sweat:soul_sprout"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
 		}
 	]
 	title: "Touching Grass"

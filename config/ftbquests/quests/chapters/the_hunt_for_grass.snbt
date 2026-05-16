@@ -1134,6 +1134,136 @@
 			x: 1.5d
 			y: -6.75d
 		}
+		{
+			dependencies: ["6CB296A3AD751F62"]
+			description: ["&6Leather&r is one of the most versatile materials around. Easily obtained by &6combining rotten flesh and bone meal in a cauldron,&r you can use it to craft many items helpful for your continued survival."]
+			id: "1B2B9B1C975DA427"
+			rewards: [{
+				id: "7B22640CE0A2EAC5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "183CF8DDF85DEE92"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1B2B9B1C975DA427"]
+			description: [
+				"A waterskin is a convenient way to store &65 sips&r of water - but it can also &6store temperature:&r putting a full skin in something that generates temperature (like an icebox!) will slowly &6cool or heat it.&r "
+				""
+				"While the waterskin is &6on your hotbar,&r it'll slowly release its stored temperature! Alternatively, you can &6right-click air&r with it to completely empty it over your head, instantly changing your body temperature."
+			]
+			id: "6865E127D624F894"
+			rewards: [{
+				id: "0D5736F126625A26"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "084879CDACA4358C"
+				item: "cold_sweat:waterskin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B2B9B1C975DA427"]
+			description: ["Leather armor provides a large amount of &6temperature insulation,&r both cold and hot - useful for venturing out in the daytime!"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						insulation: [ ]
+					}
+				}
+				id: "minecraft:leather_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "563B2DA796F2673F"
+			optional: true
+			rewards: [{
+				id: "163018F9763560BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4D3FBF2CE0C38962"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6056A4FE087C648C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "109CD94760D91047"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09E2DA7334AD533A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Leather Armor"
+			x: -3.0d
+			y: -4.5d
+		}
 	]
 	title: "A Whiff of Normal"
 }

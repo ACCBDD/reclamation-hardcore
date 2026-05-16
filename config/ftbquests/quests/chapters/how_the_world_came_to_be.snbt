@@ -779,6 +779,29 @@
 			x: 1.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["2E2644743F9FF673"]
+			description: [
+				"An &6Icebox&r is an easy way to reduce temperatures - simply fill it with something cold and it'll slowly consume items while cooling the nearby area."
+				""
+				"&7Tip: clay counts as something cold!"
+				""
+				"&7Tip 2: don't be afraid to make multiple!"
+			]
+			id: "3D518605B66C54B7"
+			rewards: [{
+				id: "5B0893E3B461211C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "14DEC81419FCCA3D"
+				item: "cold_sweat:icebox"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
 	]
 	subtitle: ["A vast wasteland"]
 	title: "Prologue"

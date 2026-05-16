@@ -1800,4 +1800,34 @@ ServerEvents.recipes(event => {
             'G': "minecraft:gunpowder"
         }
     )
+
+    event.custom({
+        "type": "enchanted:witch_cauldron",
+        "cookingColor": [
+            26,
+            71,
+            35
+        ],
+        "finalColor": [
+            62,
+            128,
+            78
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:rotten_flesh"
+            },
+            {
+                "item": "minecraft:bone_meal"
+            },
+            {
+                "item": "minecraft:bone_meal"
+            }
+        ],
+        "power": 0,
+        "result": {
+            "count": 1,
+            "item": "minecraft:leather"
+        }
+    })
 })
