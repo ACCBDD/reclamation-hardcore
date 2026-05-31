@@ -468,13 +468,13 @@
     "curseForgeHash": 3629377691,
     "modrinthHash": "f03a753b276bbb1f17bc7050566a1bf9dbb0a74a"
   },
-  "exposure-forge-1.20.1-1.9.20.jar": {
-    "jarName": "exposure-forge-1.20.1-1.9.20.jar",
+  "exposure-1.20.1-1.7.16-forge.jar": {
+    "jarName": "exposure-1.20.1-1.7.16-forge.jar",
     "modId": "exposure",
     "name": "Exposure",
-    "version": "1.9.20",
-    "curseForgeHash": 4053768133,
-    "modrinthHash": "043407042adf752c896f5be123676d702a843457"
+    "version": "1.7.16",
+    "curseForgeHash": 652681066,
+    "modrinthHash": "b1ec92eeafdc97e88e0baacd5d89f4c1f89a4bbc"
   },
   "ExtendedAE-1.20-1.4.15-forge.jar": {
     "jarName": "ExtendedAE-1.20-1.4.15-forge.jar",
@@ -841,6 +841,14 @@
     "curseForgeHash": 2493616045,
     "modrinthHash": "b7f12ae710888b01746507a0aa8cb375f5897158"
   },
+  "mekanism_ponders-1.0.3-1.20.1.jar": {
+    "jarName": "mekanism_ponders-1.0.3-1.20.1.jar",
+    "modId": "mekanism_ponders",
+    "name": "Mekanism: Ponders",
+    "version": "1.0.3-1.20.1",
+    "curseForgeHash": 2860336691,
+    "modrinthHash": "79e5b1f0a64c74bb9bfe8261a57f824ae7e6fc7c"
+  },
   "MekanismGenerators-1.20.1-10.4.16.80.jar": {
     "jarName": "MekanismGenerators-1.20.1-10.4.16.80.jar",
     "modId": "mekanismgenerators",
@@ -984,6 +992,14 @@
     "version": "0.26.2",
     "curseForgeHash": 2636783385,
     "modrinthHash": "68dde0cbbc312a15e3f370f67e8117f8933c75a6"
+  },
+  "patchful-1.20.1-1.0.0.jar": {
+    "jarName": "patchful-1.20.1-1.0.0.jar",
+    "modId": "patchful",
+    "name": "Patchful",
+    "version": "1.0.0",
+    "curseForgeHash": 679158620,
+    "modrinthHash": "3123ac7319950043dd9da852872fe1d900e5328d"
   },
   "Patchouli-1.20.1-85-FORGE.jar": {
     "jarName": "Patchouli-1.20.1-85-FORGE.jar",
