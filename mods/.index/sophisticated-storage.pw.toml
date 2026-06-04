@@ -1,35 +1,31 @@
-filename = 'sophisticatedstorage-1.20.1-1.4.43.1720.jar'
+filename = 'sophisticatedstorage-1.20.1-1.4.51.1769.jar'
 name = 'Sophisticated Storage'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'sophisticatedstorage-1.20.1-1.4.43.1720.jar'
+x-prismlauncher-version-number = 'sophisticatedstorage-1.20.1-1.4.51.1769.jar'
 
 [download]
-hash = 'd08058dffcab14fbea95b6bf690e84ef0335ee76'
+hash = 'f76a9df387701444945b58ebead31ee594deabdc'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8034925
+file-id = 8185764
 project-id = 619320
 
 [[x-prismlauncher-dependencies]]
-addonId = '513769'
+addonId = '235577'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '243121'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '238222'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '618298'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '235577'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -41,5 +37,9 @@ addonId = '233071'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '243121'
+addonId = '618298'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '513769'
 type = 'OPTIONAL'
