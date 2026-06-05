@@ -253,6 +253,17 @@
         "value": 1
       }
     },
+    "scarcity:regen_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {
@@ -284,6 +295,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "scarcity:fast_regen_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "not_enough_glyphs:not_enough_glyphs.perk.mana_discount": {
@@ -416,6 +438,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "scarcity:slow_regen_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     }
   }

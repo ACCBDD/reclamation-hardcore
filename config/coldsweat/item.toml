@@ -220,7 +220,7 @@
 	# Defines how many times a waterskin can be used before becoming empty
 	# ⌄ 
 	#Range: > 1
-	"Waterskin Uses" = 5
+	"Waterskin Uses" = 1
 	#─────────────────────────────────────────────────────────────────────────
 	# Determines the strength of the Soulspring Lamp's effect before it is overwhelmed
 	# A value of 1 means it will never be overwhelmed

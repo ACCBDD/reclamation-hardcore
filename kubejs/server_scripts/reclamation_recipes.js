@@ -399,7 +399,7 @@ ServerEvents.recipes(event => {
         }
     })
 
-    //silver sulfur
+    //silver
     event.custom({
         "type": "botania:runic_altar",
         "ingredients": [
@@ -421,10 +421,7 @@ ServerEvents.recipes(event => {
         ],
         "mana": 4000,
         "output": {
-            "item": "theurgy:alchemical_sulfur_silver",
-            "nbt": {
-                "theurgy:sulfur.source.id": "#forge:ingots/silver"
-            }
+            "item": "embers:raw_silver"
         }
     })
 
@@ -1883,6 +1880,118 @@ ServerEvents.recipes(event => {
     })
 
     event.replaceInput({id: 'complicated_bees:furnace_generator'},
-            'minecraft:iron_ingot',
-            'mekanism:ingot_steel')
+        'minecraft:iron_ingot',
+        'mekanism:ingot_steel');
+    
+    //water bottles from bucket
+    event.shapeless(
+        Item.of('minecraft:potion', 4, '{Potion:"minecraft:water"}'),
+        [
+            Item.of('minecraft:water_bucket').weakNBT(),
+            'minecraft:glass_bottle',
+            'minecraft:glass_bottle',
+            'minecraft:glass_bottle',
+            'minecraft:glass_bottle'
+        ]
+    ).modifyResult((grid, result) => {
+        const bucket = grid.find(Ingredient.of('minecraft:water_bucket'));
+        if (!bucket) return;
+        const nbtTag = bucket.nbt || new CompoundTag();
+        const purity = nbtTag.Purity !== undefined ? nbtTag.Purity : 2;
+        return Item.of('minecraft:potion', 4, `{Potion:"minecraft:water",Purity:${purity}}`).strongNBT();
+    });
+
+    //bowls from bucket
+    event.shapeless(
+        Item.of('minecraft:potion', 4, '{Potion:"minecraft:water"}'),
+        [
+            Item.of('minecraft:water_bucket').weakNBT(),
+            'thirst:terracotta_bowl',
+            'thirst:terracotta_bowl',
+            'thirst:terracotta_bowl',
+            'thirst:terracotta_bowl'
+        ]
+    ).modifyResult((grid, result) => {
+        const bucket = grid.find(Ingredient.of('minecraft:water_bucket'));
+        if (!bucket) return;
+        const nbtTag = bucket.nbt || new CompoundTag();
+        const purity = nbtTag.Purity !== undefined ? nbtTag.Purity : 2;
+        return Item.of('thirst:terracotta_water_bowl', 4, `{Purity:${purity}}`).strongNBT();
+    });
+
+    event.shaped('reclamation_util:camel_pack_basic',
+        [
+            'SLS',
+            'ILI',
+            'SLS'
+        ],
+        {
+            'S': "minecraft:string",
+            'L': "minecraft:leather",
+            'I': "cold_sweat:waterskin"
+        }
+    )
+
+    event.custom({
+        "type": "botania:runic_altar",
+        "ingredients": [
+            {
+                "tag": "botania:mana_dusts"
+            },
+            {
+                "item": "botania:rune_earth"
+            },
+            {
+                "item": "minecraft:obsidian"
+            },
+            {
+                "item": "embers:lead_ingot"
+            },
+            {
+                "item": "minecraft:granite"
+            }
+        ],
+        "mana": 10000,
+        "output": {
+            "count": 8,
+            "item": "minecraft:pointed_dripstone"
+        }
+    })
+
+    event.custom({
+        "type": "embers:alchemy",
+        "aspects": [
+            {
+                "tag": "embers:aspectus/copper"
+            },
+            {
+                "tag": "embers:aspectus/silver"
+            },
+            {
+                "tag": "embers:aspectus/dawnstone"
+            }
+        ],
+        "inputs": [
+            {
+                "item": "naturesaura:infused_iron"
+            },
+            {
+                "item": "embers:silver_plate"
+            },
+            {
+                "item": "naturesaura:tainted_gold"
+            },
+            {
+                "item": "embers:silver_plate"
+            }
+
+        ],
+        "output": {
+            "count": 1,
+            "item": "reclamation_util:camel_pack_advanced"
+        },
+        "tablet": {
+            "item": "reclamation_util:camel_pack_basic"
+        }
+    })
 })

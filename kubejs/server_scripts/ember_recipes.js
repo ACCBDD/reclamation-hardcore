@@ -39,6 +39,36 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.remove({id: 'embers:fluid_pipe'})
+    event.shaped('4x embers:fluid_pipe', [
+            'IPI'
+        ], {
+            I: 'embers:iron_plate',
+            P: 'minecraft:glass'
+        }
+    )
+
+    event.remove({id: 'embers:item_pipe'})
+    event.shaped('4x embers:item_pipe', [
+            'IPI'
+        ], {
+            I: 'embers:iron_plate',
+            P: 'embers:caminite_plate'
+        }
+    )
+
+    event.remove({id: 'embers:tinker_hammer'})
+    event.shaped('embers:tinker_hammer', [
+            'IBI',
+            'ISI',
+            ' S '    
+        ], {
+            I: 'minecraft:iron_ingot',
+            B: 'embers:caminite_brick',
+            S: 'minecraft:stick'
+        }
+    )
+
     //easier fluid tank
     event.remove({ id: 'embers:fluid_vessel'})
     event.shaped('embers:fluid_vessel', [

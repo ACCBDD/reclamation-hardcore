@@ -178,7 +178,7 @@
 				}
 			]
 			title: "Salt and Sulfur"
-			x: 1.0d
+			x: 1.5d
 			y: -3.5d
 		}
 		{
@@ -733,7 +733,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -816,8 +816,8 @@
 				item: "reclamation_util:watering_can"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.5d
+			x: 1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4075C13786AF4C49"]
@@ -1138,7 +1138,7 @@
 		}
 		{
 			dependencies: ["6CB296A3AD751F62"]
-			description: ["&6Leather&r is one of the most versatile materials around. Easily obtained by &6combining rotten flesh and bone meal in a cauldron,&r you can use it to craft many items helpful for your continued survival."]
+			description: ["&6Leather&r is one of the most versatile materials around. Easily obtained by &6combining rotten flesh and bone meal in a cauldron,&r you can use it to craft many items instrumental to your continued survival."]
 			id: "1B2B9B1C975DA427"
 			rewards: [{
 				id: "7B22640CE0A2EAC5"
@@ -1156,7 +1156,7 @@
 		{
 			dependencies: ["1B2B9B1C975DA427"]
 			description: [
-				"A waterskin is a convenient way to store &65 sips&r of water - but it can also &6store temperature:&r putting a full skin in something that generates temperature (like an icebox!) will slowly &6cool or heat it.&r "
+				"A waterskin is a convenient way to store a sip of water, but it can also &6store temperature:&r putting a full skin in something that generates temperature (like an icebox!) will slowly &6cool or heat it.&r "
 				""
 				"While the waterskin is &6on your hotbar,&r it'll slowly release its stored temperature! Alternatively, you can &6right-click air&r with it to completely empty it over your head, instantly changing your body temperature."
 				""
@@ -1173,7 +1173,7 @@
 				item: "cold_sweat:waterskin"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: -6.0d
 		}
 		{
@@ -1265,8 +1265,100 @@
 				}
 			]
 			title: "Leather Armor"
-			x: -3.0d
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["389C82D9424B4099"]
+			description: [
+				"Now that you can craft a &6cauldron,&r you can start to catch rain in it! Just leave one out and it'll &6slowly fill up when it rains.&r"
+				""
+				"Thanks to whatever happened, rainwater is pretty dirty - but it can be purified like normal."
+			]
+			id: "76D91F4509883082"
+			rewards: [{
+				id: "2FEEAF194606052F"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7D05702D8B18CE9E"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			title: "Renewable(ish) Water"
+			x: 2.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["778E09C4AE548E95"]
+			description: [
+				"With gold powder you can start making &6pipes!&r These pipes are relatively basic, but what other choice do you have?"
+				""
+				"Pipes need &6extractors&r to pull items and fluids out of inventories. The extractors themselves need &6a redstone signal.&r Additionally, these pipes prioritize moving things in &6a straight line!&r If they can't go straight, they'll pick a random direction to turn - if they still can't move, the pipe will &4clog,&r visible with steam. "
+				""
+				"You can clear clogs by right clicking the pipe with a stick."
+				""
+				"&7Tip: Get ready to place plenty of levers!"
+			]
+			icon: "embers:item_pipe"
+			id: "424D08C4CFE434EA"
+			rewards: [{
+				id: "095505E6346CD60C"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "63D5F1F29D99DECE"
+					item: "embers:item_pipe"
+					type: "item"
+				}
+				{
+					id: "4FAE706B4A6EFA11"
+					item: "embers:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "6EB36AB2AB9554D2"
+					item: "embers:item_extractor"
+					type: "item"
+				}
+				{
+					id: "3B5648870CF70B44"
+					item: "embers:fluid_extractor"
+					type: "item"
+				}
+			]
+			title: "Dwarven Logistics"
+			x: -1.5d
+			y: -8.125d
+		}
+		{
+			dependencies: ["6865E127D624F894"]
+			description: [
+				"The camel pack is a hand-free solution to staying hydrated - simply fill it with water, equip it, and you'll &6sip from it automatically!&r"
+				""
+				"As an added benefit, it'll also treat any water in it as &6one purification level higher for drinking purposes;&r for example, filling it with dirty water will let you drink from it as though it was only slightly dirty."
+				""
+				"To fill it, use the camel pack in your main hand with a water item in your off hand. You can also right click water items onto it like it's a bundle."
+			]
+			id: "271C38653757002C"
+			rewards: [{
+				id: "746E2C022CC89541"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "6869CABB56ADA1DD"
+				item: "reclamation_util:camel_pack_basic"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -5.0d
 		}
 	]
 	title: "A Whiff of Normal"

@@ -742,9 +742,13 @@
 			description: [
 				"Now that you're not dying to exposure, the next order of business is probably trying to not die of thirst. You can drink out of water in the world by &6shift right-clicking,&r but the water is pretty dirty."
 				""
-				"To purify water, you'll need to make some kind of vessel to hold it, then smelt it in a furnace."
+				"To purify water, you'll need to make some kind of vessel to hold it, then smelt it in a furnace or on a campfire."
 				""
-				"&7Tip: flowing water is cleaner than still water!"
+				"&cNote: &lwater is no longer infinite.&r&c Additionally, water sources only fill up one bowl/bottle before depleting.&r"
+				""
+				"&7Tip: drinking out of flowing water is cleaner than still water!"
+				""
+				"&7Tip 2: terracotta bowls are cheap, but they can't fully purify water."
 			]
 			icon: "croptopia:water_bottle"
 			id: "13845241CDBF0A03"
@@ -785,7 +789,7 @@
 				""
 				"&7Tip: clay counts as something cold!"
 				""
-				"&7Tip 2: don't be afraid to make multiple!"
+				"&7Tip 2: don't be afraid to make multiple - they stack!"
 			]
 			id: "3D518605B66C54B7"
 			rewards: [{

@@ -23,8 +23,8 @@
 			image: "reclamation:textures/quests/botania_1.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -13.5d
-			y: -6.0d
+			x: -5.5d
+			y: -0.5d
 		}
 	]
 	order_index: 2
@@ -181,23 +181,11 @@
 				"&7Tip 2: you can use Theurgy to triple ingot output from raw ores!"
 			]
 			id: "61329AF67AD28062"
-			rewards: [
-				{
-					id: "5AB406393AECC75B"
-					item: "embers:ancient_codex"
-					type: "item"
-				}
-				{
-					id: "300859D34D3F6715"
-					item: "embers:tinker_hammer"
-					type: "item"
-				}
-				{
-					id: "40E922A50B43176F"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "40E922A50B43176F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "509473B71F9A83D4"
 				item: "embers:raw_lead"
@@ -742,46 +730,6 @@
 		{
 			dependencies: ["6DC359D0F8736415"]
 			description: [
-				"Ember item and fluid pipes are relatively basic, but at this point in time they're fairly decent for small-scale operations. Pipes need extractors to pull items into them, and extractors need a redstone signal to be activated. There are a few other quirks to the system, all of which are explained in your &6Ancient Codex."
-				""
-				"&7Note - basically everything in Embers needs a redstone signal to activate, so get ready to place plenty of levers!"
-			]
-			icon: "embers:item_pipe"
-			id: "424D08C4CFE434EA"
-			rewards: [{
-				id: "095505E6346CD60C"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "63D5F1F29D99DECE"
-					item: "embers:item_pipe"
-					type: "item"
-				}
-				{
-					id: "4FAE706B4A6EFA11"
-					item: "embers:fluid_pipe"
-					type: "item"
-				}
-				{
-					id: "6EB36AB2AB9554D2"
-					item: "embers:item_extractor"
-					type: "item"
-				}
-				{
-					id: "3B5648870CF70B44"
-					item: "embers:fluid_extractor"
-					type: "item"
-				}
-			]
-			title: "Dwarven Logistics"
-			x: 4.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["6DC359D0F8736415"]
-			description: [
 				"Now that you have some Ember, you'll need to turn it into useable energy somehow."
 				""
 				"The&6 Ember Activator&r turns solid Ember into &6Activated Ember;&r pipe crystals and shards into the bottom, and attach an &6Ember Emitter to the top&r to output &6Activated Ember.&r "
@@ -990,6 +938,8 @@
 				"This molten metal can be formed into a variety of shapes in a &6Stamper;&r place the &6Stamp Base,&r then the &6Stamper above it with a one-block gap&r of air. Give the Stamper ember and a stamp, pipe molten metal into the base, and presto! Stamped and cooled metal products! "
 				""
 				"Notably, you can use this process to &6produce plates more efficiently.&r"
+				""
+				"&7Tip: you can also turn snowballs into water!"
 			]
 			icon: "embers:melter"
 			id: "74FB5A117EF51949"
@@ -1138,7 +1088,11 @@
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
-			description: ["There are a few other ways you can process materials using andesite-based machinery; namely, &6compacting, pressing, and mixing&r You'll need to find some way to capture a fire elemental if you want to expand your repertoire, though; &bmaybe mana can help you somehow?&r"]
+			description: [
+				"There are a few other ways you can process materials using andesite-based machinery; namely, &6compacting, pressing, and mixing.&r You'll need to find some way to capture a fire elemental if you want to expand your repertoire, though; &bmaybe mana can help you somehow?&r"
+				""
+				"&7Tip: you can use a press to turn cactus into water!"
+			]
 			icon: "create:basin"
 			id: "2A32CE924C9CB606"
 			optional: true
@@ -1176,7 +1130,7 @@
 			description: [
 				"By blowing air through certain things (like lava, water, or campfires), you can blast, smoke, wash, or &6haunt&r items. This means you have access to essentially free bulk smelting!"
 				""
-				"More importantly, though - now that you can haunt items, you can make &6blackstone&r by &6haunting&r cobblestone, a crucial item in the manual constitution of &6silver sulfur.&r"
+				"More importantly, though - now that you can haunt items, you can make &6blackstone&r by &6haunting&r cobblestone, a crucial item in the manual constitution of &6raw silver.&r"
 			]
 			icon: "create:encased_fan"
 			id: "05820674B5CC639D"
@@ -1265,7 +1219,11 @@
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
-			description: ["A mechanical pump is capable of pumping liquids in the world into pipes when given mechanical power - &6it is much faster than the ember-fueled one!"]
+			description: [
+				"A mechanical pump is capable of pumping liquids in the world into pipes when given mechanical power - &6it is much faster than the ember-fueled one!"
+				""
+				"Addtionally, you can use this pump to automatically pull water from your cauldrons!"
+			]
 			id: "2E0F026AB59D83B5"
 			optional: true
 			rewards: [{
@@ -1394,7 +1352,11 @@
 		}
 		{
 			dependencies: ["2E0F026AB59D83B5"]
-			description: ["Once you have a pump, you can create a &6Spout&r to dispense liquid onto items - this is a possible way to make &6glowstone or redstone,&r if you're willing to set up the infrastructure."]
+			description: [
+				"Once you have a pump, you can create a &6Spout&r to dispense liquid onto items - this is a possible way to make &6glowstone or redstone,&r if you're willing to set up the infrastructure."
+				""
+				"&7Tip: you can also use this to refill your camel pack automatically!"
+			]
 			id: "15AB65CE5C0B95CC"
 			optional: true
 			rewards: [{
@@ -1522,8 +1484,8 @@
 				item: "embers:mnemonic_inscriber"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -10.5d
+			x: 7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["74FB5A117EF51949"]
@@ -1731,13 +1693,7 @@
 				""
 				"&7Tip: sulfur sulfur sulfur sulfur&r"
 			]
-			icon: {
-				Count: 1
-				id: "theurgy:alchemical_sulfur_silver"
-				tag: {
-					"theurgy:sulfur.source.id": "#forge:ingots/silver"
-				}
-			}
+			icon: "embers:raw_silver"
 			id: "462683FE563F6689"
 			rewards: [
 				{
@@ -1755,13 +1711,7 @@
 			tasks: [
 				{
 					id: "2CC1C9C3C4AE5B0C"
-					item: {
-						Count: 1
-						id: "theurgy:alchemical_sulfur_silver"
-						tag: {
-							"theurgy:sulfur.source.id": "#forge:ingots/silver"
-						}
-					}
+					item: "embers:raw_silver"
 					type: "item"
 				}
 				{
@@ -2485,6 +2435,78 @@
 			}]
 			x: 8.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["50D60856E308EC6D"]
+			description: [
+				"Fermentation is cool and all, but it would take a lot of time to do it manually. Thankfully, there's ways to &6automate!&r"
+				""
+				"A &6comparator&r reading a fermentation vat will output a signal when the vat has a &6valid recipe&r - the strength of the signal is determined by how full the output inventory is."
+				""
+				"Helpfully, a redstone signal &6closes and opens the vat.&r"
+			]
+			icon: "supplementaries:cog_block"
+			id: "38A4356F92B45865"
+			rewards: [{
+				id: "56C0E678F0B8937A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "28145B28CBB469B1"
+				type: "checkmark"
+			}]
+			title: "Automatic Conversion"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5EA3E8FCE4EBBA82"]
+			description: [
+				"Dripstone has the unique property of being able to turn a small amount of liquid into a large amount - place water or lava on a block with pointed dripstone under it, and it'll slowly fill up a cauldron placed under that!"
+				""
+				"Now not only are you free from waiting for rain to fall for more water, but you can &6farm lava&r as well!"
+				""
+				"&7Tip: it takes about a full day to fill a cauldron, so you might want to make multiple setups!"
+			]
+			icon: "minecraft:dripstone_block"
+			id: "1D177C9B141BA8C6"
+			rewards: [{
+				id: "4CA5E51E92988CD0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "43CE7622A245C7DC"
+					item: "minecraft:dripstone_block"
+					type: "item"
+				}
+				{
+					id: "083E9B6A1EBAF200"
+					item: "minecraft:pointed_dripstone"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0C55FF014D7B15EE"]
+			description: ["The &6Advanced Camel Pack&r can not only store twice as much water as the basic tier, but it also quenches 1.5x as much thirst per sip!"]
+			id: "5CD962AE2FF6D58E"
+			rewards: [{
+				id: "5244A117A35187C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B3123A82BA82B66"
+				item: "reclamation_util:camel_pack_advanced"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.5d
 		}
 	]
 	title: "Touching Grass"

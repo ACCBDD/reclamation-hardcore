@@ -108,11 +108,11 @@
   "appliedcooking": {
     "kitchen_station": true
   },
+  "reclamation_util": {
+    "cauldron_purity": true
+  },
   "supplementaries": {
     "hat_stand": true
-  },
-  "waystones": {
-    "waystone": true
   },
   "gravestone": {
     "grave": true
@@ -124,11 +124,6 @@
     "preservation_chamber": true,
     "milk_jar": true,
     "toaster": true
-  },
-  "mysticalagriculture": {
-    "infused_farmland": true,
-    "crop": true,
-    "inferium_crop": true
   },
   "storagedrawers": {
     "display.stacklimit": true,
