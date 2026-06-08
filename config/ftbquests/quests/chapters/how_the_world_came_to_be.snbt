@@ -39,12 +39,27 @@
 				"&7Welcome to the &4hardcore&7 version of &6Reclamation!&7 This is a slower-paced pack focused around bringing life and nature back to a dead world. Press &6F3+H&7 to disable advanced tooltips, if they're on!"
 			]
 			id: "73F3DDAFC46A9CD5"
-			rewards: [{
-				count: 4
-				id: "489A829843674F52"
-				item: "minecraft:bread"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "489A829843674F52"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "68F972BFEBB2F248"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+							Purity: 3
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5837682A2F4F2D20"
 				title: "What happened here?"
@@ -698,7 +713,7 @@
 				""
 				"The easiest way to stop yourself from &4overheating&r is to &6hang out in a closed room underground&r or &6underwater.&r It's also much cooler at &6night!&r"
 				""
-				"&7Tip: you have a temperature indicator above your exp bar! The exterior flame is how hot your surroundings are, while the fill level of the skull is how hot your body is."
+				"&7Tip: you have a temperature indicator above your exp bar! The exterior flame is how hot your surroundings are, while the fill level of the skull is how hot your body actually is."
 			]
 			icon: "minecraft:campfire"
 			id: "2E2644743F9FF673"
@@ -740,15 +755,13 @@
 		{
 			dependencies: ["2E2644743F9FF673"]
 			description: [
-				"Now that you're not dying to exposure, the next order of business is probably trying to not die of thirst. You can drink out of water in the world by &6shift right-clicking,&r but the water is pretty dirty."
+				"Now that you're not dying to exposure, the next order of business is probably trying to not die of thirst. The water you can find nearby all seems to be dirty - too dirty to drink."
 				""
-				"To purify water, you'll need to make some kind of vessel to hold it, then smelt it in a furnace or on a campfire."
+				"You'll need to bottle some up then smelt it in a furnace or cook it on a campfire."
 				""
-				"&cNote: &lwater is no longer infinite.&r&c Additionally, water sources only fill up one bowl/bottle before depleting.&r"
+				"&cNote: &lwater is no longer infinite.&r&c Additionally, water sources only fill up four bottles before depleting.&r"
 				""
 				"&7Tip: drinking out of flowing water is cleaner than still water!"
-				""
-				"&7Tip 2: terracotta bowls are cheap, but they can't fully purify water."
 			]
 			icon: "croptopia:water_bottle"
 			id: "13845241CDBF0A03"
@@ -759,23 +772,8 @@
 			}]
 			tasks: [{
 				id: "5FE555DBC7248056"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "thirst:terracotta_bowl"
-							}
-							{
-								Count: 1b
-								id: "minecraft:glass_bottle"
-							}
-						]
-					}
-				}
-				title: "Water Container"
+				item: "minecraft:glass_bottle"
+				title: "Glass Bottle"
 				type: "item"
 			}]
 			title: "I'm parched!"

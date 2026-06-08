@@ -2390,7 +2390,7 @@
 			description: [
 				"The &6Hearth&r is an upgraded version of an icebox - by providing it fuel (even water!) and a redstone signal, it can &6rapidly cool an area.&r"
 				""
-				"You can even move the cooling effect to another space by using &6smokestacks or Create's pipes!&r"
+				"You can also move the cooling effect to another space by using &6smokestacks or Create's pipes!&r"
 				""
 				"&7Tip: make sure you're giving it a redstone signal on the right or bottom side!"
 				""

@@ -1357,6 +1357,7 @@
 				item: "reclamation_util:camel_pack_basic"
 				type: "item"
 			}]
+			title: "Hands-Free Hydration"
 			x: -3.75d
 			y: -5.0d
 		}
