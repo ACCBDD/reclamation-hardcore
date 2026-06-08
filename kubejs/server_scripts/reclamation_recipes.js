@@ -1994,4 +1994,18 @@ ServerEvents.recipes(event => {
             "item": "reclamation_util:camel_pack_basic"
         }
     })
+
+    event.remove({id: 'cookingforblockheads:sink'})
+    event.shaped('cookingforblockheads:sink', [
+        'ING',
+        'PWP',
+        'BBB'
+    ], {
+        'I': 'bloodmagic:ingot_hellforged',
+        'N': 'botania:terrasteel_ingot',
+        'G': 'naturesaura:depth_ingot',
+        'W': 'botania:water_rod',
+        'P': 'bloodmagic:holy_water_anointment_3',
+        'B': 'mekanism:hdpe_sheet'
+    })
 })

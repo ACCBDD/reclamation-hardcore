@@ -69,7 +69,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3BF5FDE3C81BEF26"]
+			dependencies: ["2E2644743F9FF673"]
 			description: ["Wood is plentiful, if not exactly the quality you remember."]
 			id: "655DCA5A5B6632E1"
 			rewards: [
@@ -802,6 +802,34 @@
 			}]
 			x: -1.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["26C8365A4497F614"]
+			description: [
+				"The modpack includes the &6Diet&r mod, which adds nutritional groups for you to keep track of. The four main groups are Vegetables, Fruits, Proteins, and Grains - &4if these drop too low, you'll start to suffer negative effects&r such as mining fatigue, reduced max health, or even a permanent hunger effect."
+				""
+				"On the flip side, if you can &6maintain high levels of a food group, you'll get beneficial effects&r such as higher max health, strength, or faster regeneration."
+				""
+				"Sugars are a special food group - &6low to moderate levels&r give you beneficial effects, but &4too high&r and you'll start to acquire some very nasty debuffs."
+				""
+				"To view your nutrition levels, click the hunger shank in your inventory screen, next to the recipe book."
+			]
+			icon: "minecraft:apple"
+			id: "1D3189E9D6704711"
+			rewards: [{
+				count: 8
+				id: "53E01E27445251E0"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "35DA5DC44FB40F98"
+				title: "Dietary Restrictions?"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
 		}
 	]
 	subtitle: ["A vast wasteland"]

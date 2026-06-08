@@ -46,4 +46,18 @@ ServerEvents.recipes(event => {
             "gas": "mekanism:ethene"
         }
     })
+
+    event.remove({id: 'mekanism:metallurgic_infuser'})
+    event.shaped('mekanism:metallurgic_infuser', [
+        'IFI',
+        'RDR',
+        'IFI'
+    ], {
+        I: 'minecraft:iron_ingot',
+        F: 'minecraft:blast_furnace',
+        R: 'minecraft:redstone_block',
+        D: 'embers:lead_block'
+    })
+
+    event.replaceInput({id: 'mekanism:configurator'}, 'minecraft:lapis_lazuli', 'embers:dawnstone_ingot')
 })

@@ -2508,6 +2508,123 @@
 			x: 8.0d
 			y: -10.5d
 		}
+		{
+			dependencies: ["4DE7466CAC029EF6"]
+			description: [
+				"Before you can do anything related to machinery, you'll need a source of power. Thankfully, &bbotanic mana&r is easily convertible to &credstone flux.&r Simply point a mana spreader at a &6Mana Fluxfield&r and it'll output &cRF&r to any adjacent blocks."
+				""
+				"For now, you don't have many uses for RF - but you will eventually!"
+			]
+			id: "0E7EBE370DB920D8"
+			rewards: [{
+				id: "35B5368759D5201D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E377E82C636102C"
+				item: "botania:mana_fluxfield"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0E7EBE370DB920D8"]
+			description: [
+				"Now that you have a source of power, you'll want to start making real machinery. Your first step - a &6Metallurgic Infuser.&r This machine can do a wide varity of things, but one of the most important is its ability to create &6steel,&r another critical metal for your foray into technology."
+				""
+				"Infusing &6iron with coal,&r while inefficient, is your only real way to make it - at least for now."
+			]
+			icon: "mekanism:ingot_steel"
+			id: "0CF33532629C1427"
+			rewards: [
+				{
+					count: 4
+					id: "4E5E6BA177BD3802"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+				{
+					id: "466545FC11617D95"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3ED79C8FFF4F92C5"
+					item: "mekanism:metallurgic_infuser"
+					type: "item"
+				}
+				{
+					id: "328D39E68378FAF3"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			title: "Steel"
+			x: -9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0CF33532629C1427"]
+			description: [
+				"Steel allows you to make better pipes of all kinds, able to transport items, fluids, RF, chemicals, and even heat. These have a number of &6advantages over caminite-based alternatives,&r mainly their lack of reliance on redstone and their upgradeability."
+				""
+				"You can use a configurator to set a pipe to pull, push, or remove a connection altogether."
+			]
+			icon: "mekanism:basic_universal_cable"
+			id: "740CD4B0ED662B60"
+			rewards: [{
+				id: "2A3FEABE2B698F92"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1475EE94A011CB5D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:basic_universal_cable"
+								}
+								{
+									Count: 1b
+									id: "mekanism:basic_mechanical_pipe"
+								}
+								{
+									Count: 1b
+									id: "mekanism:basic_pressurized_tube"
+								}
+								{
+									Count: 1b
+									id: "mekanism:basic_logistical_transporter"
+								}
+								{
+									Count: 1b
+									id: "mekanism:basic_thermodynamic_conductor"
+								}
+							]
+						}
+					}
+					title: "Any Basic Logistic Item"
+					type: "item"
+				}
+				{
+					id: "3A62A9141A982BD8"
+					item: "mekanism:configurator"
+					type: "item"
+				}
+			]
+			title: "Advanced Logistics"
+			x: -9.5d
+			y: -11.0d
+		}
 	]
 	title: "Touching Grass"
 }

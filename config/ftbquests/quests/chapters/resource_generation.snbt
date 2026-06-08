@@ -1052,12 +1052,6 @@
 					type: "item"
 				}
 				{
-					count: 32
-					id: "29EBBC07267B73D4"
-					item: "mysticalagriculture:supremium_growth_accelerator"
-					type: "item"
-				}
-				{
 					id: "75EA89A92A66DC59"
 					type: "xp"
 					xp: 500
@@ -1215,12 +1209,6 @@
 					count: 4
 					id: "53272C0F8F2DC296"
 					item: "minecraft:enchanted_golden_apple"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "57F0CC1DD195F755"
-					item: "mysticalagriculture:supremium_growth_accelerator"
 					type: "item"
 				}
 				{

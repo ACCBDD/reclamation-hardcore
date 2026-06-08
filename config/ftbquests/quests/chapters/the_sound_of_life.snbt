@@ -694,49 +694,11 @@
 				type: "item"
 			}]
 			title: "Supermassive"
-			x: 2.0d
+			x: 2.5d
 			y: -6.0d
 		}
 		{
-			dependencies: ["0E7EBE370DB920D8"]
-			description: [
-				"Now that you have a source of power, you'll want to start making real machinery. Your first step - a &6Metallurgic Infuser.&r This machine can do a wide varity of things, but one of the most important is its ability to create &6steel,&r another critical metal for your foray into technology."
-				""
-				"Infusing &6iron with coal,&r while inefficient, is your only real way to make it - at least for now."
-			]
-			icon: "mekanism:ingot_steel"
-			id: "0CF33532629C1427"
-			rewards: [
-				{
-					count: 4
-					id: "4E5E6BA177BD3802"
-					item: "mekanism:ingot_steel"
-					type: "item"
-				}
-				{
-					id: "466545FC11617D95"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					id: "3ED79C8FFF4F92C5"
-					item: "mekanism:metallurgic_infuser"
-					type: "item"
-				}
-				{
-					id: "328D39E68378FAF3"
-					item: "mekanism:ingot_steel"
-					type: "item"
-				}
-			]
-			title: "Steel"
-			x: 5.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["0CF33532629C1427"]
+			dependencies: ["2746DDF7130D3BB4"]
 			description: [
 				"The basis of every machine worth making, &6a Steel Casing &ropens up limitless possibilities. "
 				""
@@ -754,8 +716,8 @@
 				type: "item"
 			}]
 			title: "Basic Machinery"
-			x: 5.0d
-			y: -1.5d
+			x: 4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7A2BEC31266C6A7E"]
@@ -773,23 +735,6 @@
 			}]
 			x: 5.0d
 			y: -0.5d
-		}
-		{
-			dependencies: ["2746DDF7130D3BB4"]
-			description: ["Before you can do anything related to machinery, you'll need a source of power. Thankfully, &bbotanic mana&r is easily convertible to &credstone flux.&r Simply point a mana spreader at a &6Mana Fluxfield&r and it'll output &cRF&r to any adjacent blocks."]
-			id: "0E7EBE370DB920D8"
-			rewards: [{
-				id: "35B5368759D5201D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "4E377E82C636102C"
-				item: "botania:mana_fluxfield"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -5.0d
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
@@ -838,53 +783,6 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["0CF33532629C1427"]
-			description: ["Steel allows you to make better pipes of all kinds, able to transport items, fluids, RF, chemicals, and even heat. These have a number of &6advantages over caminite-based alternatives,&r mainly their lack of reliance on redstone and their upgradeability."]
-			icon: "mekanism:basic_universal_cable"
-			id: "740CD4B0ED662B60"
-			rewards: [{
-				id: "2A3FEABE2B698F92"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "1475EE94A011CB5D"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "mekanism:basic_universal_cable"
-							}
-							{
-								Count: 1b
-								id: "mekanism:basic_mechanical_pipe"
-							}
-							{
-								Count: 1b
-								id: "mekanism:basic_pressurized_tube"
-							}
-							{
-								Count: 1b
-								id: "mekanism:basic_logistical_transporter"
-							}
-							{
-								Count: 1b
-								id: "mekanism:basic_thermodynamic_conductor"
-							}
-						]
-					}
-				}
-				title: "Any Basic Logistic Item"
-				type: "item"
-			}]
-			title: "Advanced Logistics"
-			x: 6.0d
-			y: -3.5d
-		}
-		{
 			dependencies: ["7A2BEC31266C6A7E"]
 			description: ["The &6Rotary Condensentrator&r allows you to convert liquids to gases, and vice versa. This is useful for storage purposes, but it also allows you to aerate Life Essence!"]
 			id: "46391DDDC731B2AC"
@@ -899,7 +797,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["46391DDDC731B2AC"]
@@ -920,7 +818,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -946,7 +844,7 @@
 			}]
 			title: "Ethylene"
 			x: 8.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6EAAB9DF6917C3AC"]
@@ -964,7 +862,7 @@
 			}]
 			title: "Blooded Ethylene"
 			x: 9.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7A2BEC31266C6A7E"]
@@ -981,7 +879,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2FD8F1325D206079"]
@@ -1008,7 +906,7 @@
 			]
 			title: "Bio Fuel"
 			x: 7.0d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["382B7C05BB6427BB"]
@@ -1530,6 +1428,8 @@
 				"With Sin Runes and elven materials, you can craft a special flower that &6generates ore in nearby stone or deepslate!&r"
 				""
 				"As far as you're concerned, this is more proof that you can solve any problem if you throw enough raw mana at something."
+				""
+				"&7Tip: the orechid can generate fluorite and uranium - which you'll need for nuclear reactors."
 			]
 			id: "039EE9BB48F29DB2"
 			rewards: [{
@@ -1989,8 +1889,8 @@
 				}
 			]
 			title: "Upgrades"
-			x: 4.0d
-			y: -1.5d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -2477,7 +2377,7 @@
 				""
 				"Equally as importantly, it produces nuclear waste."
 				""
-				"For more information on how to build this structure, refer to the mekanism wiki."
+				"For more information on how to build this structure, refer to the mekanism wiki or the ponder."
 				""
 				"&4Warning: if you mess up running your reactor, it WILL melt down and explode/irradiate the surrounding area. Make it small or make it far away from your base if you're not confident."
 			]
@@ -2514,7 +2414,7 @@
 			]
 			title: "Fission Reactor"
 			x: 7.0d
-			y: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["71FA16CB8987A05D"]
@@ -2531,7 +2431,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["71FA16CB8987A05D"]
@@ -2549,7 +2449,7 @@
 			}]
 			title: "Waste Disposal"
 			x: 8.5d
-			y: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["71FA16CB8987A05D"]
@@ -2570,7 +2470,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -2598,7 +2498,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["36DAD7B096C37537"]
@@ -2633,7 +2533,7 @@
 			]
 			title: "QIO System"
 			x: 9.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["36DAD7B096C37537"]
@@ -2670,7 +2570,7 @@
 			]
 			title: "Fusion Reactor"
 			x: 9.0d
-			y: 4.0d
+			y: 2.0d
 		}
 	]
 	title: "Sounds of Life"
