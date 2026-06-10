@@ -23,8 +23,8 @@
 			image: "reclamation:textures/quests/theurgy_2.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -3.5d
-			y: -11.0d
+			x: -3.0d
+			y: -12.0d
 		}
 	]
 	order_index: 0
@@ -364,18 +364,18 @@
 			rewards: [
 				{
 					count: 4
-					id: "628CFF330629E4D8"
+					id: "3BCA0D4A6F268D1C"
 					item: {
 						Count: 1
-						id: "kubejs:sulfur_dirt"
+						id: "theurgy:alchemical_sulfur_dirt"
 						tag: {
-							"theurgy:sulfur.source.id": "kubejs:dried_earth"
+							"theurgy:sulfur.source.id": "minecraft:dirt"
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "73E825AEA8A695C2"
+					id: "7B9C1D1214B46090"
 					type: "xp"
 					xp: 100
 				}
@@ -393,7 +393,13 @@
 				}
 				{
 					id: "00B64A23A6E7BF57"
-					item: "kubejs:sulfur_dirt"
+					item: {
+						Count: 1
+						id: "theurgy:alchemical_sulfur_dirt"
+						tag: {
+							"theurgy:sulfur.source.id": "minecraft:dirt"
+						}
+					}
 					type: "item"
 				}
 			]

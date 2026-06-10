@@ -18,14 +18,6 @@ StartupEvents.registry('item', event => {
     event.create('infused_amalgam')
         .displayName("Infused Amalgam")
         .glow(true)
-
-    //theurgy stuff
-    event.create('sulfur_dirt', 'theurgy:alchemical_sulfur')
-        .sourceItem('minecraft:dirt')
-        .sourceName('Dirt')
-        .sulfurTier('abundant')
-        .sulfurType('misc')
-        .tag('theurgy:alchemical_sulfurs')
 })
 
 ItemEvents.modification(event => {

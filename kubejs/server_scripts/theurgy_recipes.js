@@ -104,34 +104,15 @@ ServerEvents.recipes(event => {
         "liquefaction_time": 100,
         "result": {
             "count": 1,
-            "item": "kubejs:sulfur_dirt",
+            "item": "theurgy:alchemical_sulfur_dirt",
             "nbt": {
-                "theurgy:sulfur.source.id": "kubejs:dried_earth"
+                "theurgy:sulfur.source.id": "minecraft:dirt"
             }
         },
         "solvent": {
             "fluid": "theurgy:sal_ammoniac"
         },
         "solvent_amount": 10
-    })
-
-    //dirt sulfur incubation
-    event.custom({
-        "type": "theurgy:incubation",
-        "incubation_time": 100,
-        "mercury": {
-            "item": "theurgy:mercury_shard"
-        },
-        "result": {
-            "count": 2,
-            "tag": "minecraft:dirt"
-        },
-        "salt": {
-            "item": "theurgy:alchemical_salt_strata"
-        },
-        "sulfur": {
-            "item": "kubejs:sulfur_dirt"
-        }
     })
 
     //iron from mandrake
