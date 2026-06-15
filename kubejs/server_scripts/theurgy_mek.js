@@ -206,6 +206,31 @@ ServerEvents.recipes(event => {
         ['glowstone', 'minecraft:glowstone_dust', '#forge:dusts/glowstone']
     ]
 
+    const sulfur_niter = [
+        ['theurgy:alchemical_sulfurs/earthen_matters/abundant', 'theurgy:alchemical_sulfur_earthen_matters_abundant'],
+        ['theurgy:alchemical_sulfurs/earthen_matters/common', 'theurgy:alchemical_sulfur_earthen_matters_common'],
+        ['theurgy:alchemical_sulfurs/gems/abundant', 'theurgy:alchemical_sulfur_gems_abundant'],
+        ['theurgy:alchemical_sulfurs/gems/common', 'theurgy:alchemical_sulfur_gems_common'],
+        ['theurgy:alchemical_sulfurs/gems/rare', 'theurgy:alchemical_sulfur_gems_rare'],
+        ['theurgy:alchemical_sulfurs/gems/precious', 'theurgy:alchemical_sulfur_gems_precious'],
+        ['theurgy:alchemical_sulfurs/metals/abundant', 'theurgy:alchemical_sulfur_metals_abundant'],
+        ['theurgy:alchemical_sulfurs/metals/common', 'theurgy:alchemical_sulfur_metals_common'],
+        ['theurgy:alchemical_sulfurs/metals/rare', 'theurgy:alchemical_sulfur_metals_rare'],
+        ['theurgy:alchemical_sulfurs/metals/precious', 'theurgy:alchemical_sulfur_metals_precious'],
+        ['theurgy:alchemical_sulfurs/other_minerals/abundant', 'theurgy:alchemical_sulfur_metals_abundant'],
+        ['theurgy:alchemical_sulfurs/other_minerals/common', 'theurgy:alchemical_sulfur_other_minerals_common'],
+        ['theurgy:alchemical_sulfurs/other_minerals/rare', 'theurgy:alchemical_sulfur_other_minerals_rare'],
+        ['theurgy:alchemical_sulfurs/logs', 'theurgy:alchemical_sulfur_logs_abundant'],
+        ['theurgy:alchemical_sulfurs/crops', 'theurgy:alchemical_sulfur_crops_abundant'],
+        ['theurgy:alchemical_sulfurs/animals/abundant', 'theurgy:alchemical_sulfur_animals_abundant'],
+        ['theurgy:alchemical_sulfurs/animals/common', 'theurgy:alchemical_sulfur_animals_common'],
+        ['theurgy:alchemical_sulfurs/animals/rare', 'theurgy:alchemical_sulfur_animals_rare'],
+        ['theurgy:alchemical_sulfurs/mobs/abundant', 'theurgy:alchemical_sulfur_mobs_abundant'],
+        ['theurgy:alchemical_sulfurs/mobs/common', 'theurgy:alchemical_sulfur_mobs_common'],
+        ['theurgy:alchemical_sulfurs/mobs/rare', 'theurgy:alchemical_sulfur_mobs_rare'],
+        ['theurgy:alchemical_sulfurs/mobs/precious', 'theurgy:alchemical_sulfur_mobs_precious']
+    ]
+
     function sulfur_infuse(input, output) {
         event.custom({
             "type": "mekanism:metallurgic_infusing",
@@ -215,7 +240,42 @@ ServerEvents.recipes(event => {
             },
             "itemInput": {
                 "ingredient": {
-                    "item": "theurgy:alchemical_sulfur_" +input
+                    "item": "theurgy:alchemical_sulfur_" + input
+                }
+            },
+            "output": {
+                "item": output
+            }
+        })
+    }
+
+    function inject_to_sulfur(input, output, source) {
+        event.custom({
+            "type": "mekanism:injecting",
+            "chemicalInput": {
+                "amount": 1,
+                "tag": "reclamation:sal_ammoniac"
+            },
+            "itemInput": {
+                "ingredient": {
+                    "item": input
+                }
+            },
+            "output": {
+                "item": "theurgy:alchemical_sulfur_" + output,
+                "nbt": {
+                    "theurgy:sulfur.source.id": source
+                }
+            }
+        })
+    }
+
+    function sulfur_to_niter(input, output) {
+        event.custom({
+            "type": "mekanism:enriching",
+            "input": {
+                "ingredient": {
+                    "tag": input
                 }
             },
             "output": {
@@ -226,6 +286,11 @@ ServerEvents.recipes(event => {
 
     sulfurs.forEach(([sulfur, item, source]) => {
         sulfur_infuse(sulfur, item)
+        inject_to_sulfur(item, sulfur, source)
+    })
+
+    sulfur_niter.forEach(([tag, item]) => {
+        sulfur_to_niter(tag, item)
     })
 
     event.custom({
@@ -254,14 +319,34 @@ ServerEvents.recipes(event => {
     })
 
     event.custom({
-        "type":"mekanism:enriching",
-        "input": {
-            "ingredient": {
+        "type": "mekanism:gas_conversion",
+        "input":
+        {
+            "ingredient":
+            {
                 "item": "theurgy:mercury_shard"
             }
         },
-        "output": {
-            "item": "theurgy:mercury_crystal"
+        "output":
+        {
+            "amount": 100,
+            "gas": "reclamation:mercury"
+        }
+    })
+
+    event.custom({
+        "type": "mekanism:gas_conversion",
+        "input":
+        {
+            "ingredient":
+            {
+                "item": "theurgy:sal_ammoniac_crystal"
+            }
+        },
+        "output":
+        {
+            "amount": 200,
+            "gas": "reclamation:sal_ammoniac"
         }
     })
 })

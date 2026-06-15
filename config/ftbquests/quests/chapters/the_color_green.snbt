@@ -939,7 +939,7 @@
 				""
 				"Notably, you can use this process to &6produce plates more efficiently.&r"
 				""
-				"&7Tip: you can also turn snowballs into water!"
+				"&7Tip: you can also melt certain things into water!"
 			]
 			icon: "embers:melter"
 			id: "74FB5A117EF51949"
@@ -2294,7 +2294,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["2E0F026AB59D83B5"]
+			dependencies: ["153CB8257AEDA4ED"]
 			description: [
 				"The &6Sand Filter&r is an easy way to automate the purification of water. Simply pipe dirty water into the top of it, and you'll get filtered water out of the bottom!"
 				""
@@ -2306,13 +2306,14 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.25d
 			tasks: [{
 				id: "221DEC843B0BF214"
 				item: "thirst:sand_filter"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.0d
+			x: 3.75d
+			y: -4.375d
 		}
 		{
 			dependencies: ["462683FE563F6689"]
@@ -2348,7 +2349,7 @@
 				""
 				"&7Tip: to refuel the lamp, right click a fuel item onto the lamp in your inventory - like filling a bundle!"
 				""
-				"&7Tip 2: you can grow soul sprouts on soul sand... but you probably don't have access to that yet."
+				"&7Tip 2: you can grow soul sprouts on soul sand... but you probably don't have access to that - yet."
 			]
 			icon: {
 				Count: 1
@@ -2467,7 +2468,7 @@
 				""
 				"Now not only are you free from waiting for rain to fall for more water, but you can &6farm lava&r as well!"
 				""
-				"&7Tip: it takes about a full day to fill a cauldron, so you might want to make multiple setups!"
+				"&7Tip: it takes about a full in-game day to fill a cauldron, so you might want to set up multiple!"
 			]
 			icon: "minecraft:dripstone_block"
 			id: "1D177C9B141BA8C6"
@@ -2536,7 +2537,7 @@
 				""
 				"Infusing &6iron with coal,&r while inefficient, is your only real way to make it - at least for now."
 			]
-			icon: "mekanism:ingot_steel"
+			icon: "mekanism:metallurgic_infuser"
 			id: "0CF33532629C1427"
 			rewards: [
 				{
@@ -2563,7 +2564,7 @@
 					type: "item"
 				}
 			]
-			title: "Steel"
+			title: "Metallurgic Infuser"
 			x: -9.5d
 			y: -9.5d
 		}
@@ -2624,6 +2625,44 @@
 			title: "Advanced Logistics"
 			x: -9.5d
 			y: -11.0d
+		}
+		{
+			dependencies: ["2F210E03731A0E21"]
+			description: ["&6Crystallized Water&r is water that has been alchemically treated to solidify it. This water can be transported as an item, but can crucially be &6turned into sulfur&r - which you can use in the &6Reformation Array&r as a target."]
+			id: "2A4537F035316E63"
+			rewards: [{
+				id: "69A9EF6178D25729"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1ED5EF7463EFEF7B"
+				item: "theurgy:crystallized_water"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0CF33532629C1427"]
+			description: [
+				"The &6Metallurgic Infuser&r allows you to reform sulfur into items without needing alchemical salt! It still needs mercury but it uses RF instead of caloric flux."
+				""
+				"&7Tip: you can't craft them yet, but the infuser can work much faster with upgrades!"
+			]
+			id: "73C2F98934AECF58"
+			rewards: [{
+				id: "7831C82B2D2DF075"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "12023F6A1E367FCE"
+				type: "checkmark"
+			}]
+			title: "Mechanized Theurgy"
+			x: -11.0d
+			y: -9.5d
 		}
 	]
 	title: "Touching Grass"

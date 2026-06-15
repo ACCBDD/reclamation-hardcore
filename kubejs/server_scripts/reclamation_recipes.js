@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
-    event.remove({id: "embers:copper_ingot_to_nugget"})
-    
+    event.remove({ id: "embers:copper_ingot_to_nugget" })
+
     //dead wood recipes
     event.shapeless('4x kubejs:scrap_wood', [
         'kubejs:dead_log'
@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
             }
         ]
     })
-    event.remove({id: 'create:haunting/soul_soil'})
+    event.remove({ id: 'create:haunting/soul_soil' })
     event.custom({
         "type": "create:haunting",
         "ingredients": [
@@ -81,63 +81,63 @@ ServerEvents.recipes(event => {
     })
 
     //easier camera
-    event.replaceInput({id: 'exposure:black_and_white_film'},
+    event.replaceInput({ id: 'exposure:black_and_white_film' },
         'minecraft:iron_ingot',
         'minecraft:copper_ingot')
 
-    event.replaceInput({id: 'exposure:black_and_white_film'},
+    event.replaceInput({ id: 'exposure:black_and_white_film' },
         'minecraft:iron_nugget',
         'create:copper_nugget')
 
-    event.replaceInput({id: 'exposure:lightroom'},
+    event.replaceInput({ id: 'exposure:lightroom' },
         'minecraft:redstone_torch',
         'minecraft:red_dye')
 
-    event.replaceInput({id: 'exposure:camera'},
+    event.replaceInput({ id: 'exposure:camera' },
         'minecraft:iron_ingot',
         'minecraft:copper_ingot')
 
     //flimsy door
-     event.shaped('reclamation_util:flimsy_door', [
-         'AA ',
-         'AC ',
-         'AA '
-     ], {
-         A: 'kubejs:flimsy_planks',
-         C: 'minecraft:copper_ingot'
-     })
+    event.shaped('reclamation_util:flimsy_door', [
+        'AA ',
+        'AC ',
+        'AA '
+    ], {
+        A: 'kubejs:flimsy_planks',
+        C: 'minecraft:copper_ingot'
+    })
 
-     //frames
-     event.shapeless('reclamation_util:poison_frame', [
-         'complicated_bees:frame',
-         'minecraft:poisonous_potato'
-     ])
+    //frames
+    event.shapeless('reclamation_util:poison_frame', [
+        'complicated_bees:frame',
+        'minecraft:poisonous_potato'
+    ])
 
-     event.replaceInput({id: 'complicated_bees:cold_frame'},
-         'minecraft:blue_ice',
-         'minecraft:snow_block')
+    event.replaceInput({ id: 'complicated_bees:cold_frame' },
+        'minecraft:blue_ice',
+        'minecraft:snow_block')
 
-     event.shaped('reclamation_util:permafrost_frame', [
-         'III',
-         'ACA',
-         'AAA'
-     ], {
-         A: 'complicated_bees:waxed_stick',
-         C: 'minecraft:blue_ice',
-         I: 'enchanted:icy_needle'
-     })
+    event.shaped('reclamation_util:permafrost_frame', [
+        'III',
+        'ACA',
+        'AAA'
+    ], {
+        A: 'complicated_bees:waxed_stick',
+        C: 'minecraft:blue_ice',
+        I: 'enchanted:icy_needle'
+    })
 
-     event.shaped('complicated_bees:wet_frame', [
-              'AAA',
-              'AEA',
-              'AAA'
-          ], {
-              A: 'complicated_bees:waxed_stick',
-              E: 'enchanted:water_artichoke'
-          })
+    event.shaped('complicated_bees:wet_frame', [
+        'AAA',
+        'AEA',
+        'AAA'
+    ], {
+        A: 'complicated_bees:waxed_stick',
+        E: 'enchanted:water_artichoke'
+    })
 
     //spice rack collision
-    event.remove({id: "cookingforblockheads:spice_rack"})
+    event.remove({ id: "cookingforblockheads:spice_rack" })
     event.shaped('cookingforblockheads:spice_rack', [
         'ACA'
     ], {
@@ -175,7 +175,7 @@ ServerEvents.recipes(event => {
     })
 
     //remove early game dirt -> coarse dirt -> dirt duplication
-    event.remove({ id: 'minecraft:coarse_dirt'})
+    event.remove({ id: 'minecraft:coarse_dirt' })
     event.shapeless('2x minecraft:coarse_dirt', [
         '2x minecraft:dirt',
         '2x minecraft:gravel'
@@ -253,25 +253,25 @@ ServerEvents.recipes(event => {
         "time": 250
     })
 
-    event.remove({id: 'croptopia:knife'})
+    event.remove({ id: 'croptopia:knife' })
     event.shaped('croptopia:knife', [
-            'SA',
-            'BS'
-        ], {
-            A: 'minecraft:iron_ingot',
-            B: 'minecraft:stick',
-            S: 'farmersdelight:straw'
+        'SA',
+        'BS'
+    ], {
+        A: 'minecraft:iron_ingot',
+        B: 'minecraft:stick',
+        S: 'farmersdelight:straw'
     }).id('croptopia:knife')
 
-    event.remove({id: 'agricraft:trowel'})
+    event.remove({ id: 'agricraft:trowel' })
     event.shaped('agricraft:trowel', [
-            ' SB',
-            'AAS',
-            '   '
-        ], {
-            A: 'minecraft:iron_ingot',
-            B: 'minecraft:stick',
-            S: 'farmersdelight:straw'
+        ' SB',
+        'AAS',
+        '   '
+    ], {
+        A: 'minecraft:iron_ingot',
+        B: 'minecraft:stick',
+        S: 'farmersdelight:straw'
     }).id('agricraft:trowel')
 
     //gold nether ore from bricks
@@ -441,7 +441,7 @@ ServerEvents.recipes(event => {
     )
 
     //bee stuff
-    event.remove({id: 'complicated_bees:apiary'})
+    event.remove({ id: 'complicated_bees:apiary' })
     event.shaped('complicated_bees:apiary', [
         'PPP',
         'B B',
@@ -700,7 +700,7 @@ ServerEvents.recipes(event => {
             }
         ]
     })
-    event.remove({id: 'complicated_bees:centrifuge/rocky_comb'})
+    event.remove({ id: 'complicated_bees:centrifuge/rocky_comb' })
     event.custom({
         "type": "complicated_bees:centrifuge",
         "input": {
@@ -784,42 +784,42 @@ ServerEvents.recipes(event => {
     })
 
     //unlock sheet from squids
-    event.replaceInput({id: 'xercamusic:music_sheet'},
-    'minecraft:ink_sac',
-    'minecraft:charcoal')
+    event.replaceInput({ id: 'xercamusic:music_sheet' },
+        'minecraft:ink_sac',
+        'minecraft:charcoal')
 
     //easier combees recipes
-    event.replaceInput({id: 'complicated_bees:meter'},
-    'minecraft:redstone',
-    'minecraft:red_dye')
-    event.replaceInput({id: 'complicated_bees:meter'},
-    'minecraft:redstone_torch',
-    'naturesaura:infused_iron')
-    event.replaceInput({id: 'complicated_bees:meter'},
-    'minecraft:iron_ingot',
-    'minecraft:copper_ingot')
-    event.replaceInput({id: 'complicated_bees:analyzer'},
-    'minecraft:diamond',
-    'naturesaura:infused_iron')
-    event.replaceInput({id: 'complicated_bees:analyzer'},
-    'minecraft:redstone',
-    'embers:caminite_brick')
-    event.replaceInput({id: 'complicated_bees:bee_sorter'},
-    'minecraft:diamond',
-    'minecraft:redstone')
-    event.replaceInput({id: 'complicated_bees:bee_sorter'},
-    'minecraft:comparator',
-    'minecraft:repeater')
+    event.replaceInput({ id: 'complicated_bees:meter' },
+        'minecraft:redstone',
+        'minecraft:red_dye')
+    event.replaceInput({ id: 'complicated_bees:meter' },
+        'minecraft:redstone_torch',
+        'naturesaura:infused_iron')
+    event.replaceInput({ id: 'complicated_bees:meter' },
+        'minecraft:iron_ingot',
+        'minecraft:copper_ingot')
+    event.replaceInput({ id: 'complicated_bees:analyzer' },
+        'minecraft:diamond',
+        'naturesaura:infused_iron')
+    event.replaceInput({ id: 'complicated_bees:analyzer' },
+        'minecraft:redstone',
+        'embers:caminite_brick')
+    event.replaceInput({ id: 'complicated_bees:bee_sorter' },
+        'minecraft:diamond',
+        'minecraft:redstone')
+    event.replaceInput({ id: 'complicated_bees:bee_sorter' },
+        'minecraft:comparator',
+        'minecraft:repeater')
 
     //copycats from andesite
-    event.replaceInput({mod: 'copycats'},
-    'create:zinc_ingot',
-    'create:andesite_alloy')
+    event.replaceInput({ mod: 'copycats' },
+        'create:zinc_ingot',
+        'create:andesite_alloy')
 
     //cooking for blockheads book easier
-    event.replaceInput({id: 'cookingforblockheads:crafting_book'},
-    'minecraft:diamond',
-    'minecraft:beetroot')
+    event.replaceInput({ id: 'cookingforblockheads:crafting_book' },
+        'minecraft:diamond',
+        'minecraft:beetroot')
 
     //creative blaze cake
     event.custom({
@@ -1169,7 +1169,7 @@ ServerEvents.recipes(event => {
         T: 'minecraft:torch',
         C: 'create:copper_nugget'
     })
-    
+
     //Macaw's Lights and Lamps recipes using Beeswax instead of vanilla Honeycomb
     event.shaped('mcwlights:golden_low_candle_holder', [
         ' S ',
@@ -1623,7 +1623,7 @@ ServerEvents.recipes(event => {
         "output": {
             "item": "naturesaura:effect_powder",
             "nbt": {
-               "effect": "reclamation_util:reclaim_effect"
+                "effect": "reclamation_util:reclaim_effect"
             }
         },
         "aura": 4000,
@@ -1649,11 +1649,11 @@ ServerEvents.recipes(event => {
             "input": {
                 "item": "reclamation_util:empty_biome_globe"
             },
-            "output": "reclamation_util:"+globe+"_biome_globe",
+            "output": "reclamation_util:" + globe + "_biome_globe",
             "pedestalItems": [
                 {
                     "item": {
-                        "item": "reclamation_util:"+essence+"_biome_bottle"
+                        "item": "reclamation_util:" + essence + "_biome_bottle"
                     }
                 },
                 {
@@ -1710,18 +1710,18 @@ ServerEvents.recipes(event => {
         P: 'botania:mana_pearl'
     })
 
-    event.replaceInput({id: 'storagedrawers:controller'},
-            'minecraft:diamond',
-            'embers:dawnstone_ingot')
+    event.replaceInput({ id: 'storagedrawers:controller' },
+        'minecraft:diamond',
+        'embers:dawnstone_ingot')
 
-    event.remove({id: 'constructionwand:core_destruction'})
+    event.remove({ id: 'constructionwand:core_destruction' })
 
     //create deco
-    event.replaceInput({mod: 'createdeco'}, 'create:copper_sheet', 'embers:copper_plate')
-    event.replaceInput({mod: 'createdeco'}, 'create:iron_sheet', 'embers:iron_plate')
+    event.replaceInput({ mod: 'createdeco' }, 'create:copper_sheet', 'embers:copper_plate')
+    event.replaceInput({ mod: 'createdeco' }, 'create:iron_sheet', 'embers:iron_plate')
 
     //random cut copper 4x??
-    event.remove({id: 'minecraft:cut_copper_from_copper_block_stonecutting'})
+    event.remove({ id: 'minecraft:cut_copper_from_copper_block_stonecutting' })
 
     const cut_copper_slabs = ['cut_copper_slab', 'exposed_cut_copper_slab', 'weathered_cut_copper_slab', 'oxidized_cut_copper_slab']
     const vert_copper_slabs = ['cut_copper_vertical_slab', 'exposed_cut_copper_vertical_slab', 'weathered_cut_copper_vertical_slab', 'oxidized_cut_copper_vertical_slab']
@@ -1729,63 +1729,63 @@ ServerEvents.recipes(event => {
     const cut_copper = ['cut_copper', 'exposed_cut_copper', 'weathered_cut_copper', 'oxidized_cut_copper']
 
     for (let i = 0; i < 4; i++) {
-        event.remove({id: 'minecraft:'+cut_copper[i]+'_from_'+copper_blocks[i]+'_stonecutting'})
-        event.remove({id: 'minecraft:waxed_'+cut_copper[i]+'_from_waxed_'+copper_blocks[i]+'_stonecutting'})
-        event.remove({id: 'minecraft:'+cut_copper_slabs[i]+'_from_'+copper_blocks[i]+'_stonecutting'})
-        event.remove({id: 'minecraft:waxed_'+cut_copper_slabs[i]+'_from_waxed_'+copper_blocks[i]+'_stonecutting'})
-        event.remove({id: 'quark:building/stonecutting/vertslabs/waxed_'+vert_copper_slabs[i]+'_from_waxed_'+copper_blocks[i]})
-        event.remove({id: 'quark:building/stonecutting/vertslabs/'+vert_copper_slabs[i]+'_from_'+copper_blocks[i]})
+        event.remove({ id: 'minecraft:' + cut_copper[i] + '_from_' + copper_blocks[i] + '_stonecutting' })
+        event.remove({ id: 'minecraft:waxed_' + cut_copper[i] + '_from_waxed_' + copper_blocks[i] + '_stonecutting' })
+        event.remove({ id: 'minecraft:' + cut_copper_slabs[i] + '_from_' + copper_blocks[i] + '_stonecutting' })
+        event.remove({ id: 'minecraft:waxed_' + cut_copper_slabs[i] + '_from_waxed_' + copper_blocks[i] + '_stonecutting' })
+        event.remove({ id: 'quark:building/stonecutting/vertslabs/waxed_' + vert_copper_slabs[i] + '_from_waxed_' + copper_blocks[i] })
+        event.remove({ id: 'quark:building/stonecutting/vertslabs/' + vert_copper_slabs[i] + '_from_' + copper_blocks[i] })
         event.custom({
             "type": "minecraft:stonecutting",
             "count": 1,
             "ingredient": {
-                "item": "minecraft:"+copper_blocks[i]
+                "item": "minecraft:" + copper_blocks[i]
             },
-            "result": "minecraft:"+cut_copper[i]
+            "result": "minecraft:" + cut_copper[i]
         })
         event.custom({
             "type": "minecraft:stonecutting",
             "count": 1,
             "ingredient": {
-                "item": "minecraft:waxed_"+copper_blocks[i]
+                "item": "minecraft:waxed_" + copper_blocks[i]
             },
-            "result": "minecraft:waxed_"+cut_copper[i]
+            "result": "minecraft:waxed_" + cut_copper[i]
         })
         event.custom({
             "type": "minecraft:stonecutting",
             "count": 2,
             "ingredient": {
-                "item": "minecraft:"+copper_blocks[i]
+                "item": "minecraft:" + copper_blocks[i]
             },
-            "result": "minecraft:"+cut_copper_slabs[i]
+            "result": "minecraft:" + cut_copper_slabs[i]
         })
         event.custom({
             "type": "minecraft:stonecutting",
             "count": 2,
             "ingredient": {
-                "item": "minecraft:waxed_"+copper_blocks[i]
+                "item": "minecraft:waxed_" + copper_blocks[i]
             },
-            "result": "minecraft:waxed_"+cut_copper_slabs[i]
+            "result": "minecraft:waxed_" + cut_copper_slabs[i]
         })
         event.custom({
             "type": "minecraft:stonecutting",
             "count": 2,
             "ingredient": {
-                "item": "minecraft:"+copper_blocks[i]
+                "item": "minecraft:" + copper_blocks[i]
             },
-            "result": "quark:"+vert_copper_slabs[i]
+            "result": "quark:" + vert_copper_slabs[i]
         })
         event.custom({
             "type": "minecraft:stonecutting",
             "count": 2,
             "ingredient": {
-                "item": "minecraft:waxed_"+copper_blocks[i]
+                "item": "minecraft:waxed_" + copper_blocks[i]
             },
-            "result": "quark:waxed_"+vert_copper_slabs[i]
+            "result": "quark:waxed_" + vert_copper_slabs[i]
         })
     }
 
-    event.remove({id: "cold_sweat:thermometer"})
+    event.remove({ id: "cold_sweat:thermometer" })
     event.shaped('cold_sweat:thermometer',
         [
             'CGC',
@@ -1828,7 +1828,7 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.remove({id: "cold_sweat:soulspring_lamp"})
+    event.remove({ id: "cold_sweat:soulspring_lamp" })
     event.shaped('cold_sweat:soulspring_lamp',
         [
             ' G ',
@@ -1879,10 +1879,22 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.replaceInput({id: 'complicated_bees:furnace_generator'},
+    event.replaceInput({ id: 'complicated_bees:furnace_generator' },
         'minecraft:iron_ingot',
-        'mekanism:ingot_steel');
-    
+        'mekanism:ingot_osmium');
+
+    event.replaceInput({ id: 'via_romana:charting_map' },
+        'minecraft:ink_sac',
+        'minecraft:charcoal');
+
+    event.replaceInput({ id: 'via_romana:charting_map' },
+        'minecraft:map',
+        'minecraft:paper');
+
+    event.replaceInput({ id: 'via_romana:charting_map' },
+        'minecraft:feather',
+        'minecraft:stick');
+
     //water bottles from bucket
     event.shapeless(
         Item.of('minecraft:potion', 4, '{Potion:"minecraft:water"}'),
@@ -1995,17 +2007,50 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.remove({id: 'cookingforblockheads:sink'})
+    event.remove({ id: 'cookingforblockheads:sink' })
     event.shaped('cookingforblockheads:sink', [
-        'ING',
+        'IGN',
         'PWP',
         'BBB'
     ], {
         'I': 'bloodmagic:ingot_hellforged',
         'N': 'botania:terrasteel_ingot',
-        'G': 'naturesaura:depth_ingot',
-        'W': 'botania:water_rod',
+        'G': 'advanced_ae:quantum_alloy',
+        'W': 'advanced_ae:quantum_storage_component',
         'P': 'bloodmagic:holy_water_anointment_3',
         'B': 'mekanism:hdpe_sheet'
+    })
+
+    event.custom({
+        "type": "mekanism:combining",
+        "extraInput": {
+            "ingredient": {
+                "item": "enchanted:icy_needle"
+            }
+        },
+        "mainInput": {
+            "ingredient": {
+                "item": "minecraft:snowball"
+            }
+        },
+        "output": {
+            "item": "theurgy:crystallized_water"
+        }
+    })
+
+    event.custom({
+        "type": "create:mixing",
+        "heatRequirement": "heated",
+        "ingredients": [
+            {
+                "item": "theurgy:crystallized_water"
+            }
+        ],
+        "results": [
+            {
+                "amount": 1000,
+                "fluid": "minecraft:water"
+            }
+        ]
     })
 })

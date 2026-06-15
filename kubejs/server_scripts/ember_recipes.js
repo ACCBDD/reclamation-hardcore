@@ -262,4 +262,37 @@ ServerEvents.recipes(event => {
             "item": "embers:lead_ingot"
         }
     })
+
+    event.custom({
+        "type": "embers:melting",
+        "input": {
+            "item": "minecraft:snow_block"
+        },
+        "output": {
+            "amount": 1000,
+            "fluid": "minecraft:water"
+        }
+    })
+
+    event.custom({
+        "type": "embers:melting",
+        "input": {
+            "item": "minecraft:ice"
+        },
+        "output": {
+            "amount": 1000,
+            "fluid": "minecraft:water"
+        }
+    })
+
+    event.custom({
+        "type": "embers:melting",
+        "input": {
+            "item": "minecraft:packed_ice"
+        },
+        "output": {
+            "amount": 4000,
+            "fluid": "minecraft:water"
+        }
+    })
 })

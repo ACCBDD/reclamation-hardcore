@@ -43,6 +43,8 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.remove({id: 'botania:pure_daisy/snow_block'})
+
     //rune recipes
     remove_rune_ids.forEach(id => {
         event.remove({ id: 'botania:runic_altar/'+id})

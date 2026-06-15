@@ -824,9 +824,9 @@
 			description: [
 				"This pack contains &6Via Romana&r, a sign-based fast travel system. In order to fast travel using signs, you must first &6build a path and traverse it&r before you can teleport across it. "
 				""
-				"&6Shift-left-click&r on a sign at the start of your path, then &6shift-left-click&r on a sign at the end of your path. Once you start pathing from one sign to the other, you need to follow a player-made path. If you deviate, you'll &cstop&r building the fast travel route and have to backtrack."
+				"To start charting a path, you'll need a &6charting map.&r Use it while you're on a path to begin charting then walk the path as normal. Once you're done, use the map again to &6finish charting.&r You can also start charting anywhere along an already-charted path to &6add branches.&r"
 				""
-				"Once linked, just punch the sign and you'll fast travel!"
+				"Place a sign anywhere along the path and you'll be able to &6add it as a destination&r - once added, just &6punch the sign&r and you'll be able to fast travel to other signs!"
 				""
 				"&7Tip: to see what blocks count as path blocks, search &2#via_romana:path_block&7 in your recipe viewer."
 			]
@@ -840,25 +840,15 @@
 					type: "item"
 				}
 				{
-					id: "7770E67AFA2287F1"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "via_romana:guide"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "1F103D45BC4921D6"
 					type: "xp"
 					xp: 100
 				}
 			]
 			tasks: [{
-				id: "00934C35AE808939"
-				type: "checkmark"
+				id: "781AE533A0E4D090"
+				item: "via_romana:charting_map"
+				type: "item"
 			}]
 			title: "Signpost Travel"
 			x: -1.5d

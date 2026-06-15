@@ -69,4 +69,7 @@ StartupEvents.registry('mekanism:gas', event => {
     .tint(0xAD0051)
     .with(new $Fuel(() => 40, () => $FloatingLong.create(22200))))
   )
+  event.createCustom('reclamation:sal_ammoniac', () => new $Gas($GasBuilder.builder()
+    .tint(0xBA31BA))
+  )
 })

@@ -721,7 +721,11 @@
 		}
 		{
 			dependencies: ["7A2BEC31266C6A7E"]
-			description: ["The &6Enrichment Chamber&r can slightly boost the outputs of raw ores, clean blocks, and refine reagents for the &6Metallurgic Infuser,&r creating enriched versions of items that are &68 times more efficient!&r"]
+			description: [
+				"The &6Enrichment Chamber&r can slightly boost the outputs of raw ores, clean blocks, and refine reagents for the &6Metallurgic Infuser,&r creating enriched versions of items that are &68 times more efficient!&r"
+				""
+				"&7Tip: you can turn mercury shards into crystals and sulfurs into niter as well!"
+			]
 			id: "382B7C05BB6427BB"
 			rewards: [{
 				id: "418B00529CFA055E"
@@ -970,6 +974,8 @@
 				"You'll need sulfur for sulfuric acid, which you can make through judicious application of oxygen to charcoal."
 				""
 				"Dirty ore slurry needs to be washed into clean ore slurry, then crystallized into crystals, which then get thrown into the &6Chemical Injection Chamber&r to get turned into shards, which purify into clumps, crush into dirty dust, enrich into clean dust, and then finally smelt into ingots."
+				""
+				"&7Tip: you can use the injection chamber to turn resources into sulfurs!"
 			]
 			icon: "mekanism:chemical_washer"
 			id: "3B5E9C85AC4A0165"
@@ -2571,6 +2577,23 @@
 			title: "Fusion Reactor"
 			x: 9.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["7A2BEC31266C6A7E"]
+			description: ["The &6Combiner&r lets you automate the crafting of various things more efficiently - one useful recipe is the combination of snow and icy needles into &6crystallized water.&r"]
+			id: "2ECC89195AAFB21A"
+			rewards: [{
+				id: "3A441A3D1501A500"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "499E7173F5BC9A8C"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
 		}
 	]
 	title: "Sounds of Life"
