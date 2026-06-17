@@ -2458,11 +2458,13 @@
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
 			description: [
-				"Dripstone has the unique property of being able to turn a small amount of liquid into a large amount - place water or lava on a block with pointed dripstone under it, and it'll slowly fill up a cauldron placed under that!"
+				"&6Dripstone&r has the unique property of being able to turn a small amount of liquid into a large amount - place water or lava on a block with pointed dripstone under it, and it'll slowly fill up a cauldron placed under that!"
 				""
 				"Now not only are you free from waiting for rain to fall for more water, but you can &6farm lava&r as well!"
 				""
 				"&7Tip: it takes about a full in-game day to fill a cauldron, so you might want to set up multiple!"
+				""
+				"&7Tip 2: pointed dripstone will slowly grow longer if it's dripping water, as long as there's space for it!"
 			]
 			icon: "minecraft:dripstone_block"
 			id: "1D177C9B141BA8C6"
