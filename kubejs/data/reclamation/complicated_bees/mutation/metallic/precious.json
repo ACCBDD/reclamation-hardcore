@@ -5,7 +5,7 @@
       "block": "minecraft:gold_block"
     }
   },
-  "first": "complicated_bees:robust",
+  "first": "complicated_bees:cuprous",
   "result": "complicated_bees:precious",
   "second": "complicated_bees:majestic"
 }

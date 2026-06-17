@@ -5,7 +5,7 @@
       "block": "embers:silver_block"
     }
   },
-  "first": "reclamation:plumbum",
+  "first": "complicated_bees:precious",
   "result": "reclamation:argentum",
-  "second": "complicated_bees:noble"
+  "second": "complicated_bees:ferrous"
 }

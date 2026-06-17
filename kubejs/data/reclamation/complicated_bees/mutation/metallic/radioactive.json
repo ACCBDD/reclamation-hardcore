@@ -5,7 +5,7 @@
       "block": "mekanism:block_uranium"
     }
   },
-  "first": "complicated_bees:ferrous",
+  "first": "reclamation:stannum",
   "result": "reclamation:radioactive",
   "second": "complicated_bees:conductive"
 }

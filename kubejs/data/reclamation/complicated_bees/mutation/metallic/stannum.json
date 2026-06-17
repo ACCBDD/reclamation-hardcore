@@ -5,7 +5,7 @@
       "block": "mekanism:block_tin"
     }
   },
-  "first": "complicated_bees:ferrous",
+  "first": "complicated_bees:quartz",
   "result": "reclamation:stannum",
-  "second": "complicated_bees:quartz"
+  "second": "reclamation:zincum"
 }

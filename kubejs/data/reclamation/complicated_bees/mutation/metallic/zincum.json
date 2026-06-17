@@ -5,7 +5,7 @@
       "block": "create:zinc_block"
     }
   },
-  "first": "complicated_bees:cuprous",
+  "first": "complicated_bees:ferrous",
   "result": "reclamation:zincum",
-  "second": "complicated_bees:bituminous"
+  "second": "reclamation:plubum"
 }

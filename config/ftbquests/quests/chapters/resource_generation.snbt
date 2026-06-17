@@ -13,7 +13,9 @@
 		{
 			dependencies: ["6C972BEC949FEF25"]
 			description: [
-				"You can place frames into your apiary for bonuses to productivity, lifespan, and even change the temperature and humidity of an apiary. "
+				"You can place frames into your apiary for &6large bonuses to productivity.&r"
+				""
+				"Some frames modify other things like &6lifespan&r and &6mutativity&r - others can even change the temperature and humidity of an apiary!"
 				""
 				"&7Tip: Frame modifiers stack multiplicatively, not additively!&r"
 			]
@@ -56,8 +58,8 @@
 				title: "Any Frame"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.5d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["29CB5767DE978673"]
@@ -115,7 +117,7 @@
 				}
 			]
 			title: "Beeginnings"
-			x: 4.5d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
@@ -125,7 +127,7 @@
 				""
 				"At first, you'll only get beeswax and honey drops, alongside some dead logs..."
 				""
-				"&7Tip: wasteland bees (and desiccated and dried bees) need dead bushes as their 'flowers'!"
+				"&7Tip: wasteland bees need dead bushes as their 'flowers'!"
 			]
 			icon: "complicated_bees:honey_droplet"
 			id: "6C972BEC949FEF25"
@@ -160,75 +162,6 @@
 			title: "Beesources"
 			x: 4.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["6C972BEC949FEF25"]
-			description: ["By continuously re-breeding &6Wasteland&r bees together, you can start to slowly revitalize them. &6Desiccated&r and &6Dried&r bees are slightly better, with a higher productivity and lifespan - meaning less maintenance and more combs!"]
-			icon: {
-				Count: 1
-				id: "complicated_bees:comb"
-				tag: {
-					comb_type: "reclamation:barren"
-				}
-			}
-			id: "7DD195197887D9E6"
-			rewards: [
-				{
-					count: 16
-					id: "2B4BAFD07664758C"
-					item: "complicated_bees:honey_droplet"
-					type: "item"
-				}
-				{
-					id: "09B98A6EDDE9CE3D"
-					item: {
-						Count: 1
-						id: "complicated_bees:deadly_frame"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7219C379A3994EB0"
-					type: "xp"
-					xp: 500
-				}
-			]
-			tasks: [
-				{
-					id: "6C82369B6FFA66B6"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:dessicated"
-							}
-						}
-					}
-					title: "Desiccated"
-					type: "item"
-				}
-				{
-					id: "2B81BE38A3EEE654"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:dried"
-							}
-						}
-					}
-					title: "Dried"
-					type: "item"
-				}
-			]
-			title: "Reclaimed Bees"
-			x: 4.5d
-			y: 1.5d
 		}
 		{
 			dependencies: ["6C972BEC949FEF25"]
@@ -274,8 +207,8 @@
 				}
 			]
 			title: "Tools of the Trade"
-			x: 6.0d
-			y: -0.5d
+			x: 6.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C972BEC949FEF25"]
@@ -315,6 +248,8 @@
 				"By breeding &6Rocky&r bees together in the nether, they'll slowly adapt and turn into their nether versions - &6Crimson&r and &6Warped&r bees. &6Cursed&r bees are the hybrid between the two."
 				""
 				"These bees, twisted by the nether environment, are somewhat aggressive; they'll harm nearby mobs (including players!)"
+				""
+				"&7Tip: the nether is a cave, so you'll want to make sure your bees have the cave dwelling trait!"
 			]
 			icon: {
 				Count: 1
@@ -387,18 +322,23 @@
 				}
 			]
 			title: "Nether Bees"
-			x: 6.0d
-			y: 4.5d
+			x: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3FBA3BCF67F2AB82"]
 			description: [
 				"If you're tired of getting stung by nether bees, try crafting a set of &6Apiarist Gear.&r This armor, when worn as a set, will protect you from getting affected by any bees nearby."
 				""
-				"It's made of silk, which you can get from propolis (which you can get from simmering combs, among others.)"
+				"It's made of silk, which you can get from propolis (which you can get from simmering and rocky combs, among others.)"
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"cold_sweat:item_insulation": {
+						insulation: [ ]
+					}
+				}
 				id: "complicated_bees:apiarist_helmet"
 				tag: {
 					Damage: 0
@@ -457,14 +397,14 @@
 				}
 			]
 			title: "Apiarist Gear"
-			x: 6.0d
-			y: 3.0d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["7DD195197887D9E6"]
+			dependencies: ["5B1AD7A67406CD8F"]
 			dependency_requirement: "all_started"
 			description: [
-				"&6Rocky&r and &6Robust&r bees are more used to cooler climates, but you can breed better tolerances into them. "
+				"The first species you'll want to mutate to are &6Rocky&r bees."
 				""
 				"Their rocky combs produce much more wax and honey than their wasteland cousins, but more importantly, they can rarely produce &6Copper Combs&r as a specialty."
 				""
@@ -498,50 +438,20 @@
 					xp: 500
 				}
 			]
-			tasks: [
-				{
-					id: "7D5C1CBBD09FA64F"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:rocky"
-							}
+			tasks: [{
+				id: "7D5C1CBBD09FA64F"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:rocky"
 						}
 					}
-					title: "Rocky"
-					type: "item"
 				}
-				{
-					id: "63CA1502DB9729FB"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:robust"
-							}
-						}
-					}
-					title: "Robust"
-					type: "item"
-				}
-				{
-					id: "155A783AE8BE7890"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:resilient"
-							}
-						}
-					}
-					title: "Resilient"
-					type: "item"
-				}
-			]
+				title: "Rocky"
+				type: "item"
+			}]
 			title: "Rocky Bees"
 			x: 4.5d
 			y: 3.0d
@@ -621,11 +531,11 @@
 				}
 			]
 			title: "Spectral Bees"
-			x: 7.5d
-			y: 4.5d
+			x: 5.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["4FBECB8A5C79852D"]
+			dependencies: ["6CBDCAD7ABDBC8F1"]
 			dependency_requirement: "all_started"
 			description: ["&6Common&r and &6Cultivated&r bees were the most common species in the world that came before, from what you recall."]
 			icon: {
@@ -685,7 +595,7 @@
 				}
 			]
 			title: "Common Bees"
-			x: 4.5d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -765,8 +675,8 @@
 				}
 			]
 			title: "Industrious Bees"
-			x: 5.0d
-			y: 6.0d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0240D7D55692DAC9"]
@@ -850,7 +760,7 @@
 				}
 			]
 			title: "Imperial Bees"
-			x: 4.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -881,14 +791,16 @@
 					xp: 500
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "694990D9BD2781B3"
 				item: "complicated_bees:mellarium_base"
 				type: "item"
 			}]
 			title: "The Mellarium"
-			x: 4.5d
-			y: 7.0d
+			x: 0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7F77AE83C391B38A"]
@@ -959,7 +871,7 @@
 				type: "item"
 			}]
 			title: "Upgrades"
-			x: 3.0d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -999,8 +911,8 @@
 				item: "complicated_bees:honey_generator"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7F77AE83C391B38A"]
@@ -1029,171 +941,40 @@
 				type: "checkmark"
 			}]
 			title: "More Nests"
-			x: 1.5d
-			y: 0.0d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4FBECB8A5C79852D"]
 			dependency_requirement: "one_started"
-			description: ["Certain bees can produce straight up raw metals from certain rocks!"]
-			icon: {
-				Count: 1
-				id: "complicated_bees:comb"
-				tag: {
-					comb_type: "complicated_bees:copper"
-				}
-			}
+			description: ["Bees that &6produce copper&r might not seem especially useful compared to cuprosia plants, but they are a stepping stone to more valuable &6metal-producing bees.&r"]
+			icon: "minecraft:raw_copper"
 			id: "0A48AEDC49A48973"
-			rewards: [
-				{
-					count: 4
-					id: "58C314EBD8C42D12"
-					item: "minecraft:enchanted_golden_apple"
-					type: "item"
-				}
-				{
-					id: "75EA89A92A66DC59"
-					type: "xp"
-					xp: 500
-				}
-			]
-			tasks: [
-				{
-					id: "0EA60ACDE2EADAE6"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:cuprous"
-							}
+			rewards: [{
+				id: "75EA89A92A66DC59"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "0EA60ACDE2EADAE6"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:cuprous"
 						}
 					}
-					title: "Cuprous"
-					type: "item"
 				}
-				{
-					id: "466A8C08649994F3"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:precious"
-							}
-						}
-					}
-					title: "Precious"
-					type: "item"
-				}
-				{
-					id: "4CCA406B1C1D5354"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:ferrous"
-							}
-						}
-					}
-					title: "Ferrous"
-					type: "item"
-				}
-				{
-					id: "7E14F17EC2430C56"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:plumbum"
-							}
-						}
-					}
-					title: "Plumbum"
-					type: "item"
-				}
-				{
-					id: "5F59CD7866EF3947"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:argentum"
-							}
-						}
-					}
-					title: "Argentum"
-					type: "item"
-				}
-				{
-					id: "218C8CD49CAD24F4"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:osmium"
-							}
-						}
-					}
-					title: "Osimum"
-					type: "item"
-				}
-				{
-					id: "0AA429B26695BC78"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:zincum"
-							}
-						}
-					}
-					title: "Zincum"
-					type: "item"
-				}
-				{
-					id: "4222159749F84687"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:radioactive"
-							}
-						}
-					}
-					title: "Radioactive"
-					type: "item"
-				}
-				{
-					id: "758A0B5AA731EA7E"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:stannum"
-							}
-						}
-					}
-					title: "Stannum"
-					type: "item"
-				}
-			]
-			title: "Metal Bees"
-			x: 3.0d
-			y: 6.0d
+				title: "Cuprous"
+				type: "item"
+			}]
+			title: "Actual Copper Bees"
+			x: 6.5d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"4FBECB8A5C79852D"
-				"3FBA3BCF67F2AB82"
-			]
+			dependencies: ["4FBECB8A5C79852D"]
 			dependency_requirement: "one_started"
 			description: ["Certain bees can produce raw minerals from their environment!"]
 			icon: {
@@ -1204,19 +985,11 @@
 				}
 			}
 			id: "7AFEB9E87800654A"
-			rewards: [
-				{
-					count: 4
-					id: "53272C0F8F2DC296"
-					item: "minecraft:enchanted_golden_apple"
-					type: "item"
-				}
-				{
-					id: "1EA42D6FE8B2EFB9"
-					type: "xp"
-					xp: 500
-				}
-			]
+			rewards: [{
+				id: "1EA42D6FE8B2EFB9"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [
 				{
 					id: "339CD4C8E6EA2606"
@@ -1360,17 +1133,13 @@
 				}
 			]
 			title: "Mineral Bees"
-			x: 6.0d
-			y: 6.0d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["4FBECB8A5C79852D"]
+			dependencies: ["3FBA3BCF67F2AB82"]
 			dependency_requirement: "one_started"
-			description: [
-				"These bees can produce magical products. Some of them, like the &6Natural&r bee, have special effects!"
-				""
-				"Additionally, the Natural bee produces some small amount of &6Nature Essence&r if kept ecstatic."
-			]
+			description: ["The &6Natural&r species is the first magical mutation you can achieve - these bees have the unique property of &6producing a large amount of Aura&r in the surrounding area."]
 			icon: {
 				Count: 1
 				id: "complicated_bees:comb"
@@ -1392,132 +1161,28 @@
 					type: "item"
 				}
 				{
-					count: 4
-					id: "48C47C6AACE24DF6"
-					item: "botania:blacker_lotus"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "205C4F29F25A0E62"
-					item: "botania:overgrowth_seed"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "50CAD9CC5D89383E"
-					item: "bloodmagic:hellforgedparts"
-					type: "item"
-				}
-				{
 					id: "2E3F89FE2908D569"
 					type: "xp"
 					xp: 500
 				}
 			]
-			tasks: [
-				{
-					id: "4A94304490D9A90E"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:natural"
-							}
+			tasks: [{
+				id: "4A94304490D9A90E"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:natural"
 						}
 					}
-					title: "Natural"
-					type: "item"
 				}
-				{
-					id: "05CAC1EB80406FBE"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:botanic"
-							}
-						}
-					}
-					title: "Botanic"
-					type: "item"
-				}
-				{
-					id: "264ECB3724921EBF"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:dawnstone"
-							}
-						}
-					}
-					title: "Dawnstone"
-					type: "item"
-				}
-				{
-					id: "38D7A03F1C723D63"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:willful"
-							}
-						}
-					}
-					title: "Willful"
-					type: "item"
-				}
-				{
-					id: "6DC74367F4AFA714"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:source"
-							}
-						}
-					}
-					title: "Source"
-					type: "item"
-				}
-				{
-					id: "402964C551141D0E"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:demonite"
-							}
-						}
-					}
-					title: "Demonite"
-					type: "item"
-				}
-				{
-					id: "4964212347DCD2FE"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:terra"
-							}
-						}
-					}
-					title: "Terra"
-					type: "item"
-				}
-			]
-			title: "Magical Bees"
-			x: 3.0d
-			y: 4.5d
+				title: "Natural"
+				type: "item"
+			}]
+			title: "Aura-filled Bees"
+			x: 4.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["530A8B09322225E3"]
@@ -1546,7 +1211,503 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.resource_generation.quest40.title}"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4FBECB8A5C79852D"]
+			dependency_requirement: "all_started"
+			description: [
+				"&6Robust&r and &6Resilient&r bees are more advanced versions of the Rocky line - they have &6higher chances to produce&r combs and wider environmental tolerances, but they need &4cooler and more humid&r environments to produce their copper comb specialty. "
+				""
+				"You'll want to either breed in a nicer temperature tolerance or invest in specialty frames."
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:copper"
+				}
+			}
+			id: "6CBDCAD7ABDBC8F1"
+			rewards: [
+				{
+					id: "0E374D16A8D2DF5C"
+					item: {
+						Count: 1
+						id: "complicated_bees:deadly_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "247CE6C6CA49DB66"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "39999BA9D46DB206"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:robust"
+							}
+						}
+					}
+					title: "Robust"
+					type: "item"
+				}
+				{
+					id: "0EB15A91FA92B099"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:resilient"
+							}
+						}
+					}
+					title: "Resilient"
+					type: "item"
+				}
+			]
+			title: "Advanced Rocky Bees"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0421D9DBD650A20B"]
+			dependency_requirement: "one_started"
+			description: [
+				"These bees can produce magical products. Some of them, like the &6Natural&r bee, have special effects!"
+				""
+				"Additionally, the Natural bee produces some small amount of &6Nature Essence&r if kept ecstatic."
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:magical"
+				}
+			}
+			id: "20DDED1ACF1BBEA9"
+			rewards: [
+				{
+					id: "5EF6A9D757061605"
+					item: {
+						Count: 1
+						id: "complicated_bees:deadly_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A8C43DEA8BAD684"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "221A910DD2B0BA9E"
+					item: "botania:overgrowth_seed"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7BABAE4BA25F032A"
+					item: "bloodmagic:hellforgedparts"
+					type: "item"
+				}
+				{
+					id: "416458DE733B890D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "1FF6A97F902F729A"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:botanic"
+							}
+						}
+					}
+					title: "Botanic"
+					type: "item"
+				}
+				{
+					id: "3D1DF75F9E7B2F0E"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:dawnstone"
+							}
+						}
+					}
+					title: "Dawnstone"
+					type: "item"
+				}
+				{
+					id: "03DA77B6AE66121A"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:willful"
+							}
+						}
+					}
+					title: "Willful"
+					type: "item"
+				}
+				{
+					id: "0F92890320CF6EE9"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:source"
+							}
+						}
+					}
+					title: "Source"
+					type: "item"
+				}
+				{
+					id: "4A550B50BFB94CD3"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:demonite"
+							}
+						}
+					}
+					title: "Demonite"
+					type: "item"
+				}
+				{
+					id: "4C687E85DE410F66"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:terra"
+							}
+						}
+					}
+					title: "Terra"
+					type: "item"
+				}
+			]
+			title: "Magical Bees"
 			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0A48AEDC49A48973"]
+			dependency_requirement: "one_started"
+			description: ["&6Ferrous&r bees let you skip the whole 'doping copper in magical blood' process by simply producing combs that can be centrifuged into straight up &6raw iron!&r"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:iron"
+				}
+			}
+			id: "0D21DF77B2FF21A3"
+			rewards: [{
+				id: "00825CF61E3807EF"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "09DBE144ABDF7B21"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:ferrous"
+						}
+					}
+				}
+				title: "Ferrous"
+				type: "item"
+			}]
+			title: "Oh The Iron Bee"
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3DC2E9218B6A664F"]
+			dependency_requirement: "one_started"
+			description: ["&6Radioactive&r bees really enjoy listening to pop rock, surprisingly enough. Their combs are a great source of &6uranium.&r"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:uranium"
+				}
+			}
+			id: "30589CE9A4ABB12E"
+			rewards: [{
+				id: "0B906D97073708E7"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "0755FEC0D6344888"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:radioactive"
+						}
+					}
+				}
+				title: "Radioactive"
+				type: "item"
+			}]
+			title: "Imagine (if these bees were) Dragons"
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0A48AEDC49A48973"]
+			dependency_requirement: "one_started"
+			description: ["&6Precious&r bees are obsessed with shiny things; they collect trace amounts of &6gold&r from nearby dripstone and concentrate it into their combs."]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:gold"
+				}
+			}
+			id: "19B3A8C402BA566C"
+			rewards: [{
+				id: "47476DBFAE0E40C6"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "0296FB677B13477E"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:precious"
+						}
+					}
+				}
+				title: "Precious"
+				type: "item"
+			}]
+			title: "How Precious!"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A48AEDC49A48973"]
+			dependency_requirement: "one_started"
+			description: ["&6Plumbum&r bees look a little funny sometimes - but their combs have a very useful high &6lead&r content."]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:lead"
+				}
+			}
+			id: "24C5A73167D74FAF"
+			rewards: [{
+				id: "0A16FDDB10DD6A13"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "65FC8FB572009995"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:plumbum"
+						}
+					}
+				}
+				title: "Plumbum"
+				type: "item"
+			}]
+			title: "Leaders in the Industry"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0D21DF77B2FF21A3"
+				"24C5A73167D74FAF"
+			]
+			dependency_requirement: "one_started"
+			description: ["&6Zincum &rbees have a reputation for engineering, thanks to their production of the metal &6zinc&r - but some say that reputation is vastly overblown."]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:zinc"
+				}
+			}
+			id: "59CA011C539A7468"
+			rewards: [{
+				id: "2A783982025F3B5F"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "5572432CC4EAEE86"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:zincum"
+						}
+					}
+				}
+				title: "Zincum"
+				type: "item"
+			}]
+			title: "That Zincing Feeling"
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"19B3A8C402BA566C"
+				"0D21DF77B2FF21A3"
+			]
+			dependency_requirement: "one_started"
+			description: ["&6Argentum&r bees, much like their Precious cousins, enjoy shiny things - however, they seem to be a little more snooty about their chosen metal: &6silver.&r"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:silver"
+				}
+			}
+			id: "201DB3E2EF282FA4"
+			rewards: [{
+				id: "1999A8A6AE0C13E6"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "290D5DB3B65F3192"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:argentum"
+						}
+					}
+				}
+				title: "Argentum"
+				type: "item"
+			}]
+			title: "Silver, hold the Fish"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["201DB3E2EF282FA4"]
+			dependency_requirement: "one_started"
+			description: ["&6Osmium&r bees produce, well, &6osmium.&r Useful for those who feel that depending on a fickle god for the metal is a little unreliable."]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:osmium"
+				}
+			}
+			id: "32D13B8A472F8C07"
+			rewards: [{
+				id: "487FA05D03546BBA"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "3D09212BC58162BB"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:osmium"
+						}
+					}
+				}
+				title: "Osimum"
+				type: "item"
+			}]
+			title: "Mekanically Inclined"
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["59CA011C539A7468"]
+			dependency_requirement: "one_started"
+			description: ["&6Stannum&r bees have a strange obsession with &6tin&r - some going so far as to 'stalk' sources of it."]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:tin"
+				}
+			}
+			id: "3DC2E9218B6A664F"
+			rewards: [{
+				id: "4440ECEF0025BC44"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "2CBFF58C691D7B1F"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:stannum"
+						}
+					}
+				}
+				title: "Stannum"
+				type: "item"
+			}]
+			title: "No Choice But To Stan"
+			x: 8.5d
 			y: 8.0d
 		}
 	]

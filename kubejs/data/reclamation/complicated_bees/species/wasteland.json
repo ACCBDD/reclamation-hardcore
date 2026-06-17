@@ -19,6 +19,10 @@
     {
       "chance": 0.15,
       "item": "kubejs:dead_log"
+    },
+    {
+      "chance": 0.10,
+      "item": "kubejs:dried_earth"
     }
   ],
   "specialty_products": [],

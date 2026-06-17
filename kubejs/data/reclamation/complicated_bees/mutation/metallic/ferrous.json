@@ -1,5 +1,5 @@
 {
-  "chance": 0.1,
+  "chance": 0.2,
   "conditions": {
     "complicated_bees:block_under": {
       "block": "minecraft:iron_block"
@@ -7,5 +7,5 @@
   },
   "first": "complicated_bees:cuprous",
   "result": "complicated_bees:ferrous",
-  "second": "complicated_bees:precious"
+  "second": "reclamation:wasteland"
 }
