@@ -60,4 +60,7 @@ ServerEvents.recipes(event => {
     })
 
     event.replaceInput({id: 'mekanism:configurator'}, 'minecraft:lapis_lazuli', 'embers:dawnstone_ingot')
+    event.replaceInput({id: 'mekanism:basic_energy_cube'}, 'mekanism:steel_casing', 'mekanism:block_steel')
+
+    event.remove({id: 'mekanism:cardboard_box'})
 })

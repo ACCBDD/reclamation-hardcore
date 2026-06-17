@@ -2381,9 +2381,9 @@
 			description: [
 				"The &6Fission Reactor&r is a large multiblock that takes fissile fuel and water and outputs enormous amounts of steam. This steam can be pumped into another large multiblock (the industrial turbine) to produce absolutely outrageous amounts of power. "
 				""
-				"Equally as importantly, it produces nuclear waste."
+				"Equally as importantly, it produces &6nuclear waste.&r"
 				""
-				"For more information on how to build this structure, refer to the mekanism wiki or the ponder."
+				"For more information on how to build this structure, refer to the &6mekanism wiki or the ponder.&r"
 				""
 				"&4Warning: if you mess up running your reactor, it WILL melt down and explode/irradiate the surrounding area. Make it small or make it far away from your base if you're not confident."
 			]
@@ -2594,6 +2594,27 @@
 			}]
 			x: 4.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["7B4F1EAF6F7A4A1D"]
+			description: [
+				"The &6Entropinnyum&r is one of the best mana generators available. Fed by explosions and limited only by how fast you can extract the mana out of it, it can potentially &6fill up a mana pool in seconds!&r"
+				""
+				"Be careful though - if you feed it an explosion before it's empty, the explosion &4won't be absorbed...&r"
+			]
+			id: "7CEBBB18C024B410"
+			rewards: [{
+				id: "40BFA93E638336E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4DD45A3C606FA9B9"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.5d
 		}
 	]
 	title: "Sounds of Life"

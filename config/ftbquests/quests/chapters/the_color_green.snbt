@@ -1650,7 +1650,6 @@
 				"With runes, there are a few other options you have for generating mana:"
 				""
 				"* A &6Thermalily&r generates bursts of mana using lava, but will consume lava for no gain if you give it lava too often"
-				"* An &6Entropinnyum&r consumes TNT explosions (and is one of the best generating flowers in the game), but too often and it'll just blow itself up"
 				"* A &6Munchdew&r consumes leaves, but does not drop saplings."
 				""
 				"&7Tip: some flowers will generate too much mana for a basic spreader! You can use potency and velocity lenses to stretch this, but eventually, you'll need better spreaders...&r"
@@ -1663,11 +1662,6 @@
 				xp: 100
 			}]
 			tasks: [
-				{
-					id: "7FBBEAD125CEBC23"
-					item: "botania:entropinnyum"
-					type: "item"
-				}
 				{
 					id: "5651681BBC5CDDF3"
 					item: "botania:thermalily"
@@ -2662,6 +2656,23 @@
 			}]
 			title: "Mechanized Theurgy"
 			x: -11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0CF33532629C1427"]
+			description: ["The Basic Energy Cube is your earliest solution for storing energy."]
+			id: "3F89DBA96B29128A"
+			rewards: [{
+				id: "48E71FE6A31C41DE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1DB5F54CEF096C24"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: -8.0d
 			y: -9.5d
 		}
 	]
