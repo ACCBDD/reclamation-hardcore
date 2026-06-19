@@ -5,7 +5,7 @@
       "block": "mekanism:block_fluorite"
     }
   },
-  "first": "complicated_bees:quartz",
+  "first": "complicated_bees:lapic",
   "result": "reclamation:fluorite",
   "second": "complicated_bees:amethyst"
 }
