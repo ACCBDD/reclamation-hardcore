@@ -5,7 +5,7 @@
       "block": "minecraft:netherite_block"
     }
   },
-  "first": "complicated_bees:ferrous",
+  "first": "reclamation:osmium",
   "result": "complicated_bees:adamantine",
-  "second": "complicated_bees:luminous"
+  "second": "complicated_bees:devilish"
 }

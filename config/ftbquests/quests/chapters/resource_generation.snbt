@@ -23,8 +23,8 @@
 			image: "reclamation:textures/quests/apiary_mek.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: 10.5d
-			y: -1.0d
+			x: 9.785714285714285d
+			y: -2.809523809523803d
 		}
 	]
 	order_index: 1
@@ -350,7 +350,7 @@
 			description: [
 				"If you're tired of getting stung by nether bees, try crafting a set of &6Apiarist Gear.&r This armor, when worn as a set, will protect you from getting affected by any bees nearby."
 				""
-				"It's made of silk, which you can get from propolis (which you can get from simmering and rocky combs, among others.)"
+				"It's made of silk, which you can get from &6propolis&r (which you can get from simmering and rocky combs, among others.)"
 			]
 			icon: {
 				Count: 1
@@ -970,11 +970,24 @@
 			description: ["Bees that &6produce copper&r might not seem especially useful compared to cuprosia plants, but they are a stepping stone to more valuable &6metal-producing bees.&r"]
 			icon: "minecraft:raw_copper"
 			id: "0A48AEDC49A48973"
-			rewards: [{
-				id: "75EA89A92A66DC59"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "6871F298264C9D51"
+					item: {
+						Count: 1
+						id: "complicated_bees:deadly_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75EA89A92A66DC59"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				id: "0EA60ACDE2EADAE6"
 				item: {
@@ -996,7 +1009,7 @@
 		{
 			dependencies: ["4FBECB8A5C79852D"]
 			dependency_requirement: "one_started"
-			description: ["Certain bees can produce raw minerals from their environment!"]
+			description: ["An ideal first foray into mineral generating species - &6coal&r bees generate... &6coal!&r"]
 			icon: {
 				Count: 1
 				id: "complicated_bees:comb"
@@ -1005,154 +1018,34 @@
 				}
 			}
 			id: "7AFEB9E87800654A"
-			rewards: [{
-				id: "1EA42D6FE8B2EFB9"
-				type: "xp"
-				xp: 500
-			}]
-			tasks: [
+			rewards: [
 				{
-					id: "339CD4C8E6EA2606"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:bituminous"
-							}
-						}
-					}
-					title: "Bituminous"
+					count: 16
+					id: "6D4DA92F70D21CCE"
+					item: "minecraft:coal"
 					type: "item"
 				}
 				{
-					id: "6335C66F5DF612CF"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:conductive"
-							}
-						}
-					}
-					title: "Conductive"
-					type: "item"
-				}
-				{
-					id: "4C0D8DA8BF21F928"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:luminous"
-							}
-						}
-					}
-					title: "Luminous"
-					type: "item"
-				}
-				{
-					id: "276CA391C0A73885"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:lapic"
-							}
-						}
-					}
-					title: "Lapic"
-					type: "item"
-				}
-				{
-					id: "60A4A2FA95605E84"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:amethyst"
-							}
-						}
-					}
-					title: "Amethyst"
-					type: "item"
-				}
-				{
-					id: "4899AE05E1ED759A"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:dimantic"
-							}
-						}
-					}
-					title: "Dimantic"
-					type: "item"
-				}
-				{
-					id: "193BFD17439F127A"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:emeradic"
-							}
-						}
-					}
-					title: "Emeradic"
-					type: "item"
-				}
-				{
-					id: "62CAB593B1F591EC"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "complicated_bees:quartz"
-							}
-						}
-					}
-					title: "Quartz"
-					type: "item"
-				}
-				{
-					id: "3DF08F7DC76C0A35"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:silicate"
-							}
-						}
-					}
-					title: "Silicate"
-					type: "item"
-				}
-				{
-					id: "2E9A66705838F50E"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:fluorite"
-							}
-						}
-					}
-					title: "Fluorite"
-					type: "item"
+					id: "1EA42D6FE8B2EFB9"
+					type: "xp"
+					xp: 500
 				}
 			]
-			title: "Mineral Bees"
+			tasks: [{
+				id: "339CD4C8E6EA2606"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:bituminous"
+						}
+					}
+				}
+				title: "Bituminous"
+				type: "item"
+			}]
+			title: "Coal-ity Bees"
 			x: 6.5d
 			y: 2.5d
 		}
@@ -1351,11 +1244,19 @@
 				}
 			}
 			id: "0D21DF77B2FF21A3"
-			rewards: [{
-				id: "00825CF61E3807EF"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "41B645812F096E96"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "00825CF61E3807EF"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				id: "09DBE144ABDF7B21"
 				item: {
@@ -1386,11 +1287,19 @@
 				}
 			}
 			id: "30589CE9A4ABB12E"
-			rewards: [{
-				id: "0B906D97073708E7"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "2DF372ED4490F098"
+					item: "mekanism:clump_uranium"
+					type: "item"
+				}
+				{
+					id: "0B906D97073708E7"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				id: "0755FEC0D6344888"
 				item: {
@@ -1421,11 +1330,19 @@
 				}
 			}
 			id: "19B3A8C402BA566C"
-			rewards: [{
-				id: "47476DBFAE0E40C6"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "0E305324C274DF0E"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "47476DBFAE0E40C6"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				id: "0296FB677B13477E"
 				item: {
@@ -1456,11 +1373,19 @@
 				}
 			}
 			id: "24C5A73167D74FAF"
-			rewards: [{
-				id: "0A16FDDB10DD6A13"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "198310ECAF6EB883"
+					item: "mekanism:ingot_lead"
+					type: "item"
+				}
+				{
+					id: "0A16FDDB10DD6A13"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				id: "65FC8FB572009995"
 				item: {
@@ -1494,11 +1419,19 @@
 				}
 			}
 			id: "59CA011C539A7468"
-			rewards: [{
-				id: "2A783982025F3B5F"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "29773A3C603F35CB"
+					item: "create:crushed_raw_zinc"
+					type: "item"
+				}
+				{
+					id: "2A783982025F3B5F"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				id: "5572432CC4EAEE86"
 				item: {
@@ -1532,11 +1465,19 @@
 				}
 			}
 			id: "201DB3E2EF282FA4"
-			rewards: [{
-				id: "1999A8A6AE0C13E6"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "68C3BBF48725D284"
+					item: "embers:raw_silver"
+					type: "item"
+				}
+				{
+					id: "1999A8A6AE0C13E6"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				id: "290D5DB3B65F3192"
 				item: {
@@ -1567,11 +1508,19 @@
 				}
 			}
 			id: "32D13B8A472F8C07"
-			rewards: [{
-				id: "487FA05D03546BBA"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "02DA4DA7D541ADF2"
+					item: "mekanism:dirty_dust_osmium"
+					type: "item"
+				}
+				{
+					id: "487FA05D03546BBA"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				id: "3D09212BC58162BB"
 				item: {
@@ -1602,11 +1551,19 @@
 				}
 			}
 			id: "3DC2E9218B6A664F"
-			rewards: [{
-				id: "4440ECEF0025BC44"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "4E7E030AB5D330A8"
+					item: "mekanism:ingot_tin"
+					type: "item"
+				}
+				{
+					id: "4440ECEF0025BC44"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				id: "2CBFF58C691D7B1F"
 				item: {
@@ -1634,7 +1591,7 @@
 				""
 				"As a side note, frames cannot be auto-inserted into apiaries - but they &6might be automatable into a larger form of bee housing...&r"
 				""
-				"Example setups for either of those mods can be found as pictures near this quest."
+				"Example setups for either of those mods can be found as pictures near this quest once you complete it."
 			]
 			icon: {
 				Count: 1
@@ -1886,18 +1843,22 @@
 		{
 			dependencies: ["5E9D50C696B458D4"]
 			dependency_requirement: "one_started"
-			description: [
-				"These bees can produce magical products. Some of them, like the &6Natural&r bee, have special effects!"
-				""
-				"Additionally, the Natural bee produces some small amount of &6Nature Essence&r if kept ecstatic."
-			]
+			description: ["&6Terra&r bees are distinctly in tune with their environment. They use this harmony to produce &6terrasteel...&r somehow."]
 			icon: "botania:terrasteel_ingot"
 			id: "1A58C914872853C6"
-			rewards: [{
-				id: "109325D985FA5351"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "2337602874F6067B"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "109325D985FA5351"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				id: "163ABD667206D989"
 				item: {
@@ -1915,6 +1876,712 @@
 			title: "Terrable Power"
 			x: 2.5d
 			y: 11.0d
+		}
+		{
+			dependencies: ["7AFEB9E87800654A"]
+			dependency_requirement: "one_started"
+			description: [
+				"&6Conductive&r bees produce a fine red pollen indistinguishable from &6redstone.&r "
+				""
+				"Some superstitious folks say they can also produce RF... but they definitely cannot."
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:redstone"
+				}
+			}
+			id: "376402CC1DF7DACF"
+			rewards: [
+				{
+					count: 16
+					id: "693995892D179B3D"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "16251CF0ACE9CEDE"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "4CBD73C76B129443"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:conductive"
+						}
+					}
+				}
+				title: "Conductive"
+				type: "item"
+			}]
+			title: "What's the Buzz?"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AFEB9E87800654A"]
+			dependency_requirement: "one_started"
+			description: [
+				"&6Amethyst&r bees crystallize trace minerals into legitimate &6amethyst.&r"
+				""
+				"They are also known to enjoy xylophones - occasionally."
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:amethyst"
+				}
+			}
+			id: "644CCDC7CDC824A3"
+			rewards: [
+				{
+					count: 8
+					id: "1EC1F4B48F753BA8"
+					item: "minecraft:amethyst_cluster"
+					type: "item"
+				}
+				{
+					id: "7FDCAC2CCC6DB531"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "60724E5CB0B01124"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:amethyst"
+						}
+					}
+				}
+				title: "Amethyst"
+				type: "item"
+			}]
+			title: "Non-violet Offenders"
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AFEB9E87800654A"]
+			dependency_requirement: "one_started"
+			description: ["An offshoot of the Spectral branch, &6Luminous&r bees glow in the dark - and produce &6glowstone!&r"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:glowstone"
+				}
+			}
+			id: "2AC5FEE75B84E7D7"
+			rewards: [
+				{
+					count: 16
+					id: "21426C0BCB1B67AB"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "4DEF1A4F1E16F559"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "432DA1CC4472040F"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:luminous"
+						}
+					}
+				}
+				title: "Luminous"
+				type: "item"
+			}]
+			title: "Glowing Reviews"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["376402CC1DF7DACF"]
+			dependency_requirement: "one_started"
+			description: [
+				"&6Lapic&r bees are often associated with royalty, as they produce the relatively expensive blue dye &6lapis lazuli.&r "
+				""
+				"The truth is, they tends to prefer shades of green - especially peridot."
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:lapis"
+				}
+			}
+			id: "59D96BD8E3F37272"
+			rewards: [
+				{
+					count: 16
+					id: "608A7EF2157E4889"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "657E6718FF0A6165"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "1A902B0F46E1EC3B"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:lapic"
+						}
+					}
+				}
+				title: "Lapic"
+				type: "item"
+			}]
+			title: "Lapping it Up"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AC5FEE75B84E7D7"]
+			dependency_requirement: "one_started"
+			description: [
+				"Quartz bees produce quartz!"
+				""
+				"...that's about it."
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:quartz"
+				}
+			}
+			id: "1C893D9BEDED603D"
+			rewards: [
+				{
+					count: 16
+					id: "62ED1970B17B263D"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "74DA14A19D80D886"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "you try thinking of a pun here"
+			tasks: [{
+				id: "5AC40505199CB20A"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:quartz"
+						}
+					}
+				}
+				title: "Quartz"
+				type: "item"
+			}]
+			title: "Quartz"
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["644CCDC7CDC824A3"]
+			dependency_requirement: "one_started"
+			description: [
+				"A favorite of villagers everywhere, &6Emeradic&r bees produce &6emeralds.&r"
+				""
+				"Emeradic bees are also unique in that they have some of the longest proboscises among all bee species."
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:emerald"
+				}
+			}
+			id: "32EFFCA569DDFF01"
+			rewards: [
+				{
+					count: 8
+					id: "318774B4B4CC3B99"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "419D8F9373583EF5"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "28905163962CFF90"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:emeradic"
+						}
+					}
+				}
+				title: "Emeradic"
+				type: "item"
+			}]
+			title: "It Takes A Village"
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["644CCDC7CDC824A3"]
+			dependency_requirement: "one_started"
+			description: [
+				"&6Dimantic&r bees produce &6diamonds. &r"
+				""
+				"In the wild, their nests are actually completely transparent!"
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:diamond"
+				}
+			}
+			id: "1FC6E7BF077E8DAC"
+			rewards: [
+				{
+					count: 8
+					id: "004DF7902DA50EBE"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5D30B6BB679BB8B9"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "1C955F89F0027384"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:dimantic"
+						}
+					}
+				}
+				title: "Dimantic"
+				type: "item"
+			}]
+			title: "A Bee's Best Friend"
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C893D9BEDED603D"]
+			dependency_requirement: "one_started"
+			description: [
+				"A more confident version of Quartz bees, &6Silicate&r bees produce &6certus quartz.&r"
+				""
+				"Some of their wild hives seem bigger on the inside - but that's impossible... right?"
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:certus_quartz"
+				}
+			}
+			id: "470D72FEA812C5C8"
+			rewards: [
+				{
+					count: 16
+					id: "16A2050A924CC635"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "464DE213E81B99A6"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "57CEAA4F55C3C72F"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:silicate"
+						}
+					}
+				}
+				title: "Silicate"
+				type: "item"
+			}]
+			title: "Certainly Quartz"
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59D96BD8E3F37272"]
+			dependency_requirement: "one_started"
+			description: ["&6Fluorite&r bees were rarely seen before the apocalypse... probably because &6fluorite&r is generally incredibly toxic, even to bees that produce it."]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:fluorite"
+				}
+			}
+			id: "461539925AC29F1E"
+			rewards: [{
+				id: "3446AF546C6F329F"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "70F202CD1B7CBCB4"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:fluorite"
+						}
+					}
+				}
+				title: "Fluorite"
+				type: "item"
+			}]
+			title: "Floored You're Right"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32D13B8A472F8C07"]
+			dependency_requirement: "one_started"
+			description: [
+				"&6Adamantine&r bees are experts at producing &6netherite.&r "
+				""
+				"The only downside is they aren't very good at producing heirs..."
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:netherite"
+				}
+			}
+			id: "45AE09769E75E92A"
+			rewards: [
+				{
+					count: 8
+					id: "7F3F8680DDAAD506"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "5216EC8984806F76"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "27F4680D7E2FD90C"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:adamantine"
+						}
+					}
+				}
+				title: "Adamantine"
+				type: "item"
+			}]
+			title: "Strength (without numbers)"
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0240D7D55692DAC9"]
+			dependency_requirement: "all_started"
+			description: ["Some bees are more creative than others - some species can produce music, write books, or even play pranks!"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "complicated_bees:drone"
+				tag: {
+					analyzed: 1b
+					chromosome_a: {
+						"complicated_bees:active_time": {
+							data: "never_sleeps"
+							dominant: 1b
+						}
+						"complicated_bees:cave_dwelling": {
+							data: 0b
+							dominant: 1b
+						}
+						"complicated_bees:effect": {
+							data: "complicated_bees:tricky"
+							dominant: 1b
+						}
+						"complicated_bees:fertility": {
+							data: 2
+							dominant: 0b
+						}
+						"complicated_bees:flower": {
+							data: "complicated_bees:musical"
+							dominant: 1b
+						}
+						"complicated_bees:humidity": {
+							data: "wet"
+							dominant: 1b
+							tolerance: "DOWN_1"
+						}
+						"complicated_bees:lifespan": {
+							data: "short"
+							dominant: 1b
+						}
+						"complicated_bees:productivity": {
+							data: "faster"
+							dominant: 1b
+						}
+						"complicated_bees:species": {
+							data: "complicated_bees:tricky"
+							dominant: 0b
+						}
+						"complicated_bees:temperature": {
+							data: "cold"
+							dominant: 1b
+							tolerance: "UP_1"
+						}
+						"complicated_bees:territory": {
+							data: [I;
+								4
+								2
+							]
+							dominant: 1b
+						}
+						"complicated_bees:weatherproof": {
+							data: 0b
+							dominant: 1b
+						}
+					}
+					chromosome_b: {
+						"complicated_bees:active_time": {
+							data: "never_sleeps"
+							dominant: 1b
+						}
+						"complicated_bees:cave_dwelling": {
+							data: 0b
+							dominant: 1b
+						}
+						"complicated_bees:effect": {
+							data: "complicated_bees:tricky"
+							dominant: 1b
+						}
+						"complicated_bees:fertility": {
+							data: 2
+							dominant: 0b
+						}
+						"complicated_bees:flower": {
+							data: "complicated_bees:musical"
+							dominant: 1b
+						}
+						"complicated_bees:humidity": {
+							data: "wet"
+							dominant: 1b
+							tolerance: "DOWN_1"
+						}
+						"complicated_bees:lifespan": {
+							data: "short"
+							dominant: 1b
+						}
+						"complicated_bees:productivity": {
+							data: "faster"
+							dominant: 1b
+						}
+						"complicated_bees:species": {
+							data: "complicated_bees:tricky"
+							dominant: 0b
+						}
+						"complicated_bees:temperature": {
+							data: "cold"
+							dominant: 1b
+							tolerance: "UP_1"
+						}
+						"complicated_bees:territory": {
+							data: [I;
+								4
+								2
+							]
+							dominant: 1b
+						}
+						"complicated_bees:weatherproof": {
+							data: 0b
+							dominant: 1b
+						}
+					}
+					species: "complicated_bees:tricky"
+				}
+			}
+			id: "10FE8AA5343275EF"
+			rewards: [
+				{
+					id: "2AA8E5B9A96BB3D0"
+					item: {
+						Count: 1
+						id: "complicated_bees:deadly_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1075CEF4D0AF521C"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "49994F1FDA367495"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:jazzy"
+							}
+						}
+					}
+					title: "Jazzy"
+					type: "item"
+				}
+				{
+					id: "42754945740B11C6"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:essayist"
+							}
+						}
+					}
+					title: "Essayist"
+					type: "item"
+				}
+				{
+					id: "3EA9313E4ACC36E9"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:tricky"
+							}
+						}
+					}
+					title: "Tricky"
+					type: "item"
+				}
+			]
+			title: "Creative Bees"
+			x: 1.25d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5AFED2AAA3E9F13D"
+				"710F5DFED74D5098"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"Congratulations! Your hard work breeding up the two 'main' lines of bee species revealed an interesting similarity - combining the&6 Imperial&r and &6Industrious&r species together under certain finicky conditions has a chance to produce a &6very special bee...&r"
+				""
+				"...a bee so special, in fact, that it can actually &6change the very biome around it!&r "
+				""
+				"By default the species &4only works during sunrise or sunset,&r and it needs &4bedrock as a flower;&r for a breeder like you, though, this should be no challenge at all."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "reclamation_util:plains_biome_globe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "15FC99C285DDBD90"
+			rewards: [
+				{
+					id: "446214D3F27D4CC4"
+					item: {
+						Count: 1
+						id: "complicated_bees:deadly_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BE26262D83DCDC9"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "forever!"
+			tasks: [{
+				id: "449F16DF8761D52F"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "complicated_bees:campestral"
+						}
+					}
+				}
+				title: "Campestral"
+				type: "item"
+			}]
+			title: "Green Grass and High Tides"
+			x: -2.0d
+			y: 8.5d
 		}
 	]
 	title: "Beesource Generation"

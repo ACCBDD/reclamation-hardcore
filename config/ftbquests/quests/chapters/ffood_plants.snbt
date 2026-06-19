@@ -796,7 +796,7 @@
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
 			description: [
-				"You can make podzol for planting flower seeds on by growing a 2x2 of spruce saplings - the large tree, once grown, will convert dirt (and dried earth!) under it into podzol."
+				"You can make podzol for planting flower seeds on by combining spruce leaves with dirt."
 				""
 				"&7Tip: once the strength trait of a flower is high enough, you won't need to plant them on podzol!"
 			]
@@ -808,23 +808,15 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					count: 4L
-					id: "39B842A52117843D"
-					item: "minecraft:spruce_sapling"
-					type: "item"
-				}
-				{
-					icon: "minecraft:podzol"
-					id: "698820444A9BB27A"
-					observe_type: 0
-					timer: 0L
-					title: "Look at Podzol"
-					to_observe: "minecraft:podzol"
-					type: "observation"
-				}
-			]
+			tasks: [{
+				icon: "minecraft:podzol"
+				id: "698820444A9BB27A"
+				observe_type: 0
+				timer: 0L
+				title: "Look at Podzol"
+				to_observe: "minecraft:podzol"
+				type: "observation"
+			}]
 			title: "Podzol"
 			x: 2.0d
 			y: -1.5d

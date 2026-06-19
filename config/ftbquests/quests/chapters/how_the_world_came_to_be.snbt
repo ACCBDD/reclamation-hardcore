@@ -740,7 +740,7 @@
 		{
 			dependencies: ["6B5B443D2F7DD3D4"]
 			description: [
-				"It's pretty hard to tell how hot an area is based solely on feel - you can kludge together a basic thermometer using some extra copper and some gunpowder."
+				"It's pretty hard to tell how hot an area is based solely on feel - you can kludge together a basic thermometer using some extra copper and gunpowder."
 				""
 				"&7Tip: this works both on your hotbar as well as in a curio slot!"
 			]
@@ -761,13 +761,13 @@
 		{
 			dependencies: ["2E2644743F9FF673"]
 			description: [
-				"Now that you're not dying to exposure, the next order of business is probably trying to not die of thirst. The water you can find nearby all seems to be dirty - too dirty to drink."
+				"Now that you're not dying to exposure, the next order of business is probably trying to not die of thirst. The water you can find nearby all seems to be dirty - too dirty to drink safely."
 				""
 				"You'll need to bottle some up then smelt it in a furnace or cook it on a campfire."
 				""
 				"&cNote: &lwater is no longer infinite.&r&c Additionally, water sources only fill up four bottles before depleting.&r"
 				""
-				"&7Tip: drinking out of flowing water is cleaner than still water!"
+				"&7Tip: you can drink out of water in the world by sneaking and right clicking with an empty hand - drinking out of flowing water is cleaner than still water!"
 			]
 			icon: "croptopia:water_bottle"
 			id: "13845241CDBF0A03"

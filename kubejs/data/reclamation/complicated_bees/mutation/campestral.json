@@ -1,0 +1,12 @@
+{
+  "chance": 0.06,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "minecraft:bedrock"
+    },
+    "complicated_bees:ecstatic": {}
+  },
+  "first": "complicated_bees:industrious",
+  "result": "complicated_bees:campestral",
+  "second": "complicated_bees:imperial"
+}

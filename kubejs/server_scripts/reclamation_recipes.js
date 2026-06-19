@@ -2053,4 +2053,12 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    event.shaped('2x minecraft:podzol', [
+        'LD',
+        'DL'
+    ], {
+        D: 'minecraft:dirt',
+        L: 'minecraft:spruce_leaves'
+    })
 })
