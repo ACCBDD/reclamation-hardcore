@@ -177,7 +177,7 @@ ServerEvents.recipes(event => {
         ['lava_bucket', 'theurgy:crystallized_lava', 'theurgy:crystallized_lava'],
         ['water_bucket', 'theurgy:crystallized_water', 'theurgy:crystallized_water'],
         ['magma_block', 'minecraft:magma_block', 'minecraft:magma_block'],
-        ['ice', 'minecraft:packed_ice', 'minecraft:packed_ice'],
+        ['ice', 'minecraft:ice', 'minecraft:ice'],
         ['snowball', 'minecraft:snow', 'minecraft:snow'],
         ['crying_obsidian', 'minecraft:crying_obsidian', 'minecraft:crying_obsidian'],
         ['obsidian', 'minecraft:obsidian', 'minecraft:obsidian'],
@@ -202,8 +202,41 @@ ServerEvents.recipes(event => {
         ['certus_quartz', 'ae2:certus_quartz_crystal', '#forge:gems/certus_quartz'],
         ['fluix', 'ae2:fluix_crystal', '#forge:gems/fluix'],
         ['redstone', 'minecraft:redstone', '#forge:dusts/redstone'],
-        ['coal', 'minecraft:coal_ore', 'minecraft:coal_ore'],
+        ['coal', 'minecraft:coal', 'minecraft:coal'],
         ['glowstone', 'minecraft:glowstone_dust', '#forge:dusts/glowstone']
+    ]
+
+    const raw_sulfurs = [ //ingredient, sulfur suffix, quantity, source for nbt
+        ['#forge:ores/uranium', 'uranium', 5, '#forge:ores/uranium'],
+        ['#forge:ores/fluorite', 'fluorite', 8, '#forge:ores/fluorite'],
+        ['bloodmagic:rawdemonite', 'demonite', 3, '#forge:raw_materials/demonite'],
+        ['#forge:raw_materials/lead', 'lead', 3, '#forge:raw_materials/lead'],
+        ['#minecraft:lapis_ores', 'lapis', 12, '#forge:ores/lapis'],
+        ['#minecraft:gold_ores', 'gold', 5, '#forge:ores/gold'],
+        ['minecraft:coal_ore', 'coal', 4, 'minecraft:coal_ore'],
+        ['#minecraft:emerald_ores', 'emerald', 4, '#forge:ores/emerald'],
+        ['#minecraft:copper_ores', 'copper', 5, '#forge:ores/copper'],
+        ['minecraft:raw_copper', 'copper', 3, '#forge:raw_materials/copper'],
+        ['#minecraft:iron_ores', 'iron', 5, '#forge:ores/iron'],
+        ['minecraft:raw_iron', 'iron', 3, '#forge:raw_materials/iron'],
+        ['#minecraft:redstone_ores', 'redstone', 9, '#forge:ores/redstone'],
+        ['#forge:ores/silver', 'silver', 5, '#forge:ores/silver'],
+        ['mekanism:raw_osmium', 'osmium', 3, '#forge:raw_materials/osmium'],
+        ['#forge:ores/lead', 'lead', 5, '#forge:ores/lead'],
+        ['#forge:ores/zinc', 'zinc', 5, '#forge:ores/zinc'],
+        ['#minecraft:diamond_ores', 'diamond', 4, '#forge:ores/diamond'],
+        ['#forge:ores/tin', 'tin', 5, '#forge:ores/tin'],
+        ['minecraft:deepslate_coal_ore', 'coal', 4, 'minecraft:deepslate_coal_ore'],
+        ['minecraft:nether_quartz_ore', 'quartz', 10, '#forge:ores/quartz'],
+        ['create:raw_zinc', 'zinc', 3, '#forge:raw_materials/zinc'],
+        ['mekanism:raw_tin', 'tin', 3, '#forge:raw_materials/tin'],
+        ['mekanism:raw_uranium', 'uranium', 3, '#forge:raw_materials/uranium'],
+        ['minecraft:raw_gold', 'gold', 3, '#forge:raw_materials/gold'],
+        ['embers:raw_silver', 'silver', 3, '#forge:raw_materials/silver'],
+        ['#forge:ores/osmium', 'osmium', 5, '#forge:ores/osmium'],
+        ['#forge:ores/sal_ammoniac', 'sal_ammoniac', 6, '#forge:ores/sal_ammoniac'],
+        ['minecraft:packed_ice', 'ice', 9, 'minecraft:packed_ice'],
+        ['minecraft:blue_ice', 'ice', 64, 'minecraft:blue_ice']
     ]
 
     const sulfur_niter = [
@@ -231,7 +264,7 @@ ServerEvents.recipes(event => {
         ['theurgy:alchemical_sulfurs/mobs/precious', 'theurgy:alchemical_sulfur_mobs_precious']
     ]
 
-    function sulfur_infuse(input, output) {
+    sulfurs.forEach(([sulfur, item, source]) => {
         event.custom({
             "type": "mekanism:metallurgic_infusing",
             "chemicalInput": {
@@ -240,16 +273,14 @@ ServerEvents.recipes(event => {
             },
             "itemInput": {
                 "ingredient": {
-                    "item": "theurgy:alchemical_sulfur_" + input
+                    "item": "theurgy:alchemical_sulfur_" + sulfur
                 }
             },
             "output": {
-                "item": output
+                "item": item
             }
         })
-    }
 
-    function inject_to_sulfur(input, output, source) {
         event.custom({
             "type": "mekanism:injecting",
             "chemicalInput": {
@@ -258,19 +289,19 @@ ServerEvents.recipes(event => {
             },
             "itemInput": {
                 "ingredient": {
-                    "item": input
+                    "item": item
                 }
             },
             "output": {
-                "item": "theurgy:alchemical_sulfur_" + output,
+                "item": "theurgy:alchemical_sulfur_" + sulfur,
                 "nbt": {
                     "theurgy:sulfur.source.id": source
                 }
             }
         })
-    }
+    })
 
-    function sulfur_to_niter(input, output) {
+    sulfur_niter.forEach(([input, output]) => {
         event.custom({
             "type": "mekanism:enriching",
             "input": {
@@ -282,15 +313,33 @@ ServerEvents.recipes(event => {
                 "item": output
             }
         })
-    }
-
-    sulfurs.forEach(([sulfur, item, source]) => {
-        sulfur_infuse(sulfur, item)
-        inject_to_sulfur(item, sulfur, source)
     })
 
-    sulfur_niter.forEach(([tag, item]) => {
-        sulfur_to_niter(tag, item)
+    raw_sulfurs.forEach(([input, sulfur, amount, source]) => {
+        var ingredient = {}
+        if (input.startsWith('#')) {
+            ingredient.tag = input.substring(1)
+        } else {
+            ingredient.item = input
+        }
+
+        event.custom({
+            "type": "mekanism:injecting",
+            "chemicalInput": {
+                "amount": 1,
+                "tag": "reclamation:sal_ammoniac"
+            },
+            "itemInput": {
+                "ingredient": ingredient
+            },
+            "output": {
+                "item": "theurgy:alchemical_sulfur_" + sulfur,
+                "count": amount,
+                "nbt": {
+                    "theurgy:sulfur.source.id": source
+                }
+            }
+        })
     })
 
     event.custom({
