@@ -7,6 +7,26 @@
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:raw_iron"
 	id: "55C123B019947201"
+	images: [
+		{
+			dependency: "20C99DE4893026D9"
+			height: 4.0d
+			image: "reclamation:textures/quests/apiary_embers.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependency: "20C99DE4893026D9"
+			height: 4.0d
+			image: "reclamation:textures/quests/apiary_mek.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.5d
+			y: -1.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -398,7 +418,7 @@
 			]
 			title: "Apiarist Gear"
 			x: 3.5d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5B1AD7A67406CD8F"]
@@ -1283,48 +1303,15 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0421D9DBD650A20B"]
+			dependencies: ["1D3CC458F56BF424"]
 			dependency_requirement: "one_started"
-			description: [
-				"These bees can produce magical products. Some of them, like the &6Natural&r bee, have special effects!"
-				""
-				"Additionally, the Natural bee produces some small amount of &6Nature Essence&r if kept ecstatic."
-			]
-			icon: {
-				Count: 1
-				id: "complicated_bees:comb"
-				tag: {
-					comb_type: "reclamation:magical"
-				}
-			}
+			description: ["&6Demonite &rbees seem closely related to Terra bees, but you can't quite put your finger on it. At least you know they're a great source of &6raw demonite.&r"]
+			icon: "bloodmagic:ingot_hellforged"
 			id: "20DDED1ACF1BBEA9"
 			rewards: [
 				{
-					id: "5EF6A9D757061605"
-					item: {
-						Count: 1
-						id: "complicated_bees:deadly_frame"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					count: 4
-					id: "1A8C43DEA8BAD684"
-					item: "botania:blacker_lotus"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "221A910DD2B0BA9E"
-					item: "botania:overgrowth_seed"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "7BABAE4BA25F032A"
+					id: "4EE3D57B23668F2C"
 					item: "bloodmagic:hellforgedparts"
 					type: "item"
 				}
@@ -1334,95 +1321,23 @@
 					xp: 500
 				}
 			]
-			tasks: [
-				{
-					id: "1FF6A97F902F729A"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:botanic"
-							}
+			tasks: [{
+				id: "4A550B50BFB94CD3"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:demonite"
 						}
 					}
-					title: "Botanic"
-					type: "item"
 				}
-				{
-					id: "3D1DF75F9E7B2F0E"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:dawnstone"
-							}
-						}
-					}
-					title: "Dawnstone"
-					type: "item"
-				}
-				{
-					id: "03DA77B6AE66121A"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:willful"
-							}
-						}
-					}
-					title: "Willful"
-					type: "item"
-				}
-				{
-					id: "0F92890320CF6EE9"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:source"
-							}
-						}
-					}
-					title: "Source"
-					type: "item"
-				}
-				{
-					id: "4A550B50BFB94CD3"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:demonite"
-							}
-						}
-					}
-					title: "Demonite"
-					type: "item"
-				}
-				{
-					id: "4C687E85DE410F66"
-					item: {
-						Count: 1
-						id: "itemfilters:weak_nbt"
-						tag: {
-							value: {
-								species: "reclamation:terra"
-							}
-						}
-					}
-					title: "Terra"
-					type: "item"
-				}
-			]
-			title: "Magical Bees"
-			x: 4.5d
-			y: 8.5d
+				title: "Demonite"
+				type: "item"
+			}]
+			title: "A Hell of an Ingot"
+			x: 6.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0A48AEDC49A48973"]
@@ -1709,6 +1624,297 @@
 			title: "No Choice But To Stan"
 			x: 8.5d
 			y: 8.0d
+		}
+		{
+			dependencies: ["3BAA2A254E052AC1"]
+			description: [
+				"Apiaries can be &6automated&r using any item transport method you have access to - with some caveats."
+				""
+				"You'll want to prioritize inserting any apiary outputs into the apiary first, since it &6only accepts bees.&r To do this, you'll have to either take advantage of the way &6Embers pipes try to go straight before turning,&r or use a buffer chest for Mekanism since those pipes &4don't insert items into blocks they extract from.&r Remaining items will move on to be inserted into an output chest."
+				""
+				"As a side note, frames cannot be auto-inserted into apiaries - but they &6might be automatable into a larger form of bee housing...&r"
+				""
+				"Example setups for either of those mods can be found as pictures near this quest."
+			]
+			icon: {
+				Count: 1
+				id: "supplementaries:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "20C99DE4893026D9"
+			rewards: [{
+				id: "72EE58A1AA121BCD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1C4A65E606741338"
+				title: "Apiary Automation?"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3FBA3BCF67F2AB82"]
+			dependency_requirement: "all_started"
+			description: [
+				"&6Fiendish&r and &6Devilish&r bees uniquely have the Flaming effect, setting nearby living things on fire. "
+				""
+				"Devilish bees also have a chance to produce &6blaze powder!&r"
+			]
+			icon: "minecraft:blaze_powder"
+			id: "42BA908FE5AA0816"
+			rewards: [
+				{
+					count: 8
+					id: "0861BD9FA6A130A7"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "17960A1AFF9444A3"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "75848F59AF6C9140"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:fiendish"
+							}
+						}
+					}
+					title: "Fiendish"
+					type: "item"
+				}
+				{
+					id: "435A63BD742021B7"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:devilish"
+							}
+						}
+					}
+					title: "Devilish"
+					type: "item"
+				}
+			]
+			title: "Wicked Bees"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0421D9DBD650A20B"]
+			dependency_requirement: "one_started"
+			description: ["&6Botanic&r bees are a great source of &6floral mana,&r when kept ecstatic. They also love to play card games, but they're not very good at them."]
+			icon: "botania:black_lotus"
+			id: "03BD56125B890B7A"
+			rewards: [
+				{
+					count: 2
+					id: "6CABB10757534F58"
+					item: "botania:overgrowth_seed"
+					type: "item"
+				}
+				{
+					id: "6C90222E9C27E0BB"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "63F40E2054322C21"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:botanic"
+						}
+					}
+				}
+				title: "Botanic"
+				type: "item"
+			}]
+			title: "The Study of Botanbee"
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0421D9DBD650A20B"]
+			dependency_requirement: "one_started"
+			description: [
+				"&6Dawnstone&r bees have a noted inclination towards those of shorter stature - their reasoning for this remains a mystery. "
+				""
+				"Another mystery is how exactly they produce the magically aligned metal of &6dawnstone.&r"
+			]
+			icon: "embers:dawnstone_ingot"
+			id: "0588648F42C5BCBB"
+			rewards: [
+				{
+					count: 8
+					id: "0B009C46BF1AB063"
+					item: "embers:dawnstone_ingot"
+					type: "item"
+				}
+				{
+					id: "22E3439245E6A752"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "2F31500A07C73794"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:dawnstone"
+						}
+					}
+				}
+				title: "Dawnstone"
+				type: "item"
+			}]
+			title: "Rock and Stone"
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["03BD56125B890B7A"]
+			dependency_requirement: "one_started"
+			description: ["&6Source&r bees crystallize ambient source into&6 gems.&r Some members of this species also show a strong fondness for crowbars, of all things."]
+			icon: "ars_nouveau:source_gem"
+			id: "5E9D50C696B458D4"
+			rewards: [
+				{
+					count: 8
+					id: "395E754DC0773A9B"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					id: "2B12861AA4C657CC"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "06319D00883EF999"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:source"
+						}
+					}
+				}
+				title: "Source"
+				type: "item"
+			}]
+			title: "A Source of Source"
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0588648F42C5BCBB"]
+			dependency_requirement: "one_started"
+			description: [
+				"&6Willful&r bees sacrifice dying members of their hives, producing small amounts of &6will crystals.&r "
+				""
+				"Ancient civilizations loved these bees so much, owning a hive was considered a sign of divine favor."
+				""
+				"&7Tip: burning will crystals in a demon crucible will put aura into the chunk. Putting a tartaric gem into a hellfire forge will then absorb that will from the chunk!"
+			]
+			icon: {
+				Count: 1
+				id: "bloodmagic:basemonstersoul"
+				tag: {
+					souls: 5.0d
+				}
+			}
+			id: "1D3CC458F56BF424"
+			rewards: [
+				{
+					id: "79D42EE7224D1919"
+					item: {
+						Count: 1
+						id: "bloodmagic:basemonstersoul"
+						tag: {
+							souls: 500.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27D8DCFE0BA94E58"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "586D0E95A4461E62"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:willful"
+						}
+					}
+				}
+				title: "Willful"
+				type: "item"
+			}]
+			title: "Will They Or Won't They"
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5E9D50C696B458D4"]
+			dependency_requirement: "one_started"
+			description: [
+				"These bees can produce magical products. Some of them, like the &6Natural&r bee, have special effects!"
+				""
+				"Additionally, the Natural bee produces some small amount of &6Nature Essence&r if kept ecstatic."
+			]
+			icon: "botania:terrasteel_ingot"
+			id: "1A58C914872853C6"
+			rewards: [{
+				id: "109325D985FA5351"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "163ABD667206D989"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							species: "reclamation:terra"
+						}
+					}
+				}
+				title: "Terra"
+				type: "item"
+			}]
+			title: "Terrable Power"
+			x: 2.5d
+			y: 11.0d
 		}
 	]
 	title: "Beesource Generation"

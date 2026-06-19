@@ -1,33 +1,33 @@
-filename = 'ExtendedAE-1.20-1.4.15-forge.jar'
+filename = 'ExtendedAE-1.20-1.4.16-forge.jar'
 name = 'ExtendedAE'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'ExtendedAE-1.20-1.4.15-forge.jar'
+x-prismlauncher-version-number = 'ExtendedAE-1.20-1.4.16-forge.jar'
 
 [download]
-hash = '27ba7cc836c6c8df914160ac9ed04538519feb21'
+hash = '9da30d21cea138a7159f763b4af975f0937bac04'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7986603
+file-id = 8203753
 project-id = 892005
-
-[[x-prismlauncher-dependencies]]
-addonId = '1173950'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '957920'
-type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = '223794'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
+addonId = '1173950'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
 addonId = '459929'
 type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '957920'
+type = 'REQUIRED'
