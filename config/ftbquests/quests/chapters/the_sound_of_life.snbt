@@ -1128,6 +1128,8 @@
 				"The &6Dusk&r version of the &6Ritual Diviner&r will allow you to perform even stronger rituals - chief among these being the &6Pathway to the Endless Realm.&r"
 				""
 				"Once performed, you will be presented with a gate to the Demon Realm proper - a sprawling labyrinth of rooms which contain strong enemies, plentiful loot, and the curious ore known as &6Demonite.&r"
+				""
+				"&7Tip: the Mark of the Falling Tower ritual can be used in conjuction with an infused alloy to summon a meteor of tin, fluorite, and lots of uranium!"
 			]
 			id: "334A0BB9548947EF"
 			rewards: [{
@@ -1435,7 +1437,7 @@
 				""
 				"As far as you're concerned, this is more proof that you can solve any problem if you throw enough raw mana at something."
 				""
-				"&7Tip: the orechid can generate fluorite and uranium - which you'll need for nuclear reactors."
+				"&7Tip: the orechid can generate fluorite, tin, and uranium - which you'll need for nuclear reactors."
 			]
 			id: "039EE9BB48F29DB2"
 			rewards: [{
@@ -2377,9 +2379,9 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7A2BEC31266C6A7E"]
+			dependencies: ["37CECF7DF397AAD3"]
 			description: [
-				"The &6Fission Reactor&r is a large multiblock that takes fissile fuel and water and outputs enormous amounts of steam. This steam can be pumped into another large multiblock (the industrial turbine) to produce absolutely outrageous amounts of power. "
+				"The &6Fission Reactor&r is a large multiblock that takes &6fissile fuel&r and water and outputs enormous amounts of steam. This steam can be pumped into another large multiblock (the industrial turbine) to produce absolutely &6outrageous amounts of power. &r"
 				""
 				"Equally as importantly, it produces &6nuclear waste.&r"
 				""
@@ -2615,6 +2617,27 @@
 			}]
 			x: -5.0d
 			y: -9.5d
+		}
+		{
+			dependencies: ["7A2BEC31266C6A7E"]
+			description: [
+				"Uranium can be turned into quite the energy-dense fuel. To source it, you'll want to look into either generating ore through the &6Orechid&r or summoning a special meteor using the &6Mark of the Falling Tower blood ritual.&r"
+				""
+				"&7Tip: as a side benefit, you can also source fluorite and tin through these methods!"
+			]
+			id: "37CECF7DF397AAD3"
+			rewards: [{
+				id: "696483EE48FC86F6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1C70E11D21464408"
+				item: "mekanism:ingot_uranium"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
 		}
 	]
 	title: "Sounds of Life"

@@ -482,4 +482,26 @@ ServerEvents.recipes(event => {
             "item": "minecraft:pink_petals"
         }
     })
+
+    event.custom({
+        "type": "botania:mana_infusion",
+        "input": {
+            "item": "minecraft:pink_petals"
+        },
+        "mana": 500,
+        "output": {
+            "item": "minecraft:spore_blossom"
+        }
+    })
+
+    event.custom({
+        "type": "botania:mana_infusion",
+        "input": {
+            "item": "minecraft:spore_blossom"
+        },
+        "mana": 500,
+        "output": {
+            "item": "minecraft:flowering_azalea"
+        }
+    })
 })

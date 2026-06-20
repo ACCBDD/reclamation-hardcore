@@ -1,0 +1,36 @@
+{
+  "type": "bloodmagic:meteor",
+  "explosion": 8.0,
+  "input": {
+    "tag": "forge:gems/diamond"
+  },
+  "layers": [
+    {
+      "additionalWeight": 0,
+      "fill": {
+        "block": "minecraft:diamond_ore"
+      },
+      "minWeight": 0,
+      "radius": 2
+    },
+    {
+      "additionalWeight": 0,
+      "fill": {
+        "block": "minecraft:cobblestone"
+      },
+      "minWeight": 1000,
+      "radius": 5,
+      "weightMap": [
+        {
+          "block": "minecraft:diamond_ore",
+          "weight": 100
+        },
+        {
+          "block": "minecraft:emerald_ore",
+          "weight": 75
+        }
+      ]
+    }
+  ],
+  "syphon": 5000000
+}

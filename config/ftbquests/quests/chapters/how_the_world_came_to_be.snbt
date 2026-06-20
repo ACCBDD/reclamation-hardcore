@@ -107,6 +107,8 @@
 				"There are ruins around with &6small bits of copper,&r completely oxidized from whatever happened. "
 				""
 				"You might be able to craft something to help you out with that copper, but first you'll have to &6get it into a useable state...&r"
+				""
+				"&7Tip: if you're REALLY hard up for copper, or you just can't find any at all, you can sift gravel for copper by right-clicking using a bowl - at the cost of hunger and thirst."
 			]
 			id: "353FED2BF4FBD8EC"
 			rewards: [

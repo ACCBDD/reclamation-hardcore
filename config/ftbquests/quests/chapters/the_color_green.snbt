@@ -2702,6 +2702,52 @@
 			x: -11.0d
 			y: -10.5d
 		}
+		{
+			dependencies: ["6628083C19C5F8CB"]
+			description: [
+				"Past the Herbivorous Absorber, you can use the &6Swamp Homi&r or the &6Shooting Mark&r to create aura in alternative ways - the Swamp Homi consumes &6moss&r on mossy blocks, while the Shooting Mark consumes &6projectiles.&r"
+				""
+				"The &6Canopy Diminisher&r is also a good option for those who have set up a tree farm of some kind - turning &6would-be large trees&r into regular ones and producing a decent amount of aura from it."
+				""
+				"&cNote: snowballs do NOT produce aura as projectiles, despite what the book says."
+			]
+			icon: "naturesaura:moss_generator"
+			id: "3D60DEFEC984DAA6"
+			optional: true
+			rewards: [{
+				id: "6EB8B54443B5C655"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C97C9FDB9D2C4A5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:moss_generator"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:projectile_generator"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:oak_generator"
+							}
+						]
+					}
+				}
+				title: "Alternative Generators"
+				type: "item"
+			}]
+			title: "More Aura"
+			x: 5.0d
+			y: -2.0d
+		}
 	]
 	title: "Touching Grass"
 }

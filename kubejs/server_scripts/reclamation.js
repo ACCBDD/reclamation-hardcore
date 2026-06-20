@@ -30,14 +30,12 @@ BlockEvents.rightClicked(event => {
 
     if (block.id === "minecraft:gravel" && item.id === "minecraft:bowl") {
         player.displayClientMessage(panning, true);
-        if (Math.random() < 0.25) {
+        if (Math.random() < 0.5) {
             player.give("create:copper_nugget")
         }
-    } else if (item.id === "minecraft:glass_bottle" || item.id === "thirst:terracotta_bowl") {
-        const pos = player.rayTrace(5).block; // get the block the player is actually looking at
-        const lookedAt = player.level.getBlock(pos.x, pos.y, pos.z);
-        if (lookedAt.id === "minecraft:water" && lookedAt.properties.level === "0") {
-            player.level.setBlock(pos.x, pos.y, pos.z, "minecraft:air");
-        }
+        player.addItemCooldown('minecraft:bowl', 5)
+        let randomPitch = 0.8 + Math.random() * 0.4
+        player.playNotifySound('minecraft:block.gravel.break', 'blocks', 1.0, randomPitch)
+        player.foodData.addExhaustion(0.6)
     }
 })

@@ -953,4 +953,9 @@ ServerEvents.recipes(event => {
     trees.forEach(entry => {
         sapling_recipe(entry[0], entry[1], entry[2], entry[3])
     })
+
+    event.replaceInput({id: 'naturesaura:oak_generator'},
+        'naturesaura:token_fear',
+        'naturesaura:token_joy'
+    )
 })
