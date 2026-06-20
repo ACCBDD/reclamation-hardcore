@@ -2039,8 +2039,7 @@ ServerEvents.recipes(event => {
     })
 
     event.custom({
-        "type": "create:mixing",
-        "heatRequirement": "heated",
+        "type": "create:packing",
         "ingredients": [
             {
                 "item": "theurgy:crystallized_water"
