@@ -2039,7 +2039,7 @@ ServerEvents.recipes(event => {
     })
 
     event.custom({
-        "type": "create:packing",
+        "type": "create:compacting",
         "ingredients": [
             {
                 "item": "theurgy:crystallized_water"
@@ -2048,7 +2048,8 @@ ServerEvents.recipes(event => {
         "results": [
             {
                 "amount": 1000,
-                "fluid": "minecraft:water"
+                "fluid": "minecraft:water",
+                "nbt": "{Purity:3}"
             }
         ]
     })
