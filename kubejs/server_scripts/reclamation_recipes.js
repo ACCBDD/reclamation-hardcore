@@ -2061,4 +2061,18 @@ ServerEvents.recipes(event => {
         D: 'minecraft:dirt',
         L: 'minecraft:spruce_leaves'
     })
+
+    event.custom({
+        "type": "bloodmagic:altar",
+        "altarSyphon": 40000,
+        "consumptionRate": 50,
+        "drainRate": 100,
+        "input": {
+            "item": "minecraft:egg"
+        },
+        "output": {
+            "item": "minecraft:sniffer_egg"
+        },
+        "upgradeLevel": 3
+    })
 })
