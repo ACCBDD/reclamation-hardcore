@@ -2645,6 +2645,8 @@
 				"The &6Metallurgic Infuser&r allows you to reform sulfur into items without needing alchemical salt! It still needs mercury but it uses RF instead of caloric flux."
 				""
 				"&7Tip: you can't craft them yet, but the infuser can work much faster with upgrades!"
+				""
+				"&7Tip 2: there are also other mekanism machines that fulfill theurgy purposes - mercury distillation, sulfur fermentation, and more!"
 			]
 			id: "73C2F98934AECF58"
 			rewards: [{
@@ -2658,7 +2660,7 @@
 			}]
 			title: "Mechanized Theurgy"
 			x: -11.0d
-			y: -9.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["0CF33532629C1427"]
@@ -2676,6 +2678,29 @@
 			}]
 			x: -8.0d
 			y: -9.5d
+		}
+		{
+			dependencies: ["0CF33532629C1427"]
+			description: [
+				"All &6Mekanism&r machines can be upgraded using &6tier installers&r to &6factories&r - versions of themselves with the ability to process &6multiple recipes in parallel.&r The machine will need proportionally more power to process, though."
+				""
+				"To use a tier installer, shift-right-click on a machine."
+				""
+				"&7Tip: the auto-sort button automatically spreads out inputs to each parallel slot!"
+			]
+			id: "4C02BCC73A6E7C68"
+			rewards: [{
+				id: "45B93BDC00340C9E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0884D4D221C3557C"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -10.5d
 		}
 	]
 	title: "Touching Grass"

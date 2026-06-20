@@ -206,39 +206,6 @@ ServerEvents.recipes(event => {
         ['glowstone', 'minecraft:glowstone_dust', '#forge:dusts/glowstone']
     ]
 
-    const raw_sulfurs = [ //ingredient, sulfur suffix, quantity, source for nbt
-        ['#forge:ores/uranium', 'uranium', 5, '#forge:ores/uranium'],
-        ['#forge:ores/fluorite', 'fluorite', 8, '#forge:ores/fluorite'],
-        ['bloodmagic:rawdemonite', 'demonite', 3, '#forge:raw_materials/demonite'],
-        ['#forge:raw_materials/lead', 'lead', 3, '#forge:raw_materials/lead'],
-        ['#minecraft:lapis_ores', 'lapis', 12, '#forge:ores/lapis'],
-        ['#minecraft:gold_ores', 'gold', 5, '#forge:ores/gold'],
-        ['minecraft:coal_ore', 'coal', 4, 'minecraft:coal_ore'],
-        ['#minecraft:emerald_ores', 'emerald', 4, '#forge:ores/emerald'],
-        ['#minecraft:copper_ores', 'copper', 5, '#forge:ores/copper'],
-        ['minecraft:raw_copper', 'copper', 3, '#forge:raw_materials/copper'],
-        ['#minecraft:iron_ores', 'iron', 5, '#forge:ores/iron'],
-        ['minecraft:raw_iron', 'iron', 3, '#forge:raw_materials/iron'],
-        ['#minecraft:redstone_ores', 'redstone', 9, '#forge:ores/redstone'],
-        ['#forge:ores/silver', 'silver', 5, '#forge:ores/silver'],
-        ['mekanism:raw_osmium', 'osmium', 3, '#forge:raw_materials/osmium'],
-        ['#forge:ores/lead', 'lead', 5, '#forge:ores/lead'],
-        ['#forge:ores/zinc', 'zinc', 5, '#forge:ores/zinc'],
-        ['#minecraft:diamond_ores', 'diamond', 4, '#forge:ores/diamond'],
-        ['#forge:ores/tin', 'tin', 5, '#forge:ores/tin'],
-        ['minecraft:deepslate_coal_ore', 'coal', 4, 'minecraft:deepslate_coal_ore'],
-        ['minecraft:nether_quartz_ore', 'quartz', 10, '#forge:ores/quartz'],
-        ['create:raw_zinc', 'zinc', 3, '#forge:raw_materials/zinc'],
-        ['mekanism:raw_tin', 'tin', 3, '#forge:raw_materials/tin'],
-        ['mekanism:raw_uranium', 'uranium', 3, '#forge:raw_materials/uranium'],
-        ['minecraft:raw_gold', 'gold', 3, '#forge:raw_materials/gold'],
-        ['embers:raw_silver', 'silver', 3, '#forge:raw_materials/silver'],
-        ['#forge:ores/osmium', 'osmium', 5, '#forge:ores/osmium'],
-        ['#forge:ores/sal_ammoniac', 'sal_ammoniac', 6, '#forge:ores/sal_ammoniac'],
-        ['minecraft:packed_ice', 'ice', 9, 'minecraft:packed_ice'],
-        ['minecraft:blue_ice', 'ice', 64, 'minecraft:blue_ice']
-    ]
-
     const sulfur_niter = [
         ['theurgy:alchemical_sulfurs/earthen_matters/abundant', 'theurgy:alchemical_sulfur_earthen_matters_abundant'],
         ['theurgy:alchemical_sulfurs/earthen_matters/common', 'theurgy:alchemical_sulfur_earthen_matters_common'],
@@ -264,6 +231,46 @@ ServerEvents.recipes(event => {
         ['theurgy:alchemical_sulfurs/mobs/precious', 'theurgy:alchemical_sulfur_mobs_precious']
     ]
 
+    event.forEachRecipe({ type: 'theurgy:distillation' }, recipe => {
+        let json = recipe.json
+        let input = json.get('ingredient')
+        let result = json.get('result')
+        
+        if (input && result) {
+            event.custom({
+                "type": "mekanism:purifying",
+                "chemicalInput": {
+                    "amount": 1,
+                    "gas": "mekanism:hydrogen"
+                },
+                "itemInput": {
+                    "ingredient": input
+                },
+                "output": result
+            })
+        }
+    })
+
+    event.forEachRecipe({ type: 'theurgy:liquefaction' }, recipe => {
+        let json = recipe.json
+        let input = json.get('ingredient')
+        let result = json.get('result')
+        
+        if (input && result) {
+            event.custom({
+                "type": "mekanism:injecting",
+                "chemicalInput": {
+                    "amount": 1,
+                    "tag": "reclamation:sal_ammoniac"
+                },
+                "itemInput": {
+                    "ingredient": input
+                },
+                "output": result
+            })
+        }
+    })
+
     sulfurs.forEach(([sulfur, item, source]) => {
         event.custom({
             "type": "mekanism:metallurgic_infusing",
@@ -280,25 +287,6 @@ ServerEvents.recipes(event => {
                 "item": item
             }
         })
-
-        event.custom({
-            "type": "mekanism:injecting",
-            "chemicalInput": {
-                "amount": 1,
-                "tag": "reclamation:sal_ammoniac"
-            },
-            "itemInput": {
-                "ingredient": {
-                    "item": item
-                }
-            },
-            "output": {
-                "item": "theurgy:alchemical_sulfur_" + sulfur,
-                "nbt": {
-                    "theurgy:sulfur.source.id": source
-                }
-            }
-        })
     })
 
     sulfur_niter.forEach(([input, output]) => {
@@ -311,33 +299,6 @@ ServerEvents.recipes(event => {
             },
             "output": {
                 "item": output
-            }
-        })
-    })
-
-    raw_sulfurs.forEach(([input, sulfur, amount, source]) => {
-        var ingredient = {}
-        if (input.startsWith('#')) {
-            ingredient.tag = input.substring(1)
-        } else {
-            ingredient.item = input
-        }
-
-        event.custom({
-            "type": "mekanism:injecting",
-            "chemicalInput": {
-                "amount": 1,
-                "tag": "reclamation:sal_ammoniac"
-            },
-            "itemInput": {
-                "ingredient": ingredient
-            },
-            "output": {
-                "item": "theurgy:alchemical_sulfur_" + sulfur,
-                "count": amount,
-                "nbt": {
-                    "theurgy:sulfur.source.id": source
-                }
             }
         })
     })

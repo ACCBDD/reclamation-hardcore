@@ -59,8 +59,17 @@ ServerEvents.recipes(event => {
         D: 'embers:lead_block'
     })
 
-    event.replaceInput({id: 'mekanism:configurator'}, 'minecraft:lapis_lazuli', 'embers:dawnstone_ingot')
-    event.replaceInput({id: 'mekanism:basic_energy_cube'}, 'mekanism:steel_casing', 'mekanism:block_steel')
+    event.replaceInput({id: 'mekanism:configurator'}, 
+        'minecraft:lapis_lazuli', 
+        'embers:dawnstone_ingot')
+    event.replaceInput({id: 'mekanism:basic_energy_cube'}, 
+        'mekanism:steel_casing', 
+        'mekanism:block_steel')
 
     event.remove({id: 'mekanism:cardboard_box'})
+
+    event.replaceInput({id: 'mekanism:tier_installer/basic'},
+        'mekanism:basic_control_circuit',
+        'embers:ember_crystal_cluster'
+    )
 })
