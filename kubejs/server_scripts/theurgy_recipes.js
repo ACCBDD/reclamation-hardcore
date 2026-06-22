@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    event.remove({ id: 'theurgy:crafting/shaped/sal_ammoniac_tank'})
+    event.remove({ id: 'theurgy:crafting/shaped/sal_ammoniac_tank' })
     event.shaped('theurgy:sal_ammoniac_tank', [
         'SCS',
         'SCS',
@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         R: '#forge:rods/wooden'
     })
 
-    event.remove({ id: 'theurgy:crafting/shaped/sal_ammoniac_accumulator'})
+    event.remove({ id: 'theurgy:crafting/shaped/sal_ammoniac_accumulator' })
     event.shaped('theurgy:sal_ammoniac_accumulator', [
         'SSS',
         'CCC',
@@ -21,8 +21,8 @@ ServerEvents.recipes(event => {
         C: 'minecraft:copper_ingot',
         R: '#forge:rods/wooden'
     })
-    
-    event.remove({ id: 'theurgy:crafting/shaped/distiller'})
+
+    event.remove({ id: 'theurgy:crafting/shaped/distiller' })
     event.shaped('theurgy:distiller', [
         ' C ',
         'CBC',
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
         B: 'minecraft:copper_block'
     })
 
-    event.remove({ id: 'theurgy:crafting/shaped/calcination_oven'})
+    event.remove({ id: 'theurgy:crafting/shaped/calcination_oven' })
     event.shaped('theurgy:calcination_oven', [
         ' S ',
         'CBC',
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
         B: 'minecraft:copper_block'
     })
 
-    event.remove({ id: 'theurgy:crafting/shaped/liquefaction_cauldron'})
+    event.remove({ id: 'theurgy:crafting/shaped/liquefaction_cauldron' })
     event.shaped('theurgy:liquefaction_cauldron', [
         'CCC',
         'CBC',
@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
         B: 'minecraft:bucket'
     })
 
-    event.remove({ id: 'theurgy:crafting/shaped/incubator'})
+    event.remove({ id: 'theurgy:crafting/shaped/incubator' })
     event.shaped('theurgy:incubator', [
         'PSP',
         'CCC',
@@ -66,10 +66,10 @@ ServerEvents.recipes(event => {
         P: '#minecraft:planks'
     })
 
-    event.remove({id: 'theurgy:distillation/cod'})
-    event.remove({id: 'theurgy:distillation/salmon'})
-    event.remove({id: 'theurgy:distillation/cooked_cod'})
-    event.remove({id: 'theurgy:distillation/cooked_salmon'})
+    event.remove({ id: 'theurgy:distillation/cod' })
+    event.remove({ id: 'theurgy:distillation/salmon' })
+    event.remove({ id: 'theurgy:distillation/cooked_cod' })
+    event.remove({ id: 'theurgy:distillation/cooked_salmon' })
     event.custom({
         "type": "theurgy:distillation",
         "distillation_time": 100,
@@ -152,11 +152,11 @@ ServerEvents.recipes(event => {
     })
 
     //reformation recipes
-    event.remove({ id: 'theurgy:crafting/shaped/reformation_source_pedestal'})
-    event.remove({ id: 'theurgy:crafting/shaped/reformation_result_pedestal'})
-    event.remove({ id: 'theurgy:crafting/shaped/reformation_target_pedestal'})
-    event.remove({ id: 'theurgy:crafting/shaped/sulfuric_flux_emitter'})
-    event.remove({ id: 'theurgy:crafting/shaped/mercury_catalyst'})
+    event.remove({ id: 'theurgy:crafting/shaped/reformation_source_pedestal' })
+    event.remove({ id: 'theurgy:crafting/shaped/reformation_result_pedestal' })
+    event.remove({ id: 'theurgy:crafting/shaped/reformation_target_pedestal' })
+    event.remove({ id: 'theurgy:crafting/shaped/sulfuric_flux_emitter' })
+    event.remove({ id: 'theurgy:crafting/shaped/mercury_catalyst' })
     event.shaped('theurgy:reformation_source_pedestal', [
         'BSB',
         'AIA',
@@ -208,7 +208,7 @@ ServerEvents.recipes(event => {
     })
 
     //t2,t3 reformation
-    event.remove({ id: 'theurgy:crafting/shaped/fermentation_vat'})
+    event.remove({ id: 'theurgy:crafting/shaped/fermentation_vat' })
     event.shaped('theurgy:fermentation_vat', [
         'BSB',
         'DAD',
@@ -220,7 +220,7 @@ ServerEvents.recipes(event => {
         A: 'minecraft:barrel',
         C: 'minecraft:copper_ingot'
     })
-    event.remove({ id: 'theurgy:crafting/shaped/digestion_vat'})
+    event.remove({ id: 'theurgy:crafting/shaped/digestion_vat' })
     event.custom({
         "type": "embers:alchemy",
         "aspects": [
