@@ -1,19 +1,19 @@
-filename = 'complicated_bees-1.20.1-3.4.5.jar'
+filename = 'complicated_bees-1.20.1-3.4.6.jar'
 name = 'Complicated Bees'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'v1.20.1-3.4.5'
+x-prismlauncher-version-number = 'v1.20.1-3.4.6'
 
 [download]
-hash = '471cec8fbade0b008d01a4bb71e5a7fc9d602bc3'
+hash = '066657ef103bf365cecff789b181275989bacd25'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8253559
+file-id = 8277762
 project-id = 1100137
 
 [[x-prismlauncher-dependencies]]
