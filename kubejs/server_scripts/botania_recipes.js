@@ -445,6 +445,11 @@ ServerEvents.recipes(event => {
         'minecraft:glass_bottle'
     ])
 
+    event.replaceInput({id: 'botania:redstone_spreader'},
+        'minecraft:redstone',
+        'minecraft:lever'
+    )
+
     //heart of the sea
     event.custom({
         "type": "botania:runic_altar",

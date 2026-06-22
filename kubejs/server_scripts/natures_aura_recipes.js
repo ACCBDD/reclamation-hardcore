@@ -901,16 +901,16 @@ ServerEvents.recipes(event => {
                     "item": "croptopia:"+h
                 },
                 {
-                    "item": "ars_nouveau:earth_essence"
+                    "item": "minecraft:podzol"
                 },
                 {
-                    "item": "ars_nouveau:earth_essence"
+                    "item": "minecraft:grass"
                 },
                 {
-                    "item": "botania:rune_earth"
+                    "item": "botania:grass_seeds"
                 },
                 {
-                    "item": "botania:rune_earth"
+                    "item": "botania:fertilizer"
                 }
             ],
             "sapling": {

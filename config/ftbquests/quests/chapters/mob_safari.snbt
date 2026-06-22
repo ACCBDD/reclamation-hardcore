@@ -967,7 +967,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			description: ["&7Tip: if you want to summon a living wither skeleton, you'll need to use the Soulium Spawner."]
+			description: [""]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "3E3DE65526844EB7"
 			rewards: [
