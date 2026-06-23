@@ -1,35 +1,23 @@
-filename = 'ColdSweat-2.4.1.jar'
+filename = 'ColdSweat-2.4.2.jar'
 name = 'Cold Sweat'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'ColdSweat-2.4.1.jar'
+x-prismlauncher-version-number = 'ColdSweat-2.4.2.jar'
 
 [download]
-hash = 'e41299c1d6afe255571038287051f63a437e856f'
+hash = 'f5e203dbdca07470d29d872348e3233cd698f3a9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8170903
+file-id = 8302213
 project-id = 506194
 
 [[x-prismlauncher-dependencies]]
-addonId = '855414'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '659110'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '921022'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1037991'
+addonId = '400714'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -37,7 +25,11 @@ addonId = '309927'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '417430'
+addonId = '855414'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '237746'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -45,47 +37,11 @@ addonId = '247560'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '246391'
+addonId = '417430'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '364918'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '238222'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '388992'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '328085'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '635042'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '679270'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '490686'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '400714'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '291874'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1070751'
+addonId = '393321'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -93,11 +49,39 @@ addonId = '362393'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '513688'
+addonId = '635042'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '237746'
+addonId = '364918'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238086'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '921022'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '490686'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1037991'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '659110'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388992'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -109,13 +93,29 @@ addonId = '258371'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
+addonId = '1070751'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
 addonId = '220318'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '393321'
+addonId = '679270'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '238086'
+addonId = '246391'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '291874'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '513688'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
 type = 'OPTIONAL'
