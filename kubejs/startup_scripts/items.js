@@ -24,11 +24,4 @@ ItemEvents.modification(event => {
     event.modify('complicated_bees:cold_frame', item => {
         item.maxDamage = 30
     })
-
-    // event.modify('minecraft:cooked_beef', item => {
-    //     item.overrideFood(food => {
-    //         food.hunger(3)
-    //         food.saturation(0.3)
-    //     })
-    // })
 })

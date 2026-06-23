@@ -1,0 +1,2379 @@
+{
+	"foods": [
+		{
+			"Item ID": "croptopia:mead",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "create_central_kitchen:passion_fruit_cake_slice",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "farmersdelight:salmon_slice",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "minecraft:tropical_fish",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:hamburger",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:fried_calamari",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:eggplant",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:beer",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:tomato",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "farmersdelight:chicken_cuts",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:cheese",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "croptopia:potato_chips",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "quark:ancient_fruit",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 0.3
+		},
+		{
+			"Item ID": "croptopia:starfruit",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "nethersdelight:plate_of_stuffed_hoglin_roast",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "croptopia:stuffed_artichoke",
+			"Nutrition (Hunger)": 18,
+			"Saturation Modifier": 1.1
+		},
+		{
+			"Item ID": "quark:cooked_crab_leg",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "minecraft:dried_kelp",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "farmersdelight:baked_cod_stew",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 7.0
+		},
+		{
+			"Item ID": "croptopia:peanut_butter_with_celery",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:saucy_chips",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:bacon_and_eggs",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "croptopia:squash",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "nethersdelight:hoglin_loin",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "supplementaries:lumisene_bottle",
+			"Nutrition (Hunger)": 0,
+			"Saturation Modifier": 0.0
+		},
+		{
+			"Item ID": "croptopia:almond",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "farmersdelight:kelp_roll",
+			"Nutrition (Hunger)": 12,
+			"Saturation Modifier": 12.0
+		},
+		{
+			"Item ID": "farmersdelight:ham",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "croptopia:cheesy_asparagus",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "minecraft:pufferfish",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:scrambled_eggs",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:peanut",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:fig",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:steamed_green_beans",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "ars_elemental:flashpine_pod",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "farmersdelight:mushroom_rice",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "croptopia:baked_crepes",
+			"Nutrition (Hunger)": 12,
+			"Saturation Modifier": 1.3
+		},
+		{
+			"Item ID": "croptopia:onion_rings",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:nether_salad",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 5.0
+		},
+		{
+			"Item ID": "croptopia:avocado",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:trifle",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:trail_mix",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:kiwi_sorbet",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:bacon",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "minecraft:honey_bottle",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "croptopia:grilled_cheese",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:plum",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:tamales",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:peanut_butter_and_jam",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "supplementaries:candy",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:turnip",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "minecraft:golden_carrot",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 6.0
+		},
+		{
+			"Item ID": "create_central_kitchen:pumpkin_cake_slice",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:walnut",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:french_fries",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:cooked_tuna",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:chocolate_pie_slice",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:cooked_calamari",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.8
+		},
+		{
+			"Item ID": "croptopia:banana",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "minecraft:mushroom_stew",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:peach",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:radish",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:cabbage_roll",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "botania:mana_bottle",
+			"Nutrition (Hunger)": 0,
+			"Saturation Modifier": 0.0
+		},
+		{
+			"Item ID": "farmersdelight:bacon_sandwich",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "minecraft:chorus_fruit",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "farmersdelight:vegetable_noodles",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "croptopia:ratatouille",
+			"Nutrition (Hunger)": 18,
+			"Saturation Modifier": 1.1
+		},
+		{
+			"Item ID": "croptopia:kale_smoothie",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "farmersdelight:fried_rice",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "create_central_kitchen:incomplete_bacon_sandwich",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:roasted_squash",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "create_central_kitchen:incomplete_egg_sandwich",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:corn_bread",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:steamed_clams",
+			"Nutrition (Hunger)": 11,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:beetroot_salad",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "create_central_kitchen:sweet_berry_cake_slice",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:cooked_bacon",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 0.8
+		},
+		{
+			"Item ID": "create_central_kitchen:mulberry_pie_slice",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:shepherds_pie",
+			"Nutrition (Hunger)": 18,
+			"Saturation Modifier": 1.1
+		},
+		{
+			"Item ID": "croptopia:leek_soup",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:blackberry_jam",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.5
+		},
+		{
+			"Item ID": "croptopia:barley",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "ars_nouveau:mendosteen_pod",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:persimmon",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:candied_nuts",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:pecan",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:chile_pepper",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:fish_and_chips",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "create:bar_of_chocolate",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "minecraft:poisonous_potato",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:pepperoni",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:chicken_and_noodles",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:tomato_juice",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "croptopia:transcendental_breakfast",
+			"Nutrition (Hunger)": 20,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:tuna",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "croptopia:apricot_jam",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.5
+		},
+		{
+			"Item ID": "croptopia:eggplant_parmesan",
+			"Nutrition (Hunger)": 18,
+			"Saturation Modifier": 1.1
+		},
+		{
+			"Item ID": "croptopia:strawberry_ice_cream",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:asparagus",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "minecraft:bread",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:tomatillo",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "minecraft:melon_slice",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "minecraft:cooked_chicken",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:apple_juice",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "croptopia:tofu_and_dumplings",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "create_central_kitchen:aloe_cake_slice",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:blt",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:ratatouille",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "croptopia:apricot",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "farmersdelight:cooked_mutton_chops",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:veggie_salad",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:fried_frog_legs",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "nethersdelight:nether_skewer",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 7.0
+		},
+		{
+			"Item ID": "create:builders_tea",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:rhubarb_crisp",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:cooked_anchovy",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 0.5
+		},
+		{
+			"Item ID": "croptopia:orange_juice",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "croptopia:vanilla_ice_cream",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "farmersdelight:barbecue_stick",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 6.0
+		},
+		{
+			"Item ID": "minecraft:potato",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "nethersdelight:strider_slice",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:mashed_potatoes",
+			"Nutrition (Hunger)": 9,
+			"Saturation Modifier": 1.5
+		},
+		{
+			"Item ID": "farmersdelight:onion_soup",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "croptopia:stir_fry",
+			"Nutrition (Hunger)": 12,
+			"Saturation Modifier": 1.3
+		},
+		{
+			"Item ID": "croptopia:chili_relleno",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "farmersdelight:dog_food",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:steamed_rice",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:soybean",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:beef_jerky",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:saguaro_juice",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "farmersdelight:cooked_rice",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "nethersdelight:hoglin_ear",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:butter",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "croptopia:cranberry",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:almond_brittle",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:fruit_smoothie",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:cabbage_rolls",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "croptopia:nutmeg",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:limeade",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:roast_chicken",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 10.0
+		},
+		{
+			"Item ID": "croptopia:egg_roll",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "ars_nouveau:bastion_pod",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:eton_mess",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:salmon_roll",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "croptopia:dauphine_potatoes",
+			"Nutrition (Hunger)": 12,
+			"Saturation Modifier": 1.3
+		},
+		{
+			"Item ID": "croptopia:grape",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:scones",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:currant",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:chocolate_ice_cream",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "nethersdelight:grilled_strider",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "farmersdelight:mixed_salad",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "croptopia:mango",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:roasted_turnips",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:protein_bar",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:kumquat",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:date",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:pork_jerky",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:toast_with_jam",
+			"Nutrition (Hunger)": 9,
+			"Saturation Modifier": 1.5
+		},
+		{
+			"Item ID": "create_central_kitchen:incomplete_mulberry_pie",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:greenonion",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:cheese_pizza",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:tortilla",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:pear",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "farmersdelight:grilled_salmon",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "minecraft:sweet_berries",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:roasted_sunflower_seeds",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "croptopia:pineapple",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:pork_and_beans",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:fruit_salad",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 6.0
+		},
+		{
+			"Item ID": "croptopia:candy_corn",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:cod_slice",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:croque_monsieur",
+			"Nutrition (Hunger)": 13,
+			"Saturation Modifier": 1.5
+		},
+		{
+			"Item ID": "croptopia:onion",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:salsa",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:glowing_calamari",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "croptopia:roasted_radishes",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "nethersdelight:propelpearl",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "minecraft:beetroot",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:fruit_salad",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "nethersdelight:plate_of_stuffed_hoglin_ham",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 10.0
+		},
+		{
+			"Item ID": "farmersdelight:dumplings",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 7.0
+		},
+		{
+			"Item ID": "croptopia:the_big_breakfast",
+			"Nutrition (Hunger)": 20,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:toast_sandwich",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:vegetable_soup",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 6.0
+		},
+		{
+			"Item ID": "farmersdelight:noodle_soup",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "croptopia:cherry_jam",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.5
+		},
+		{
+			"Item ID": "croptopia:orange",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "farmersdelight:cooked_bacon",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:peach_jam",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.5
+		},
+		{
+			"Item ID": "croptopia:artichoke",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "minecraft:cooked_cod",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:pumpkin_bars",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:stuffed_poblanos",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "farmersdelight:honey_cookie",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:macaron",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:tofu",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:rice",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "farmersdelight:glow_berry_custard",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 6.0
+		},
+		{
+			"Item ID": "create_central_kitchen:incomplete_mutton_wrap",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "farmersdelight:sweet_berry_cookie",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "ars_nouveau:source_berry_pie",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 6.0
+		},
+		{
+			"Item ID": "minecraft:apple",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "minecraft:cooked_mutton",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:sweet_crepes",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:bone_broth",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "croptopia:lemon_coconut_bar",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:pumpkin_spice_latte",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:baked_yam",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.8
+		},
+		{
+			"Item ID": "create_central_kitchen:yucca_cake_slice",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:pineapple_pepperoni_pizza",
+			"Nutrition (Hunger)": 18,
+			"Saturation Modifier": 1.1
+		},
+		{
+			"Item ID": "croptopia:blackberry",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:cinnamon_roll",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "minecraft:cod",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:rutabaga",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "farmersdelight:tomato_sauce",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:refried_beans",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:raspberry",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:broccoli",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:cucumber_salad",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:celery",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:blackbean",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:potato_soup",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:basil",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "supplementaries:soap",
+			"Nutrition (Hunger)": 0,
+			"Saturation Modifier": 0.0
+		},
+		{
+			"Item ID": "croptopia:frog_legs",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "croptopia:hashed_brown",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "minecraft:beetroot_soup",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "croptopia:churros",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:apple_pie_slice",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "minecraft:cooked_salmon",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:roasted_pumpkin_seeds",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "croptopia:anchovy",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "croptopia:ham_sandwich",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:banana_nut_bread",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:beef_stir_fry",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "farmersdelight:smoked_ham",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 7.0
+		},
+		{
+			"Item ID": "farmersdelight:wheat_dough",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:borscht",
+			"Nutrition (Hunger)": 12,
+			"Saturation Modifier": 1.3
+		},
+		{
+			"Item ID": "farmersdelight:pie_crust",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:quiche",
+			"Nutrition (Hunger)": 12,
+			"Saturation Modifier": 1.3
+		},
+		{
+			"Item ID": "farmersdelight:pumpkin_slice",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:tuna_sandwich",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:steamed_broccoli",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:rum_raisin_ice_cream",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:crab_legs",
+			"Nutrition (Hunger)": 11,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "minecraft:porkchop",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "nethersdelight:warped_moldy_meat",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "croptopia:raspberry_jam",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.5
+		},
+		{
+			"Item ID": "croptopia:buttered_toast",
+			"Nutrition (Hunger)": 9,
+			"Saturation Modifier": 1.5
+		},
+		{
+			"Item ID": "croptopia:pizza",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:fried_chicken",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:beef_stew",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "minecraft:rotten_flesh",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:yam",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:horchata",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:garlic",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "minecraft:glow_berries",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:carnitas",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "nethersdelight:ground_strider",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:ajvar",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:raisin_oatmeal_cookie",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:beef_stew",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 6.0
+		},
+		{
+			"Item ID": "croptopia:banana_smoothie",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "minecraft:spider_eye",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:tostada",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:cashew",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:chimichanga",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:coconut",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "farmersdelight:minced_beef",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "minecraft:carrot",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "farmersdelight:apple_cider",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:rhubarb_pie",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:olive",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "minecraft:cooked_rabbit",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "nethersdelight:hoglin_sirloin",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 5.0
+		},
+		{
+			"Item ID": "croptopia:oyster",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "create_central_kitchen:incomplete_chicken_sandwich",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "farmersdelight:pumpkin_pie_slice",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:pecan_ice_cream",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:grilled_eggplant",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:cherry_pie",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:raw_pasta",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "farmersdelight:cooked_cod_slice",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:cooked_shrimp",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.8
+		},
+		{
+			"Item ID": "create:honeyed_apple",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "farmersdelight:roasted_mutton_chops",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 10.0
+		},
+		{
+			"Item ID": "croptopia:doughnut",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:strawberry",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:grapefruit",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "farmersdelight:mutton_wrap",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "croptopia:caesar_salad",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "nethersdelight:strider_moss_stew",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "create_central_kitchen:pumpkin_pie_slice",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:rhubarb",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:cauliflower",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:sweet_potato_fries",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:zucchini",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "ars_nouveau:source_berry_roll",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:pecan_pie",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:enchilada",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:avocado_toast",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:chicken_soup",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 7.0
+		},
+		{
+			"Item ID": "croptopia:saguaro",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:sticky_toffee_pudding",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:candied_kumquats",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:dragon_egg_omelette",
+			"Nutrition (Hunger)": 20,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:strawberry_jam",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.5
+		},
+		{
+			"Item ID": "croptopia:raw_ravager_meat",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "create:sweet_roll",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:supreme_pizza",
+			"Nutrition (Hunger)": 18,
+			"Saturation Modifier": 1.1
+		},
+		{
+			"Item ID": "croptopia:steamed_crab",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:meringue",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:raisins",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.5
+		},
+		{
+			"Item ID": "minecraft:beef",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "farmersdelight:onion",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "complicated_bees:ambrosia",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 10.0
+		},
+		{
+			"Item ID": "croptopia:nougat",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:snicker_doodle",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:pasta_with_mutton_chop",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 10.0
+		},
+		{
+			"Item ID": "croptopia:roasted_nuts",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:nether_wart_stew",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:cooked_ravager_meat",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:crema",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "croptopia:kiwi",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "minecraft:chicken",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:croque_madame",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:roe",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "croptopia:popcorn",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.5
+		},
+		{
+			"Item ID": "croptopia:sea_lettuce",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "croptopia:sunny_side_eggs",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:rum",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:strawberry_smoothie",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "croptopia:pumpkin_soup",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "nethersdelight:plate_of_stuffed_hoglin_snout",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 14.0
+		},
+		{
+			"Item ID": "farmersdelight:pasta_with_meatballs",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 10.0
+		},
+		{
+			"Item ID": "croptopia:anchovy_pizza",
+			"Nutrition (Hunger)": 15,
+			"Saturation Modifier": 1.3
+		},
+		{
+			"Item ID": "croptopia:nether_star_cake",
+			"Nutrition (Hunger)": 20,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:tea",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:nectarine",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:treacle_tart",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:tres_leche_cake",
+			"Nutrition (Hunger)": 18,
+			"Saturation Modifier": 1.1
+		},
+		{
+			"Item ID": "minecraft:cooked_beef",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:fruit_cake",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:cooked_chicken_cuts",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:taco",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:grape_jam",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.5
+		},
+		{
+			"Item ID": "nethersdelight:magma_gelatin",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 6.0
+		},
+		{
+			"Item ID": "create_central_kitchen:incomplete_hamburger",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "create_central_kitchen:honey_cake_slice",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:cucumber",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:lemon",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "cold_sweat:soul_sprout",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "farmersdelight:stuffed_potato",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "quark:crab_leg",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:spaghetti_squash",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:grilled_oysters",
+			"Nutrition (Hunger)": 11,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:ground_pork",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "croptopia:chicken_and_dumplings",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:sushi",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:artichoke_dip",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "create_central_kitchen:chocolate_cake_slice",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "create_central_kitchen:incomplete_pumpkin_pie",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:cranberry_juice",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "ars_nouveau:frostaya_pod",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:crab",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "croptopia:greenbean",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:banana_cream_pie",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "farmersdelight:egg_sandwich",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 6.0
+		},
+		{
+			"Item ID": "croptopia:blueberry_jam",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.5
+		},
+		{
+			"Item ID": "complicated_bees:honey_bread",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 6.0
+		},
+		{
+			"Item ID": "farmersdelight:pumpkin_soup",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 10.0
+		},
+		{
+			"Item ID": "croptopia:figgy_pudding",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "create_central_kitchen:incomplete_sweet_berry_cheesecake",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:dragonfruit",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:cashew_chicken",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:leafy_salad",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:yoghurt",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:cantaloupe",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "minecraft:rabbit",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:shrimp",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "farmersdelight:melon_popsicle",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "minecraft:golden_apple",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "farmersdelight:steak_and_potatoes",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 10.0
+		},
+		{
+			"Item ID": "minecraft:suspicious_stew",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 5.0
+		},
+		{
+			"Item ID": "croptopia:soy_milk",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:calamari",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "croptopia:oat",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "ars_nouveau:sourceberry_bush",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:chocolate",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:cornish_pasty",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:spinach",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:peanut_butter",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:corn",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:lime",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:nutty_cookie",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:pineapple_juice",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "croptopia:beef_wellington",
+			"Nutrition (Hunger)": 18,
+			"Saturation Modifier": 1.1
+		},
+		{
+			"Item ID": "croptopia:wine",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:coffee_beans",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:sweetpotato",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:chicken_and_rice",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "complicated_bees:honey_porkchop",
+			"Nutrition (Hunger)": 6,
+			"Saturation Modifier": 6.0
+		},
+		{
+			"Item ID": "farmersdelight:sweet_berry_cheesecake_slice",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "create:chocolate_glazed_berries",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "farmersdelight:fried_egg",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "croptopia:honeydew",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "farmersdelight:kelp_roll_slice",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "enchanted:rowan_berries",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:roasted_asparagus",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:blueberry",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:yam_jam",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:mango_ice_cream",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:coffee",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "botania:mana_cookie",
+			"Nutrition (Hunger)": 0,
+			"Saturation Modifier": 0.0
+		},
+		{
+			"Item ID": "croptopia:burrito",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:cabbage",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:buttered_green_beans",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "create_central_kitchen:incomplete_apple_pie",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:oatmeal",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:tuna_roll",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:lemon_chicken",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:baked_sweet_potato",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.8
+		},
+		{
+			"Item ID": "ars_nouveau:bombegranate_pod",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "farmersdelight:shepherds_pie",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 10.0
+		},
+		{
+			"Item ID": "croptopia:chocolate_milkshake",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:stuffed_pumpkin",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 10.0
+		},
+		{
+			"Item ID": "croptopia:apple_pie",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:clam",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		},
+		{
+			"Item ID": "farmersdelight:mutton_chops",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:fajitas",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "minecraft:mutton",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:elderberry_jam",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.5
+		},
+		{
+			"Item ID": "croptopia:bellpepper",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:cherry",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "minecraft:cookie",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "minecraft:rabbit_stew",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "minecraft:enchanted_golden_apple",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "farmersdelight:honey_glazed_ham",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "croptopia:ajvar_toast",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "farmersdelight:cabbage_leaf",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:lemonade",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:cabbage",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "farmersdelight:chicken_sandwich",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "farmersdelight:fish_stew",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 7.0
+		},
+		{
+			"Item ID": "farmersdelight:cooked_salmon_slice",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "minecraft:cooked_porkchop",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 3.0
+		},
+		{
+			"Item ID": "farmersdelight:cake_slice",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:tofuburger",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:kale_chips",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:gleaming_salad",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "farmersdelight:squid_ink_pasta",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 10.0
+		},
+		{
+			"Item ID": "croptopia:brownies",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:baked_beans",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.8
+		},
+		{
+			"Item ID": "croptopia:grape_juice",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "farmersdelight:cod_roll",
+			"Nutrition (Hunger)": 4,
+			"Saturation Modifier": 4.0
+		},
+		{
+			"Item ID": "farmersdelight:beef_patty",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:toast",
+			"Nutrition (Hunger)": 7,
+			"Saturation Modifier": 0.8
+		},
+		{
+			"Item ID": "croptopia:leek",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "minecraft:salmon",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "farmersdelight:tomato",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:melon_juice",
+			"Nutrition (Hunger)": 5,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "minecraft:baked_potato",
+			"Nutrition (Hunger)": 2,
+			"Saturation Modifier": 2.0
+		},
+		{
+			"Item ID": "croptopia:goulash",
+			"Nutrition (Hunger)": 16,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "farmersdelight:hamburger",
+			"Nutrition (Hunger)": 8,
+			"Saturation Modifier": 8.0
+		},
+		{
+			"Item ID": "croptopia:lettuce",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:cheeseburger",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:sausage",
+			"Nutrition (Hunger)": 3,
+			"Saturation Modifier": 0.6
+		},
+		{
+			"Item ID": "croptopia:deep_fried_shrimp",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:elderberry",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "croptopia:kale",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.1
+		},
+		{
+			"Item ID": "enchanted:water_artichoke",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 1.0
+		},
+		{
+			"Item ID": "croptopia:cheese_cake",
+			"Nutrition (Hunger)": 14,
+			"Saturation Modifier": 1.4
+		},
+		{
+			"Item ID": "croptopia:quesadilla",
+			"Nutrition (Hunger)": 10,
+			"Saturation Modifier": 1.2
+		},
+		{
+			"Item ID": "croptopia:bacon",
+			"Nutrition (Hunger)": 1,
+			"Saturation Modifier": 0.2
+		}
+	]
+}
