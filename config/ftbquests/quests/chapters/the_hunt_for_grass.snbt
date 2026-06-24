@@ -1263,7 +1263,7 @@
 			description: [
 				"Now that you can craft a &6cauldron,&r you can start to catch rain in it! Just leave one out and it'll &6slowly fill up when it rains.&r"
 				""
-				"Thanks to whatever happened, rainwater is pretty dirty - but it can be purified like normal."
+				"Thanks to whatever happened, rainwater is still &4slightly dirty&r - but it can be purified like normal."
 			]
 			id: "76D91F4509883082"
 			rewards: [{

@@ -1089,13 +1089,13 @@
     "curseForgeHash": 2823168574,
     "modrinthHash": "e5b7ac2e58ef763d67ff9ab1c3a455707b77be50"
   },
-  "reclamation_util-1.20.1-1.0.34.jar": {
-    "jarName": "reclamation_util-1.20.1-1.0.34.jar",
+  "reclamation_util-1.20.1-1.0.35.jar": {
+    "jarName": "reclamation_util-1.20.1-1.0.35.jar",
     "modId": "reclamation_util",
     "name": "reclamation_util",
-    "version": "1.0.34",
-    "curseForgeHash": 1883279316,
-    "modrinthHash": "39c29c49e6a169a55006220bc7dbcb2caad39959"
+    "version": "1.0.35",
+    "curseForgeHash": 2717875970,
+    "modrinthHash": "522de4cb127f5eec9ce67c18aac736047f4950f6"
   },
   "resourcefulconfig-forge-1.20.1-2.1.3.jar": {
     "jarName": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
