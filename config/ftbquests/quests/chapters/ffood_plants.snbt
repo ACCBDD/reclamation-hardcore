@@ -2806,15 +2806,21 @@
 			id: "7F43F59F49A11EB0"
 			rewards: [
 				{
-					count: 64
-					id: "66951D345BDB38DF"
-					item: "mysticalagriculture:tertium_growth_accelerator"
-					type: "item"
-				}
-				{
 					count: 16
 					id: "0C3963F70AEAB618"
 					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2B6543D58A343F77"
+					item: "botania:overgrowth_seed"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5FBB2183A0330F82"
+					item: "nethersdelight:stuffed_hoglin"
 					type: "item"
 				}
 			]
@@ -2865,15 +2871,21 @@
 			id: "21DD7217374E1D06"
 			rewards: [
 				{
-					count: 128
-					id: "3A7A8F0DD9B334E3"
-					item: "mysticalagriculture:supremium_growth_accelerator"
-					type: "item"
-				}
-				{
 					count: 16
 					id: "09FE957213D8E53C"
 					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "66596F16920F63AA"
+					item: "botania:overgrowth_seed"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6D5999143F5B2A7A"
+					item: "nethersdelight:stuffed_hoglin"
 					type: "item"
 				}
 			]

@@ -1222,7 +1222,7 @@
 			description: [
 				"A mechanical pump is capable of pumping liquids in the world into pipes when given mechanical power - &6it is much faster than the ember-fueled one!"
 				""
-				"Addtionally, you can use this pump to automatically pull water from your cauldrons!"
+				"Addtionally, you can use this pump to automatically &6pull fluids&r from cauldron filling setups, dripstone- or rain-powered."
 			]
 			id: "2E0F026AB59D83B5"
 			optional: true
@@ -2747,6 +2747,45 @@
 			title: "More Aura"
 			x: 5.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["2E0F026AB59D83B5"]
+			description: [
+				"The &6Hose Pulley&r is capable of pulling up a large amount of fluid from the world; given a large enough pool it can pull an &6effectively infinite amount.&r"
+				""
+				"&7Note: infinite water has been disabled - it'll still work for things that aren't water, though... like lava!"
+			]
+			id: "76FADA4972D855B4"
+			optional: true
+			rewards: [{
+				id: "0A7FA3D746E8F97D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01538B80EA469162"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["462683FE563F6689"]
+			description: ["Using the power of silver, you can upgrade your boring old watering can to a much better version with a &67x7 range&r and a faster &6watering rate.&r"]
+			id: "2A89264CC5039A8C"
+			rewards: [{
+				id: "0B06D8B3D95AEDF1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "457887BB854BF852"
+				item: "reclamation_util:reinforced_watering_can"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
 		}
 	]
 	title: "Touching Grass"

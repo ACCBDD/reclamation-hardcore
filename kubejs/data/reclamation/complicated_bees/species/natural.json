@@ -20,7 +20,7 @@
   "specialty_products": [
     {
       "chance": 0.1,
-      "item": "mysticalagriculture:nature_essence"
+      "item": "naturesaura:gold_powder"
     }
   ],
   "default_chromosome": {

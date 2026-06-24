@@ -2075,4 +2075,16 @@ ServerEvents.recipes(event => {
         },
         "upgradeLevel": 3
     })
+
+    event.shaped('reclamation_util:reinforced_watering_can', [
+        'IB ',
+        'IWI',
+        ' I '
+    ], {
+        B: 'botania:rune_water',
+        W: 'reclamation_util:watering_can',
+        I: 'embers:silver_ingot'
+    })
+
+    event.remove({id: 'supplementaries:faucet'})
 })
