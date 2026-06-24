@@ -724,6 +724,52 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
+                "comb_type": "reclamation:water"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.2
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.1
+            },
+            {
+                "item": "theurgy:crystallized_water",
+                "chance": 0.5
+            }
+        ]
+    })
+    event.custom({
+        "type": "complicated_bees:centrifuge",
+        "input": {
+            "item": "complicated_bees:comb",
+            "nbt": {
+                "comb_type": "reclamation:lava"
+            }
+        },
+        "outputs": [
+            {
+                "item": "complicated_bees:beeswax",
+                "chance": 0.2
+            },
+            {
+                "item": "complicated_bees:honey_droplet",
+                "chance": 0.1
+            },
+            {
+                "item": "theurgy:crystallized_lava",
+                "chance": 0.5
+            }
+        ]
+    })
 
     //biome bottle
     event.shaped('4x reclamation_util:empty_biome_bottle', [

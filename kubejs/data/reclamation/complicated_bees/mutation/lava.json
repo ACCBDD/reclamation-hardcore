@@ -1,0 +1,11 @@
+{
+  "chance": 0.12,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "minecraft:lava"
+    }
+  },
+  "first": "complicated_bees:fiendish",
+  "result": "reclamation:molten",
+  "second": "complicated_bees:resilient"
+}
