@@ -18,6 +18,7 @@
 ## Fixed
 * Temperature freezing after death
 * Removed all traces of Mystical Agriculture from quests
+* Removed random bucket to bottles with bowl recipe
 
 ## Updated
 * Various mods
