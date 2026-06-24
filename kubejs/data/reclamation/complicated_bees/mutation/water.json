@@ -3,8 +3,7 @@
   "conditions": {
     "complicated_bees:block_under": {
       "block": "minecraft:water"
-    },
-    "complicated_bees:ecstatic": {}
+    }
   },
   "first": "complicated_bees:cultivated",
   "result": "reclamation:watery",

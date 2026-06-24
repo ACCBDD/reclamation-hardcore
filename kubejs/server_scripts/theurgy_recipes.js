@@ -290,7 +290,7 @@ ServerEvents.recipes(event => {
                 "Amount": salProduce,
                 "FluidName": "theurgy:sal_ammoniac"
             }
-        })
+        }).id('reclamation:sal_from_water_' + purity)
 
         event.custom({
             "type": "theurgy:accumulation",
@@ -309,7 +309,7 @@ ServerEvents.recipes(event => {
             "solute": {
                 "tag": "forge:gems/sal_ammoniac"
             }
-        })
+        }).id('reclamation:sal_from_water_crystal_' + purity)
     }
 
     accumulation(0, 100)
@@ -329,7 +329,7 @@ ServerEvents.recipes(event => {
             "Amount": 400,
             "FluidName": "theurgy:sal_ammoniac"
         }
-    })
+    }).id('reclamation:sal_from_water_empty')
 
     event.custom({ //from creative, other water sources - no tag
         "type": "theurgy:accumulation",
@@ -343,5 +343,5 @@ ServerEvents.recipes(event => {
             "Amount": 400,
             "FluidName": "theurgy:sal_ammoniac"
         }
-    })
+    }).id('reclamation:sal_from_water_null')
 })
