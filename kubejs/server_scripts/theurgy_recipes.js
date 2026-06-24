@@ -271,4 +271,77 @@ ServerEvents.recipes(event => {
             "item": "theurgy:alchemical_salt_strata"
         }
     })
+
+    event.remove({ id: 'theurgy:accumulation/sal_ammoniac_from_water_and_sal_ammoniac_crystal' })
+    event.remove({ id: 'theurgy:accumulation/sal_ammoniac_from_water' })
+
+    function accumulation(purity, salProduce) {
+        event.custom({
+            "type": "theurgy:accumulation",
+            "accumulationTime": 100,
+            "evaporant": {
+                "fluid": "minecraft:water",
+                "nbt": {
+                    "Purity": purity
+                }
+            },
+            "evaporantAmount": 1000,
+            "result": {
+                "Amount": salProduce,
+                "FluidName": "theurgy:sal_ammoniac"
+            }
+        })
+
+        event.custom({
+            "type": "theurgy:accumulation",
+            "accumulationTime": 100,
+            "evaporant": {
+                "fluid": "minecraft:water",
+                "nbt": {
+                    "Purity": purity
+                }
+            },
+            "evaporantAmount": 1000,
+            "result": {
+                "Amount": 1000,
+                "FluidName": "theurgy:sal_ammoniac"
+            },
+            "solute": {
+                "tag": "forge:gems/sal_ammoniac"
+            }
+        })
+    }
+
+    accumulation(0, 100)
+    accumulation(1, 200)
+    accumulation(2, 400)
+    accumulation(3, 800)
+
+    event.custom({ //from cauldron, etc - empty tag
+        "type": "theurgy:accumulation",
+        "accumulationTime": 100,
+        "evaporant": {
+            "fluid": "minecraft:water",
+            "nbt": {}
+        },
+        "evaporantAmount": 1000,
+        "result": {
+            "Amount": 400,
+            "FluidName": "theurgy:sal_ammoniac"
+        }
+    })
+
+    event.custom({ //from creative, other water sources - no tag
+        "type": "theurgy:accumulation",
+        "accumulationTime": 100,
+        "evaporant": {
+            "fluid": "minecraft:water",
+            "nbt": ""
+        },
+        "evaporantAmount": 1000,
+        "result": {
+            "Amount": 400,
+            "FluidName": "theurgy:sal_ammoniac"
+        }
+    })
 })

@@ -229,6 +229,8 @@
 				"Place the accumulator on top of the tank, fill it with water, and it will slowly produce &6Sal Ammoniac&r for you."
 				""
 				"&7Tip: you can make buckets out of copper!&r"
+				""
+				"&7Tip 2: the more purified the water you put in is, the more sal ammoniac you get out!"
 			]
 			icon: "theurgy:sal_ammoniac_accumulator"
 			id: "01AB2D65C171F1F9"
