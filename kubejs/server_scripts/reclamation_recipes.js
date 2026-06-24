@@ -1913,24 +1913,6 @@ ServerEvents.recipes(event => {
         return Item.of('minecraft:potion', 4, `{Potion:"minecraft:water",Purity:${purity}}`).strongNBT();
     });
 
-    //bowls from bucket
-    event.shapeless(
-        Item.of('minecraft:potion', 4, '{Potion:"minecraft:water"}'),
-        [
-            Item.of('minecraft:water_bucket').weakNBT(),
-            'thirst:terracotta_bowl',
-            'thirst:terracotta_bowl',
-            'thirst:terracotta_bowl',
-            'thirst:terracotta_bowl'
-        ]
-    ).modifyResult((grid, result) => {
-        const bucket = grid.find(Ingredient.of('minecraft:water_bucket'));
-        if (!bucket) return;
-        const nbtTag = bucket.nbt || new CompoundTag();
-        const purity = nbtTag.Purity !== undefined ? nbtTag.Purity : 2;
-        return Item.of('thirst:terracotta_water_bowl', 4, `{Purity:${purity}}`).strongNBT();
-    });
-
     event.shaped('reclamation_util:camel_pack_basic',
         [
             'SLS',
@@ -2004,6 +1986,40 @@ ServerEvents.recipes(event => {
         },
         "tablet": {
             "item": "reclamation_util:camel_pack_basic"
+        }
+    })
+
+    event.custom({
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+            "SHS",
+            "WLW",
+            "SHS"
+        ],
+        "key": {
+            "S": {
+                "item": "cold_sweat:hoglin_hide"
+            },
+            "H": {
+                "item": "bloodmagic:ingot_hellforged"
+            },
+            "L": {
+                "item": "reclamation_util:camel_pack_advanced"
+            },
+            "W": {
+                "type": "forge:nbt",
+                "item": "expatternprovider:infinity_cell",
+                "nbt": {
+                    "record": {
+                        "#c": "ae2:f",
+                        "id": "minecraft:water"
+                    }
+                }
+            }
+        },
+        "result": {
+            "item": "reclamation_util:camel_pack_infinite",
+            "count": 1
         }
     })
 
@@ -2086,5 +2102,5 @@ ServerEvents.recipes(event => {
         I: 'embers:silver_ingot'
     })
 
-    event.remove({id: 'supplementaries:faucet'})
+    event.remove({ id: 'supplementaries:faucet' })
 })

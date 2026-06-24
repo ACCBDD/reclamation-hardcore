@@ -2639,6 +2639,23 @@
 			x: 6.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["52D07AB4E6B88EA1"]
+			description: ["It's a camel pack with &6infinite water.&r What else needs to be said?"]
+			id: "0C86EBE8231782E1"
+			rewards: [{
+				id: "7297C938935C70F0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D842BC0B18CD088"
+				item: "reclamation_util:camel_pack_infinite"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
 	]
 	title: "Sounds of Life"
 }
