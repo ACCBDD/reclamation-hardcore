@@ -258,4 +258,17 @@ ServerEvents.recipes(event => {
             "item": "minecraft:decorated_pot"
         }
     })
+
+    event.custom({
+        "type": "theurgy:calcination",
+        "calcination_time": 100,
+        "ingredient": {
+            "item": "minecraft:snow_block"
+        },
+        "ingredient_count": 1,
+        "result": {
+            "count": 4,
+            "item": "theurgy:alchemical_salt_strata"
+        }
+    })
 })
