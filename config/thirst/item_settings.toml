@@ -1,101 +1,17 @@
 
 [Drinks]
-#Defines items that will recover thirst when drunk
-#Format: [["item-id-1", hydration-amount, quenching-amount], ["item-id-2", hydration-amount, quenching-amount], ...etc]
-drinks = [["minecraft:potion", 6, 8], ["create:builders_tea", 4, 8], ["farmersdelight:apple_cider", 2, 4], ["farmersdelight:melon_juice", 2, 4]]
+	#Defines items that will recover thirst when drunk
+	#Format: [["item-id-1", hydration-amount, quenching-amount], ["item-id-2", hydration-amount, quenching-amount], ...etc]
+	drinks = [["minecraft:potion", 6, 8], ["create:builders_tea", 4, 8], ["farmersdelight:apple_cider", 2, 4], ["farmersdelight:melon_juice", 2, 4]]
 
 [Foods]
-#Defines items that will recover thirst when eaten
-#Format: [["item-id-1", hydration-amount, quenching-amount], ["item-id-2", hydration-amount, quenching-amount], ...etc]
-foods = [
-  ["minecraft:apple", 2, 1],
-  ["minecraft:golden_apple", 2, 3],
-  ["minecraft:enchanted_golden_apple", 2, 3],
-  ["minecraft:melon_slice", 1, 1],
-  ["minecraft:carrot", 1, 1],
-  ["minecraft:beetroot", 1, 1],
-  ["minecraft:sweet_berries", 1, 1],
-  ["minecraft:glow_berries", 1, 1],
-  ["croptopia:artichoke", 1, 1],
-  ["croptopia:asparagus", 1, 1],
-  ["croptopia:bellpepper", 1, 1],
-  ["croptopia:blackberry", 1, 1],
-  ["croptopia:blueberry", 1, 1],
-  ["croptopia:broccoli", 1, 1],
-  ["croptopia:cabbage", 1, 1],
-  ["croptopia:cauliflower", 1, 1],
-  ["croptopia:celery", 1, 1],
-  ["croptopia:corn", 1, 1],
-  ["croptopia:cranberry", 1, 1],
-  ["croptopia:cucumber", 1, 1],
-  ["croptopia:currant", 1, 1],
-  ["croptopia:eggplant", 1, 1],
-  ["croptopia:elderberry", 1, 1],
-  ["croptopia:grape", 1, 1],
-  ["croptopia:greenbean", 1, 1],
-  ["croptopia:honeydew", 1, 1],
-  ["croptopia:kale", 1, 1],
-  ["croptopia:kiwi", 1, 1],
-  ["croptopia:leek", 1, 1],
-  ["croptopia:lettuce", 1, 1],
-  ["croptopia:onion", 1, 1],
-  ["croptopia:pineapple", 1, 1],
-  ["croptopia:radish", 1, 1],
-  ["croptopia:raspberry", 1, 1],
-  ["croptopia:rhubarb", 1, 1],
-  ["croptopia:rutabaga", 1, 1],
-  ["croptopia:saguaro", 1, 1],
-  ["croptopia:spinach", 1, 1],
-  ["croptopia:squash", 1, 1],
-  ["croptopia:strawberry", 1, 1],
-  ["croptopia:tomatillo", 1, 1],
-  ["croptopia:tomato", 1, 1],
-  ["croptopia:zucchini", 1, 1],
-  ["croptopia:tea", 2, 2],
-  ["croptopia:beer", 2, 2],
-  ["croptopia:rum", 2, 2],
-  ["croptopia:wine", 2, 2],
-  ["croptopia:almond", 2, 1],
-  ["croptopia:apricot", 2, 1],
-  ["croptopia:avocado", 2, 1],
-  ["croptopia:banana", 2, 1],
-  ["croptopia:cantaloupe", 2, 1],
-  ["croptopia:cherry", 2, 1],
-  ["croptopia:coconut", 2, 2],
-  ["croptopia:date", 2, 1],
-  ["croptopia:dragonfruit", 2, 1],
-  ["croptopia:fig", 2, 1],
-  ["croptopia:grapefruit", 2, 1],
-  ["croptopia:kumquat", 2, 1],
-  ["croptopia:lemon", 2, 1],
-  ["croptopia:lime", 2, 1],
-  ["croptopia:mango", 2, 1],
-  ["croptopia:nectarine", 2, 1],
-  ["croptopia:orange", 2, 1],
-  ["croptopia:peach", 2, 1],
-  ["croptopia:pear", 2, 1],
-  ["croptopia:persimmon", 2, 1],
-  ["croptopia:plum", 2, 1],
-  ["croptopia:starfruit", 2, 1],
-  ["enchanted:rowan_berries", 1, 1],
-  ["enchanted:water_artichoke", 1, 1],
-  ["farmersdelight:pumpkin_slice", 1, 1],
-  ["farmersdelight:onion", 1, 1],
-  ["farmersdelight:tomato", 1, 1],
-  ["farmersdelight:cabbage", 1, 1],
-  ["farmersdelight:melon_popsicle", 2, 4],
-  ["croptopia:apple_juice", 2, 4],
-  ["croptopia:cranberry_juice", 2, 4],
-  ["croptopia:grape_juice", 2, 4],
-  ["croptopia:melon_juice", 2, 4],
-  ["croptopia:orange_juice", 2, 4],
-  ["croptopia:pineapple_juice", 2, 4],
-  ["croptopia:saguaro_juice", 2, 4],
-  ["croptopia:tomato_juice", 2, 4],
-]
+	#Defines items that will recover thirst when eaten
+	#Format: [["item-id-1", hydration-amount, quenching-amount], ["item-id-2", hydration-amount, quenching-amount], ...etc]
+	foods = [["minecraft:apple", 2, 1], ["minecraft:golden_apple", 2, 3], ["minecraft:enchanted_golden_apple", 2, 3], ["minecraft:melon_slice", 1, 1], ["minecraft:carrot", 1, 1], ["minecraft:beetroot", 1, 1], ["minecraft:sweet_berries", 1, 1], ["minecraft:glow_berries", 1, 1], ["croptopia:artichoke", 1, 1], ["croptopia:asparagus", 1, 1], ["croptopia:bellpepper", 1, 1], ["croptopia:blackberry", 1, 1], ["croptopia:blueberry", 1, 1], ["croptopia:broccoli", 1, 1], ["croptopia:cabbage", 1, 1], ["croptopia:cauliflower", 1, 1], ["croptopia:celery", 1, 1], ["croptopia:corn", 1, 1], ["croptopia:cranberry", 1, 1], ["croptopia:cucumber", 1, 1], ["croptopia:currant", 1, 1], ["croptopia:eggplant", 1, 1], ["croptopia:elderberry", 1, 1], ["croptopia:grape", 1, 1], ["croptopia:greenbean", 1, 1], ["croptopia:honeydew", 1, 1], ["croptopia:kale", 1, 1], ["croptopia:kiwi", 1, 1], ["croptopia:leek", 1, 1], ["croptopia:lettuce", 1, 1], ["croptopia:onion", 1, 1], ["croptopia:pineapple", 1, 1], ["croptopia:radish", 1, 1], ["croptopia:raspberry", 1, 1], ["croptopia:rhubarb", 1, 1], ["croptopia:rutabaga", 1, 1], ["croptopia:saguaro", 1, 1], ["croptopia:spinach", 1, 1], ["croptopia:squash", 1, 1], ["croptopia:strawberry", 1, 1], ["croptopia:tomatillo", 1, 1], ["croptopia:tomato", 1, 1], ["croptopia:zucchini", 1, 1], ["croptopia:tea", 2, 2], ["croptopia:beer", 2, 2], ["croptopia:rum", 2, 2], ["croptopia:wine", 2, 2], ["croptopia:almond", 2, 1], ["croptopia:apricot", 2, 1], ["croptopia:avocado", 2, 1], ["croptopia:banana", 2, 1], ["croptopia:cantaloupe", 2, 1], ["croptopia:cherry", 2, 1], ["croptopia:coconut", 2, 2], ["croptopia:date", 2, 1], ["croptopia:dragonfruit", 2, 1], ["croptopia:fig", 2, 1], ["croptopia:grapefruit", 2, 1], ["croptopia:kumquat", 2, 1], ["croptopia:lemon", 2, 1], ["croptopia:lime", 2, 1], ["croptopia:mango", 2, 1], ["croptopia:nectarine", 2, 1], ["croptopia:orange", 2, 1], ["croptopia:peach", 2, 1], ["croptopia:pear", 2, 1], ["croptopia:persimmon", 2, 1], ["croptopia:plum", 2, 1], ["croptopia:starfruit", 2, 1], ["enchanted:rowan_berries", 1, 1], ["enchanted:water_artichoke", 1, 1], ["farmersdelight:pumpkin_slice", 1, 1], ["farmersdelight:onion", 1, 1], ["farmersdelight:tomato", 1, 1], ["farmersdelight:cabbage", 1, 1], ["farmersdelight:melon_popsicle", 2, 4], ["croptopia:apple_juice", 2, 4], ["croptopia:cranberry_juice", 2, 4], ["croptopia:grape_juice", 2, 4], ["croptopia:melon_juice", 2, 4], ["croptopia:orange_juice", 2, 4], ["croptopia:pineapple_juice", 2, 4], ["croptopia:saguaro_juice", 2, 4], ["croptopia:tomato_juice", 2, 4]]
 
 [Blacklist]
-#A mod may have added thirst compatibility to an item via code. If you want to edit the thirst values
-#of that item, add an entry in one of the first two lists. If instead you want to remove thirst support for that item, add an entry in this list
-#Format: ["examplemod:example_item_1", "examplemod:example_item_2"]
-itemsBlacklist = ["examplemod:example_item_1", "examplemod:example_item_2"]
+	#A mod may have added thirst compatibility to an item via code. If you want to edit the thirst values
+	#of that item, add an entry in one of the first two lists. If instead you want to remove thirst support for that item, add an entry in this list
+	#Format: ["examplemod:example_item_1", "examplemod:example_item_2"]
+	itemsBlacklist = ["examplemod:example_item_1", "examplemod:example_item_2"]
+

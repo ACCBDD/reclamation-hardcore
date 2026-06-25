@@ -3,7 +3,7 @@
   "color": "#ff8fe9",
   "order": 40,
   "default_value": 0.20,
-  "gain_multiplier": 10.0,
+  "gain_multiplier": 4.0,
   "decay_multiplier": 10.0,
   "beneficial": true
 }
