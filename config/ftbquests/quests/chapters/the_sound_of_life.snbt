@@ -2656,6 +2656,30 @@
 			x: -4.0d
 			y: 7.5d
 		}
+		{
+			dependencies: [
+				"0F60E7D69F6FA06E"
+				"797F89EC438BD230"
+			]
+			description: [
+				"The &6Urn of Endless Waters&r is a magical way to generate &6acceptable water.&r It takes &5source&r and generates a bucket's worth every cycle into one or more containers, when linked with a &6Dominion Wand.&r"
+				""
+				"&7Tip: the Urn has a range of 30 blocks, and can be linked to as many containers as you like; as long as you have the source production to keep up with it."
+			]
+			id: "2FEFDBF57BD0BAFF"
+			rewards: [{
+				id: "5B69D24DBC49D643"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "083CF41765EA892E"
+				item: "ars_elemental:everfull_urn"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
 	]
 	title: "Sounds of Life"
 }

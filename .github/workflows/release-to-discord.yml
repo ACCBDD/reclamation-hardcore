@@ -1,0 +1,16 @@
+on:
+  release:
+    types: [published]
+
+jobs:
+  github-releases-to-discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: GitHub Releases to Discord
+        uses: SethCohen/github-releases-to-discord@v1
+        with:
+          webhook_url: ${{ secrets.WEBHOOK_URL }}
+          content: "A new version of Reclamation has been pushed to CurseForge! It should be approved within 24 hours."
+          reduce_headings: true

@@ -2792,7 +2792,7 @@
 			description: [
 				"The &6Rod of the Seas&r allows you to turn a small amount of mana into &6water!&r"
 				""
-				"&7Tip: it can also be right clicked onto empty buckets to produce acceptably purified water!"
+				"&7Tip: it can also be right clicked onto containers in your inventory (like buckets or bottles) to produce slightly dirty water!"
 			]
 			id: "0F3085F6FF51760C"
 			rewards: [{
