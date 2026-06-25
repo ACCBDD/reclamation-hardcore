@@ -2458,7 +2458,7 @@
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
 			description: [
-				"&6Dripstone&r has the unique property of being able to turn a small amount of liquid into a large amount - place water or lava on a block with pointed dripstone under it, and it'll slowly fill up a cauldron placed under that with &6purified&r water!"
+				"&6Dripstone&r has the unique property of being able to turn a small amount of liquid into a large amount - place water or lava on a block with pointed dripstone under it, and it'll slowly fill up a cauldron placed under that with &6acceptable&r water!"
 				""
 				"Now not only are you free from waiting for rain to fall for more water, but you can &6farm lava&r as well!"
 				""
