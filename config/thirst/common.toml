@@ -1,7 +1,7 @@
 
 [General]
 	#How much faster is hydration depletion relative to hunger (1 means they will deplete at the same speed)
-	thirstDepletionModifier = 1.2
+	thirstDepletionModifier = 1.5
 	#Whether hydration depletion in peaceful mode
 	thirstDepletionInPeace = false
 	#How much is hydration depletion in nether faster than overworld
@@ -15,7 +15,7 @@
 	#Whether players won't be able to sprint if their thirst bar is 3 droplets or less
 	moveSlowWhenThirsty = true
 	#Whether players can drink rain water
-	DrinkRainWater = true
+	DrinkRainWater = false
 	#Whether foods labeled as drinks will restore hunger
 	enableDrinksNutrition = true
 
@@ -61,7 +61,7 @@
 	#% of getting poisoned after drinking acceptable water
 	acceptablePoisonPercentage = 0
 	#% of getting sick (hunger and nausea) after drinking acceptable water
-	acceptableNauseaPercentage = 5
+	acceptableNauseaPercentage = 15
 	#% of getting poisoned after drinking purified water
 	purifiedPoisonPercentage = 0
 	#% of getting sick (hunger and nausea) after drinking purified water
@@ -81,5 +81,5 @@
 	#Purification levels gained by filtering water through a Sand Filter
 	sandFilterFiltrationAmount = 1
 	#Millibuckets of water filtered per game tick with a Sand Filter
-	sandFilterMbPerTick = 10
+	sandFilterMbPerTick = 50
 
