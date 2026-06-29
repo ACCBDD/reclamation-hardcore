@@ -29,6 +29,14 @@
     "curseForgeHash": 956676393,
     "modrinthHash": "97035ebd0ac8f5b4ebafe98c61a84723cba00db4"
   },
+  "agricreatecompat-1.20.1-1.0.0.jar": {
+    "jarName": "agricreatecompat-1.20.1-1.0.0.jar",
+    "modId": "agricreatecompat",
+    "name": "AgriCraft Create Compatibility",
+    "version": "1.0.0",
+    "curseForgeHash": 2837926494,
+    "modrinthHash": "20a501667bb5a2bcef3281f15e197428e1be3947"
+  },
   "AkashicTome-1.7-27.jar": {
     "jarName": "AkashicTome-1.7-27.jar",
     "modId": "akashictome",
