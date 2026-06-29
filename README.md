@@ -34,6 +34,9 @@ Total list of changes from base Reclamation:
     * Slates are harder to make
     * Meteors are smaller and cost more to summon
     * Demon Realm is harder
+* Miscellaneous Tweaks
+    * Snowballs no longer produce aura at the Shooting Mark
+    * Spruce trees no longer convert dried earth to podzol
 * Many more biome globes have been added
 * Globesome has a secret use
 * Many tweaks and reshuffles to recipes
