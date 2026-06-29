@@ -1125,6 +1125,33 @@
 			x: 3.5d
 			y: -3.5d
 		}
+		{
+			dependencies: ["186AF6EF5933F0C7"]
+			description: [
+				"&6Packing tape&r lets you move chests without dropping their contents."
+				""
+				"Handy!"
+			]
+			id: "332ED5D3947CE045"
+			rewards: [{
+				id: "6EDC3A51C9DB3C8C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "11288FC857E2E2BF"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
 	]
 	title: "Storage and Decor"
 }

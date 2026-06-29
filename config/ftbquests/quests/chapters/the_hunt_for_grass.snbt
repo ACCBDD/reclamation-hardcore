@@ -653,7 +653,11 @@
 		}
 		{
 			dependencies: ["4075C13786AF4C49"]
-			description: ["The &6Witch's Oven&r can be used to distill saplings into &6special magic fumes,&r which are especially potent in a variety of magical rites."]
+			description: [
+				"The &6Witch's Oven&r can be used to distill saplings into &6special magic fumes,&r which are especially potent in a variety of magical rites."
+				""
+				"&7Tip: fumes are not guaranteed - but making fume funnels raises your chances."
+			]
 			id: "6831CB6AC2CE40C6"
 			rewards: [
 				{
@@ -678,11 +682,7 @@
 		}
 		{
 			dependencies: ["778E09C4AE548E95"]
-			description: [
-				"Using some sapling fumes and some plantlife, you can create &6Pasture Seeds&r - special seeds that will place an &6area of grass&r on nearby dirt."
-				""
-				"&7Tip: due to a bug in the mod, watering cans will not work to start the ritual of the forest!"
-			]
+			description: ["Using some sapling fumes and some plantlife, you can create &6Pasture Seeds&r - special seeds that will place an &6area of grass&r on nearby dirt."]
 			icon: "minecraft:grass_block"
 			id: "600A7F0DFD880119"
 			rewards: [

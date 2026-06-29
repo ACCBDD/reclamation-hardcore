@@ -1733,6 +1733,16 @@ ServerEvents.recipes(event => {
     globe_recipe("lush", "lush", "minecraft:bamboo")
     globe_recipe("mycelic", "mycelic", "minecraft:mushroom_stew")
     globe_recipe("snowy", "icy", "minecraft:blue_ice")
+    globe_recipe("cold_ocean", "watery", "minecraft:packed_ice")
+    globe_recipe("stony_peaks", "arid", "minecraft:smooth_stone")
+    globe_recipe("windswept_hill", "arid", "botania:dry_grass")
+    globe_recipe("birch_forest", "filled", "minecraft:birch_sapling")
+    globe_recipe("swamp", "lush", "minecraft:slime_ball")
+    globe_recipe("mangrove_swamp", "lush", "minecraft:mangrove_propagule")
+    globe_recipe("snowy_plains", "icy", "minecraft:powder_snow_bucket")
+    globe_recipe("savanna", "arid", "minecraft:acacia_sapling")
+    globe_recipe("badlands", "arid", "minecraft:terracotta")
+    globe_recipe("river", "filled", "minecraft:cod")
 
     event.shapeless('reclamation_util:globesome', [
         'reclamation_util:snowy_biome_globe',

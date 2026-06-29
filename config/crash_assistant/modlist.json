@@ -740,6 +740,14 @@
     "curseForgeHash": 2455021272,
     "modrinthHash": "0da050b53b9904533cfd27039d612d986bc364c7"
   },
+  "justzoom_forge_2.1.1_MC_1.20.1.jar": {
+    "jarName": "justzoom_forge_2.1.1_MC_1.20.1.jar",
+    "modId": "justzoom",
+    "name": "Just Zoom",
+    "version": "2.1.1",
+    "curseForgeHash": 786588444,
+    "modrinthHash": "8bbcdfb61e9f0f738af0efff12c93b8f9daf2fb0"
+  },
   "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar": {
     "jarName": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
     "modId": "konkrete",
@@ -1089,13 +1097,13 @@
     "curseForgeHash": 2823168574,
     "modrinthHash": "e5b7ac2e58ef763d67ff9ab1c3a455707b77be50"
   },
-  "reclamation_util-1.20.1-1.0.37.jar": {
-    "jarName": "reclamation_util-1.20.1-1.0.37.jar",
+  "reclamation_util-1.20.1-1.0.39.jar": {
+    "jarName": "reclamation_util-1.20.1-1.0.39.jar",
     "modId": "reclamation_util",
     "name": "reclamation_util",
-    "version": "1.0.37",
-    "curseForgeHash": 2336332629,
-    "modrinthHash": "a5da83d3410521cd5e48946514c2d0c19d438cb8"
+    "version": "1.0.39",
+    "curseForgeHash": 1606218846,
+    "modrinthHash": "726db07fb518f289a6109e0365bafc5e531dfa6b"
   },
   "resourcefulconfig-forge-1.20.1-2.1.3.jar": {
     "jarName": "resourcefulconfig-forge-1.20.1-2.1.3.jar",

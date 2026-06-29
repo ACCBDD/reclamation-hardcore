@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         S: 'minecraft:string'
     })
 
-    event.remove({id: 'bloodmagic:blood_altar'})
+    event.remove({ id: 'bloodmagic:blood_altar' })
     event.shaped('bloodmagic:altar', [
         'SWS',
         'SFS',
@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
         W: 'bloodmagic:basemonstersoul'
     })
 
-    event.remove({id: 'bloodmagic:altar/weakbloodorb'})
+    event.remove({ id: 'bloodmagic:altar/weakbloodorb' })
     event.custom({
         "type": "bloodmagic:altar",
         "altarSyphon": 2000,
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
         "upgradeLevel": 0
     })
 
-    event.remove({id: 'bloodmagic:soul_forge'})
+    event.remove({ id: 'bloodmagic:soul_forge' })
     event.shaped('bloodmagic:soulforge', [
         'M M',
         'SBS',
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
         I: 'naturesaura:infused_stone'
     })
 
-    event.remove({id: 'bloodmagic:soulforge/pettytartaricgem'})
+    event.remove({ id: 'bloodmagic:soulforge/pettytartaricgem' })
     event.custom({
         "type": "bloodmagic:soulforge",
         "drain": 1.0,
@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.remove({id: 'bloodmagic:arc/reversion/weak_blood_orb'})
+    event.remove({ id: 'bloodmagic:arc/reversion/weak_blood_orb' })
     event.custom({
         "type": "bloodmagic:arc",
         "consumeingredient": true,
@@ -190,7 +190,7 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.remove({id: 'bloodmagic:altar/weakbloodorb'})
+    event.remove({ id: 'bloodmagic:altar/weakbloodorb' })
     event.custom({
         "type": "bloodmagic:altar",
         "altarSyphon": 10000,
@@ -269,7 +269,7 @@ ServerEvents.recipes(event => {
             ],
             "consumeingredient": false,
             "input": {
-                "item": "bloodmagic:"+input
+                "item": "bloodmagic:" + input
             },
             "inputsize": 1,
             "mainoutputchance": 0.0,
@@ -304,5 +304,33 @@ ServerEvents.recipes(event => {
         "tool": {
             "tag": "bloodmagic:arc/reverter"
         }
+    })
+
+    event.remove({ id: 'bloodmagic:altar/slate' })
+    event.custom({
+        "type": "bloodmagic:altar",
+        "altarSyphon": 5000,
+        "consumptionRate": 25,
+        "drainRate": 10,
+        "input": {
+            "tag": "forge:stone"
+        },
+        "output": {
+            "item": "bloodmagic:blankslate"
+        },
+        "upgradeLevel": 0
+    })
+    event.custom({
+        "type": "bloodmagic:altar",
+        "altarSyphon": 1000,
+        "consumptionRate": 5,
+        "drainRate": 5,
+        "input": {
+            "tag": "reclamation:marimorphic"
+        },
+        "output": {
+            "item": "bloodmagic:blankslate"
+        },
+        "upgradeLevel": 0
     })
 })

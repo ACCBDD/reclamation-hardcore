@@ -308,7 +308,7 @@
 		{
 			dependencies: ["269ECE61446E7CE6"]
 			description: [
-				"Generic biome essence is well and good, but for real ritualistic oomph you'll need a specialized container, capable of collecting attuned essence."
+				"Generic biome essence is well and good, but for real ritualistic oomph you'll need a &6specialized container,&r capable of collecting &6attuned essence.&r"
 				""
 				"&7Tip: check your Reclamation Rituals book for information on the late-game terraforming rituals!"
 			]
@@ -380,42 +380,7 @@
 							items: [
 								{
 									Count: 1b
-									id: "reclamation_util:warped_biome_globe"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "reclamation_util:crimson_biome_globe"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "reclamation_util:taiga_biome_globe"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "reclamation_util:warm_ocean_biome_globe"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "reclamation_util:ocean_biome_globe"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "reclamation_util:forest_biome_globe"
+									id: "reclamation_util:plains_biome_globe"
 									tag: {
 										Damage: 0
 									}
@@ -429,7 +394,112 @@
 								}
 								{
 									Count: 1b
-									id: "reclamation_util:plains_biome_globe"
+									id: "reclamation_util:forest_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:ocean_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:warm_ocean_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:taiga_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:crimson_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:savanna_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:river_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:badlands_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:warped_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:lush_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:mangrove_swamp_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:swamp_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:birch_forest_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:windswept_hills_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:stony_peaks_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:cold_ocean_biome_globe"
 									tag: {
 										Damage: 0
 									}
@@ -444,13 +514,6 @@
 								{
 									Count: 1b
 									id: "reclamation_util:mycelic_biome_globe"
-									tag: {
-										Damage: 0
-									}
-								}
-								{
-									Count: 1b
-									id: "reclamation_util:lush_biome_globe"
 									tag: {
 										Damage: 0
 									}
