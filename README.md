@@ -1,7 +1,7 @@
 Hardcore Reclamation
 
 
-Total list of changes from base Reclamation:
+Non-exhaustive list of changes from base Reclamation:
 * **Mystical Agriculture removed - resource generation is now focused around Theurgy, Complicated Bees, and others**
 * New mods
     * Cold Sweat (temperature)
