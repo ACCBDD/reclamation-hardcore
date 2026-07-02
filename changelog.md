@@ -1,4 +1,4 @@
-# Reclamation - Hardcore Edition 1.0.3
+# Reclamation - Hardcore Edition 1.1.0
 
 ## Added
 * Marimorphosis recipes for create stones (they still don't produce ores)
