@@ -13,3 +13,11 @@ ServerEvents.tags('item', event => {
 ServerEvents.tags('fluid', event => {
     event.add('theurgy:solvent', 'kubejs:hemoglobic_fluid')
 })
+
+ServerEvents.tags('block', event => {
+    const warp_array = ['supplementaries:sign_post_wall']
+
+    warp_array.forEach(block => {
+        event.add('via_romana:warp_block', block)
+    })
+})

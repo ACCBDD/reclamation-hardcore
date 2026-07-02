@@ -1,17 +1,17 @@
 ServerEvents.recipes(event => {
 
     //andesite alloy uses lead
-    event.remove({id: 'create:crafting/materials/andesite_alloy'})
-    event.remove({id: 'create:crafting/materials/andesite_alloy_from_zinc'})
-    event.remove({id: 'create:mixing/andesite_alloy'})
-    event.remove({id: 'create:mixing/andesite_alloy_from_zinc'})
+    event.remove({ id: 'create:crafting/materials/andesite_alloy' })
+    event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc' })
+    event.remove({ id: 'create:mixing/andesite_alloy' })
+    event.remove({ id: 'create:mixing/andesite_alloy_from_zinc' })
     event.shaped('create:andesite_alloy', [
-            'GA',
-            'AG'
-        ], {
-            G: '#forge:nuggets/lead',
-            A: 'minecraft:andesite'
-        }
+        'GA',
+        'AG'
+    ], {
+        G: '#forge:nuggets/lead',
+        A: 'minecraft:andesite'
+    }
     )
     event.custom({
         "type": "create:mixing",
@@ -31,23 +31,23 @@ ServerEvents.recipes(event => {
     })
 
     //disable mechanical press plate recipes
-    event.remove({id: 'create:pressing/brass_ingot'})
-    event.remove({id: 'create:pressing/iron_ingot'})
-    event.remove({id: 'create:pressing/copper_ingot'})
-    event.remove({id: 'create:pressing/gold_ingot'})
+    event.remove({ id: 'create:pressing/brass_ingot' })
+    event.remove({ id: 'create:pressing/iron_ingot' })
+    event.remove({ id: 'create:pressing/copper_ingot' })
+    event.remove({ id: 'create:pressing/gold_ingot' })
 
     //disable copper door recipe
-    event.remove({id: 'createdeco:copper_door'})
+    event.remove({ id: 'createdeco:copper_door' })
     event.shapeless('createdeco:copper_door', 'create:copper_door')
 
     //remove blaze burner recipe
-    event.remove({id: 'create:crafting/kinetics/empty_blaze_burner'})
+    event.remove({ id: 'create:crafting/kinetics/empty_blaze_burner' })
 
     //disable metals from washing
-    event.remove({id: 'create:crushing/diorite'})
-    event.remove({id: 'create:crushing/diorite_recycling'})
-    event.remove({id: 'create:splashing/soul_sand'})
-    event.remove({id: 'create:splashing/red_sand'})
+    event.remove({ id: 'create:crushing/diorite' })
+    event.remove({ id: 'create:crushing/diorite_recycling' })
+    event.remove({ id: 'create:splashing/soul_sand' })
+    event.remove({ id: 'create:splashing/red_sand' })
     event.custom({
         "type": "create:splashing",
         "ingredients": [
@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
             }
         ]
     })
-    event.remove({id: 'create:splashing/gravel'})
+    event.remove({ id: 'create:splashing/gravel' })
     event.custom({
         "type": "create:splashing",
         "ingredients": [
@@ -79,17 +79,17 @@ ServerEvents.recipes(event => {
     })
 
     //mechanical pump recipe
-    event.remove({id: 'create:crafting/kinetics/mechanical_pump'})
+    event.remove({ id: 'create:crafting/kinetics/mechanical_pump' })
     event.shaped('create:mechanical_pump', [
-            'ACA',
-            'PEP',
-            'ACA'
-        ], {
-            E: 'embers:mechanical_pump',
-            P: 'create:fluid_pipe',
-            A: 'create:andesite_alloy',
-            C: 'create:cogwheel'
-        }
+        'ACA',
+        'PEP',
+        'ACA'
+    ], {
+        E: 'embers:mechanical_pump',
+        P: 'create:fluid_pipe',
+        A: 'create:andesite_alloy',
+        C: 'create:cogwheel'
+    }
     )
 
     //rose quartz
@@ -151,7 +151,7 @@ ServerEvents.recipes(event => {
         "create:crushing/asurine"
     ]
     crushing_resource_recipes.forEach(id => {
-        event.remove({id: id})
+        event.remove({ id: id })
     })
 
     //plate stuff
@@ -249,5 +249,43 @@ ServerEvents.recipes(event => {
             "count": 1,
             "item": "create:blaze_burner"
         }
+    })
+
+    //missing silver processing recipes
+    event.custom({
+        "type": "create:splashing",
+        "ingredients": [
+            {
+                "item": "create:crushed_raw_silver"
+            }
+        ],
+        "results": [
+            {
+                "count": 9,
+                "item": "embers:silver_nugget"
+            }
+        ]
+    })
+
+    event.custom({
+        "type": "minecraft:smelting",
+        "category": "misc",
+        "cookingtime": 200,
+        "experience": 0.1,
+        "ingredient": {
+            "item": "create:crushed_raw_silver"
+        },
+        "result": "embers:silver_ingot"
+    })
+
+    event.custom({
+        "type": "minecraft:blasting",
+        "category": "misc",
+        "cookingtime": 100,
+        "experience": 0.1,
+        "ingredient": {
+            "item": "create:crushed_raw_silver"
+        },
+        "result": "embers:silver_ingot"
     })
 })

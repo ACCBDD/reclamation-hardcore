@@ -5,30 +5,30 @@ ServerEvents.recipes(event => {
     const remove_flower_ids = ['munchdew']
 
     remove_pool_ids.forEach(id => {
-        event.remove({ id: 'botania:mana_infusion/'+id})
+        event.remove({ id: 'botania:mana_infusion/' + id })
     })
 
     remove_flower_ids.forEach(id => {
-        event.remove({ id: 'botania:petal_apothecary/'+id})
+        event.remove({ id: 'botania:petal_apothecary/' + id })
     })
 
-    event.remove({ id: 'botania:mana_spreader'})
+    event.remove({ id: 'botania:mana_spreader' })
     event.shaped('botania:mana_spreader', [
-            'WWW',
-            'GP ',
-            'WWW'
-        ], {
-            W: '#botania:livingwood_logs',
-            P: '#botania:petals',
-            G: 'minecraft:gold_ingot'
-        }
+        'WWW',
+        'GP ',
+        'WWW'
+    ], {
+        W: '#botania:livingwood_logs',
+        P: '#botania:petals',
+        G: 'minecraft:gold_ingot'
+    }
     )
 
-    event.replaceInput({id: 'botania:lens_weight'},
+    event.replaceInput({ id: 'botania:lens_weight' },
         'minecraft:prismarine_crystals',
         'minecraft:sand')
 
-    event.replaceInput({id: 'botania:mana_gun'},
+    event.replaceInput({ id: 'botania:mana_gun' },
         'botania:mana_diamond',
         'minecraft:flint_and_steel')
 
@@ -43,11 +43,11 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.remove({id: 'botania:pure_daisy/snow_block'})
+    event.remove({ id: 'botania:pure_daisy/snow_block' })
 
     //rune recipes
     remove_rune_ids.forEach(id => {
-        event.remove({ id: 'botania:runic_altar/'+id})
+        event.remove({ id: 'botania:runic_altar/' + id })
     })
     event.custom({
         "type": "botania:runic_altar",
@@ -187,10 +187,10 @@ ServerEvents.recipes(event => {
             "type": "botania:runic_altar",
             "ingredients": [
                 {
-                    "item": "botania:rune_"+rune1
+                    "item": "botania:rune_" + rune1
                 },
                 {
-                    "item": "botania:rune_"+rune2
+                    "item": "botania:rune_" + rune2
                 },
                 {
                     "item": "botania:terrasteel_nugget"
@@ -202,7 +202,7 @@ ServerEvents.recipes(event => {
             "mana": 10000,
             "output": {
                 "count": 2,
-                "item": "botania:rune_"+output
+                "item": "botania:rune_" + output
             }
         })
     }
@@ -248,7 +248,7 @@ ServerEvents.recipes(event => {
     orechid('minecraft:stone', 'minecraft:copper_ore', 30000) //raise copper weight
 
     //fel pumpkin
-    event.remove({id: "botania:fel_pumpkin"})
+    event.remove({ id: "botania:fel_pumpkin" })
     event.custom({
         "type": "botania:runic_altar",
         "ingredients": [
@@ -314,7 +314,7 @@ ServerEvents.recipes(event => {
             "type": "botania:runic_altar",
             "ingredients": [
                 {
-                    "item": "botania:"+color+"_petal"
+                    "item": "botania:" + color + "_petal"
                 },
                 {
                     "tag": "forge:seeds"
@@ -328,13 +328,13 @@ ServerEvents.recipes(event => {
                 "item": "agricraft:seed",
                 "nbt": {
                     "genes": {
-                        "fertility":{"dom":1,"rec":1},
-                        "gain":{"dom":1,"rec":1},
-                        "growth":{"dom":1,"rec":1},
-                        "mutativity":{"dom":1,"rec":1},
-                        "resistance":{"dom":10,"rec":10},
-                        "species":{"dom":"botania:"+color+"_mystical_flower","rec":"botania:"+color+"_mystical_flower"},
-                        "strength":{"dom":1,"rec":1}
+                        "fertility": { "dom": 1, "rec": 1 },
+                        "gain": { "dom": 1, "rec": 1 },
+                        "growth": { "dom": 1, "rec": 1 },
+                        "mutativity": { "dom": 1, "rec": 1 },
+                        "resistance": { "dom": 10, "rec": 10 },
+                        "species": { "dom": "botania:" + color + "_mystical_flower", "rec": "botania:" + color + "_mystical_flower" },
+                        "strength": { "dom": 1, "rec": 1 }
                     }
                 }
             }
@@ -376,20 +376,20 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.remove({ id: 'botania:gaia_pylon'})
+    event.remove({ id: 'botania:gaia_pylon' })
     event.shaped('botania:gaia_pylon', [
-            ' A ',
-            'ePe',
-            ' E '
-        ], {
-            A: 'ars_elemental:anima_essence',
-            P: 'botania:mana_pylon',
-            e: 'botania:elementium_ingot',
-            E: 'ars_nouveau:earth_essence'
-        }
+        ' A ',
+        'ePe',
+        ' E '
+    ], {
+        A: 'ars_elemental:anima_essence',
+        P: 'botania:mana_pylon',
+        e: 'botania:elementium_ingot',
+        E: 'ars_nouveau:earth_essence'
+    }
     )
 
-    event.remove({ id: 'botania:mana_infusion/manasteel'})
+    event.remove({ id: 'botania:mana_infusion/manasteel' })
     event.custom({
         "type": "botania:mana_infusion",
         "input": {
@@ -400,7 +400,7 @@ ServerEvents.recipes(event => {
             "item": "botania:manasteel_ingot"
         }
     })
-    event.remove({ id: 'botania:mana_infusion/manasteel_block'})
+    event.remove({ id: 'botania:mana_infusion/manasteel_block' })
     event.custom({
         "type": "botania:mana_infusion",
         "input": {
@@ -429,13 +429,13 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.remove({id: 'botania:petal_apothecary/vazkii_head'})
+    event.remove({ id: 'botania:petal_apothecary/vazkii_head' })
 
-    event.replaceInput({id: 'botania:lens_mine'},
+    event.replaceInput({ id: 'botania:lens_mine' },
         'minecraft:lapis_lazuli',
         'embers:lead_plate')
 
-    event.replaceInput({id: 'botania:exchange_rod'},
+    event.replaceInput({ id: 'botania:exchange_rod' },
         'botania:rune_sloth',
         'embers:ember_crystal')
 
@@ -445,7 +445,7 @@ ServerEvents.recipes(event => {
         'minecraft:glass_bottle'
     ])
 
-    event.replaceInput({id: 'botania:redstone_spreader'},
+    event.replaceInput({ id: 'botania:redstone_spreader' },
         'minecraft:redstone',
         'minecraft:lever'
     )
@@ -509,4 +509,29 @@ ServerEvents.recipes(event => {
             "item": "minecraft:flowering_azalea"
         }
     })
+
+    function mariRecipe(input, output) {
+        event.custom({
+            "type": "botania:marimorphosis",
+            "biome_bonus": 0,
+            "biome_bonus_tag": "botania:marimorphosis_forest_bonus",
+            "input": {
+                "type": "block",
+                "block": input
+            },
+            "output": {
+                "type": "block",
+                "block": output
+            },
+            "weight": 1
+        })
+    }
+
+    mariRecipe('minecraft:stone', 'create:asurine')
+    mariRecipe('minecraft:stone', 'create:crimsite')
+    mariRecipe('minecraft:stone', 'create:limestone')
+    mariRecipe('minecraft:stone', 'create:ochrum')
+    mariRecipe('minecraft:stone', 'create:scoria')
+    mariRecipe('minecraft:stone', 'create:scorchia')
+    mariRecipe('minecraft:stone', 'create:veridium')
 })

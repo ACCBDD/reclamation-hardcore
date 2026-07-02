@@ -740,6 +740,14 @@
     "curseForgeHash": 305733389,
     "modrinthHash": "1997e5fe2db3a0575ca79bfe4720019f01fd2b8c"
   },
+  "JAOPCA-1.20.1-4.4.17.33.jar": {
+    "jarName": "JAOPCA-1.20.1-4.4.17.33.jar",
+    "modId": "jaopca",
+    "name": "JAOPCA",
+    "version": "4.4.17.33",
+    "curseForgeHash": 1693229658,
+    "modrinthHash": "58202f7a4525f04d1c08b1939659cc6c6f7cb900"
+  },
   "jei-1.20.1-forge-15.20.0.132.jar": {
     "jarName": "jei-1.20.1-forge-15.20.0.132.jar",
     "modId": "jei",
@@ -1105,13 +1113,13 @@
     "curseForgeHash": 2823168574,
     "modrinthHash": "e5b7ac2e58ef763d67ff9ab1c3a455707b77be50"
   },
-  "reclamation_util-1.20.1-1.0.39.jar": {
-    "jarName": "reclamation_util-1.20.1-1.0.39.jar",
+  "reclamation_util-1.20.1-1.0.41.jar": {
+    "jarName": "reclamation_util-1.20.1-1.0.41.jar",
     "modId": "reclamation_util",
     "name": "reclamation_util",
-    "version": "1.0.39",
-    "curseForgeHash": 1606218846,
-    "modrinthHash": "726db07fb518f289a6109e0365bafc5e531dfa6b"
+    "version": "1.0.41",
+    "curseForgeHash": 240404893,
+    "modrinthHash": "9f7155eb793cb846233da23b449ea17159e1c527"
   },
   "resourcefulconfig-forge-1.20.1-2.1.3.jar": {
     "jarName": "resourcefulconfig-forge-1.20.1-2.1.3.jar",

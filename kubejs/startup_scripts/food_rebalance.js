@@ -481,11 +481,11 @@ ItemEvents.modification(event => {
 
     values.forEach(([id, hunger, saturation]) => {
         event.modify(id, item => {
-            item.overrideFood(food => {
+            let props = item.getFoodProperties()
+            item.setFoodProperties(food => {
                 food.hunger(hunger)
                 food.saturation(saturation)
             })
         })
     })
-
 })
